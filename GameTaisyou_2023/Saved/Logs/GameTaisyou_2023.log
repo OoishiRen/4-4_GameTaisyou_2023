@@ -1,4 +1,4 @@
-﻿Log file open, 05/08/23 10:47:03
+﻿Log file open, 05/08/23 10:52:02
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,9 +9,9 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: GameTaisyou_2023
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-1755644455) SRandInit(-1755644455).
-LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.325826
+LogInit: Display: RandInit(-1861518157) SRandInit(-1861518156).
+LogTaskGraph: Started task graph with 5 named threads and 26 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.298729
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -108,488 +108,872 @@ LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.17
-LogInit: Command line: -EpicPortal  -epicusername="komezi1015" -epicuserid=d81addf00e464976a83f59091fc25d80 -epiclocale=ja -epicsandboxid=ue
-LogInit: Base directory: C:/UE_4.17/Engine/Binaries/Win64/
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2023.05.08-01.47.04:003][  0]LogInit: Selected Device Profile: [Windows]
-[2023.05.08-01.47.04:003][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2023.05.08-01.47.04:011][  0]LogInit: Computer: KBC12006081
-[2023.05.08-01.47.04:011][  0]LogInit: User: Owner
-[2023.05.08-01.47.04:011][  0]LogInit: CPU Page size=4096, Cores=6
-[2023.05.08-01.47.04:011][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2023.05.08-01.47.04:011][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
-[2023.05.08-01.47.04:011][  0]LogMemory: Platform Memory Stats for Windows
-[2023.05.08-01.47.04:011][  0]LogMemory: Process Physical Memory: 280.46 MB used, 280.46 MB peak
-[2023.05.08-01.47.04:011][  0]LogMemory: Process Virtual Memory: 280.89 MB used, 280.89 MB peak
-[2023.05.08-01.47.04:011][  0]LogMemory: Physical Memory: 8038.36 MB used,  8191.55 MB free, 16229.91 MB total
-[2023.05.08-01.47.04:011][  0]LogMemory: Virtual Memory: 4799.79 MB used,  8191.55 MB free, 134217728.00 MB total
-[2023.05.08-01.47.04:359][  0]LogInit: Using OS detected language (ja-JP).
-[2023.05.08-01.47.04:359][  0]LogInit: Using OS detected locale (ja-JP).
-[2023.05.08-01.47.04:362][  0]LogTextLocalizationManager: No specific localization for 'ja-JP' exists, so the 'ja' localization will be used.
-[2023.05.08-01.47.04:831][  0]LogD3D11RHI: D3D11 adapters:
-[2023.05.08-01.47.04:950][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1650 with Max-Q Design' (Feature Level 11_0)
-[2023.05.08-01.47.04:950][  0]LogD3D11RHI:       3962/0/8114 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2023.05.08-01.47.05:002][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
-[2023.05.08-01.47.05:003][  0]LogD3D11RHI:       128/0/8114 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2023.05.08-01.47.05:005][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2023.05.08-01.47.05:005][  0]LogD3D11RHI:       0/0/8114 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2023.05.08-01.47.05:005][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2023.05.08-01.47.05:013][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2023.05.08-01.47.05:013][  0]LogD3D11RHI:     GPU DeviceId: 0x1f91 (for the marketing name, search the web for "GPU Device Id")
-[2023.05.08-01.47.05:013][  0]LogWindows: EnumDisplayDevices:
-[2023.05.08-01.47.05:013][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
-[2023.05.08-01.47.05:013][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2023.05.08-01.47.05:013][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2023.05.08-01.47.05:013][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2023.05.08-01.47.05:013][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1650 with Max-Q Design
-[2023.05.08-01.47.05:013][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2023.05.08-01.47.05:013][  0]LogD3D11RHI:      Driver Date: Unknown
-[2023.05.08-01.47.05:013][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2023.05.08-01.47.05:097][  0]LogD3D11RHI: Async texture creation enabled
-[2023.05.08-01.47.05:107][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2023.05.08-01.47.05:108][  0]LogShaderCompilers: Guid format shader working directory is -25 characters bigger than the processId version (../../../../Users/Owner/Documents/4-4_GameTaisyou_2023/GameTaisyou_2023/Intermediate/Shaders/WorkingDirectory/5052/).
-[2023.05.08-01.47.05:108][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Owner/AppData/Local/Temp/UnrealShaderWorkingDir/AF654C7F44F201C3B95180BB5015B8BB/'.
-[2023.05.08-01.47.05:108][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2023.05.08-01.47.06:056][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2023.05.08-01.47.06:140][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2023.05.08-01.47.06:223][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2023.05.08-01.47.06:304][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2023.05.08-01.47.06:389][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2023.05.08-01.47.06:471][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2023.05.08-01.47.06:553][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2023.05.08-01.47.06:636][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2023.05.08-01.47.06:712][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2023.05.08-01.47.06:796][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.05.08-01.47.06:879][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2023.05.08-01.47.06:960][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2023.05.08-01.47.07:040][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2023.05.08-01.47.07:118][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2023.05.08-01.47.07:195][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2023.05.08-01.47.07:353][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2023.05.08-01.47.07:354][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2023.05.08-01.47.07:426][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2023.05.08-01.47.07:569][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2023.05.08-01.47.07:617][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2023.05.08-01.47.07:696][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2023.05.08-01.47.07:772][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2023.05.08-01.47.07:849][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2023.05.08-01.47.07:928][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2023.05.08-01.47.07:928][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2023.05.08-01.47.08:853][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2023.05.08-01.47.08:919][  0]LogDerivedDataCache: Loaded boot cache 0.07s 93MB C:/Users/Owner/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2023.05.08-01.47.08:920][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Owner/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
-[2023.05.08-01.47.08:920][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Users/Owner/Documents/4-4_GameTaisyou_2023/GameTaisyou_2023/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2023.05.08-01.47.08:920][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2023.05.08-01.47.08:920][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Users/Owner/Documents/4-4_GameTaisyou_2023/GameTaisyou_2023/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2023.05.08-01.47.08:920][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2023.05.08-01.47.08:932][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2023.05.08-01.47.08:944][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2023.05.08-01.47.08:952][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2023.05.08-01.47.08:953][  0]LogSlate: Using Freetype 2.6.0
-[2023.05.08-01.47.08:953][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2023.05.08-01.47.08:953][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2023.05.08-01.47.09:201][  0]LogAssetRegistry: FAssetRegistry took 0.0254 seconds to start up
-[2023.05.08-01.47.09:347][  0]LogInit: Selected Device Profile: [Windows]
-[2023.05.08-01.47.09:947][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2023.05.08-01.47.10:029][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2023.05.08-01.47.10:029][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2023.05.08-01.47.10:029][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2023.05.08-01.47.10:029][  0]LogMeshReduction: No automatic mesh merging module available
-[2023.05.08-01.47.10:029][  0]LogMeshMerging: No automatic mesh merging module available
-[2023.05.08-01.47.10:030][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2023.05.08-01.47.10:460][  0]LogNetVersion: GameTaisyou_2023 , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2042799889)
-[2023.05.08-01.47.10:736][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.049503 seconds
-[2023.05.08-01.47.10:741][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
-[2023.05.08-01.47.10:741][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
-[2023.05.08-01.47.10:741][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2023.05.08-01.47.10:876][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2023.05.08-01.47.14:610][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2023.05.08-01.47.14:680][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2023.05.08-01.47.15:699][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2023.05.08-01.47.16:328][  0]SourceControl: ソースコントロールは無効です
-[2023.05.08-01.47.16:328][  0]SourceControl: ソースコントロールは無効です
-[2023.05.08-01.47.16:409][  0]SourceControl: ソースコントロールは無効です
-[2023.05.08-01.47.16:491][  0]SourceControl: ソースコントロールは無効です
-[2023.05.08-01.47.17:551][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2023.05.08-01.47.17:965][  0]LogOcInput: OculusInput pre-init called
-[2023.05.08-01.47.18:382][  0]LogEngine: Initializing Engine...
-[2023.05.08-01.47.18:385][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2023.05.08-01.47.18:566][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2023.05.08-01.47.18:566][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2023.05.08-01.47.18:795][  0]LogAIModule: Creating AISystem for world Untitled
-[2023.05.08-01.47.18:875][  0]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2023.05.08-01.47.18:955][  0]LogInit: FAudioDevice initialized.
-[2023.05.08-01.47.19:000][  0]LogDerivedDataCache: Saved boot cache 0.04s 93MB C:/Users/Owner/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2023.05.08-01.47.19:009][  0]LogInit: Texture streaming: Enabled
-[2023.05.08-01.47.19:238][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2023.05.08-01.47.19:638][  0]LogInit: Transaction tracking system initialized
-[2023.05.08-01.47.20:205][  0]BlueprintLog: New page: エディタの読み込み
-[2023.05.08-01.47.21:872][  0]LocalizationService: ローカライズのサービスが無効になりました
-[2023.05.08-01.47.23:129][  0]LogConsoleResponse: Display: 
-[2023.05.08-01.47.23:320][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Owner/Documents/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/' took 0.01s
-[2023.05.08-01.47.23:320][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2023.05.08-01.47.23:320][  0]LogCook: Display: Mobile HDR setting 1
-[2023.05.08-01.47.23:320][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2023.05.08-01.47.25:189][  0]SourceControl: ソースコントロールは無効です
-[2023.05.08-01.47.25:189][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2023.05.08-01.47.25:189][  0]LightingResults: New page: ライティングのビルド
-[2023.05.08-01.47.25:263][  0]MapCheck: New page: マップをチェック
-[2023.05.08-01.47.25:263][  0]LightingResults: New page: <何も選択されていません>
-[2023.05.08-01.47.25:418][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2023.05.08-01.47.25:423][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2023.05.08-01.47.25:436][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2023.05.08-01.47.25:498][  0]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 61.995ミリ秒かかりました。
-[2023.05.08-01.47.25:498][  0]LogFileHelpers: Loading map 'Template_Default' took 0.309
-[2023.05.08-01.47.25:644][  0]LogCollectionManager: Loaded 0 collections in 0.002488 seconds
-[2023.05.08-01.47.25:759][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Owner/Documents/4-4_GameTaisyou_2023/GameTaisyou_2023/Saved/Collections/' took 0.01s
-[2023.05.08-01.47.25:759][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Owner/Documents/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/Developers/Owner/Collections/' took 0.01s
-[2023.05.08-01.47.25:759][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Owner/Documents/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/Collections/' took 0.01s
-[2023.05.08-01.47.25:759][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2023.05.08-01.47.25:766][  0]LogContentBrowser: Native class hierarchy populated in 0.0072 seconds. Added 2386 classes and 500 folders.
-[2023.05.08-01.47.25:883][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2023.05.08-01.47.25:927][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2023.05.08-01.47.26:000][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2023.05.08-01.47.26:863][  0]LogSlate: Took 0.000249 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2023.05.08-01.47.26:866][  0]LogSlate: Took 0.002375 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
-[2023.05.08-01.47.26:867][  0]LogSlate: Took 0.000226 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2023.05.08-01.47.26:870][  0]LogSlate: Took 0.000154 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2023.05.08-01.47.26:994][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.GameTaisyou2023
-[2023.05.08-01.47.26:994][  0]LogTemp: CWD: C:\UE_4.17\Engine\Binaries\DotNET\IOS
-[2023.05.08-01.47.26:994][  0]LogTemp: Initial Dir: C:\UE_4.17
-[2023.05.08-01.47.26:994][  0]LogTemp: Env CWD: C:\UE_4.17\Engine\Binaries\DotNET\IOS
-[2023.05.08-01.47.26:994][  0]LogTemp: BranchPath = KBC12006081/C/UE_4.17/Engine/Binaries --- GameBranchPath = KBC12006081/C/UE_4.17/Engine/Binaries
-[2023.05.08-01.47.26:994][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Owner\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2023.05.08-01.47.26:994][  0]LogRenderer: Reallocating scene render targets to support 1208x568 Format 10 NumSamples 1 (Frame:1).
-[2023.05.08-01.47.27:217][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2023.05.08-01.47.27:217][  0]LogLoad: (Engine Initialization) Total time: 25.59 seconds
-[2023.05.08-01.47.27:217][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2023.05.08-01.47.27:217][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2023.05.08-01.47.27:585][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2023.05.08-01.47.27:892][  1]LogAssetRegistry: Asset discovery search completed in 18.7133 seconds
-[2023.05.08-01.47.27:893][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2023.05.08-01.47.27:893][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000039 seconds (updated 0 objects)
-[2023.05.08-01.47.30:556][  9]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2023.05.08-01.47.38:387][464]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft IME).
-[2023.05.08-01.48.14:850][464]LogSlate: Took 0.000250 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2023.05.08-01.48.15:150][464]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LastBattleMap" FILE="../../../../Users/Owner/Documents/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/LastBattleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2023.05.08-01.48.15:185][464]LogSavePackage: Save=21.35ms
-[2023.05.08-01.48.15:185][464]LogSavePackage: Moving '../../../../Users/Owner/Documents/4-4_GameTaisyou_2023/GameTaisyou_2023/Saved/LastBattleMap8A0A126F444B16E0E3B286B5463F3C4C.tmp' to '../../../../Users/Owner/Documents/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/LastBattleMap.umap'
-[2023.05.08-01.48.15:187][464]LogSavePackage: Display: Finished SavePackage ../../../../Users/Owner/Documents/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/LastBattleMap.umap
-[2023.05.08-01.48.15:197][464]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LastBattleMap_BuiltData" FILE="../../../../Users/Owner/Documents/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/LastBattleMap_BuiltData.uasset" SILENT=true
-[2023.05.08-01.48.15:207][464]LogSavePackage: Save=8.29ms
-[2023.05.08-01.48.15:207][464]LogSavePackage: Moving '../../../../Users/Owner/Documents/4-4_GameTaisyou_2023/GameTaisyou_2023/Saved/LastBattleMap_BuiltData786A0933402753583FFA1DADA052AD24.tmp' to '../../../../Users/Owner/Documents/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/LastBattleMap_BuiltData.uasset'
-[2023.05.08-01.48.15:209][464]LogSavePackage: Display: Finished SavePackage ../../../../Users/Owner/Documents/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/LastBattleMap_BuiltData.uasset
-[2023.05.08-01.48.15:215][464]LogFileHelpers: Saving map 'LastBattleMap' took 0.437
-[2023.05.08-01.48.15:243][466]LogSlate: Took 0.000154 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2023.05.08-01.48.29:920][329]Cmd: EDIT CUT
-[2023.05.08-01.48.29:933][329]LogEditorActor: Deleted Actor: StaticMeshActor
-[2023.05.08-01.48.29:945][329]LogEditorActor: Deleted 1 Actors (0.014 secs)
-[2023.05.08-01.48.40:172][934]LogSavePackage: Save=19.46ms
-[2023.05.08-01.48.40:172][934]LogSavePackage: Moving '../../../../Users/Owner/Documents/4-4_GameTaisyou_2023/GameTaisyou_2023/Saved/LastBattleMap00C14BAB4800C258DC9161AC0E26DE8F.tmp' to '../../../../Users/Owner/Documents/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/Map/LastBattleMap.umap'
-[2023.05.08-01.48.40:177][934]LogSavePackage: Display: Finished SavePackage ../../../../Users/Owner/Documents/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/Map/LastBattleMap.umap
-[2023.05.08-01.48.40:185][934]LogFileHelpers: Saving map 'LastBattleMap' took 0.108
-[2023.05.08-01.48.40:188][934]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/LastBattleMap_BuiltData" FILE="../../../../Users/Owner/Documents/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/Map/LastBattleMap_BuiltData.uasset" SILENT=true
-[2023.05.08-01.48.40:198][934]LogSavePackage: Save=7.81ms
-[2023.05.08-01.48.40:198][934]LogSavePackage: Moving '../../../../Users/Owner/Documents/4-4_GameTaisyou_2023/GameTaisyou_2023/Saved/LastBattleMap_BuiltDataE47E23E04223424B0BCAC192D0832A12.tmp' to '../../../../Users/Owner/Documents/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/Map/LastBattleMap_BuiltData.uasset'
-[2023.05.08-01.48.40:203][934]LogSavePackage: Display: Finished SavePackage ../../../../Users/Owner/Documents/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/Map/LastBattleMap_BuiltData.uasset
-[2023.05.08-01.48.54:072][690]Cmd: MAP LOAD FILE="../../../../Users/Owner/Documents/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/Map/LastBattleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2023.05.08-01.48.54:072][690]LightingResults: New page: ライティングのビルド
-[2023.05.08-01.48.54:073][690]LoadErrors: New page: マップをロード中: LastBattleMap.umap
-[2023.05.08-01.48.54:073][690]MapCheck: New page: マップをチェック
-[2023.05.08-01.48.54:073][690]LightingResults: New page: <何も選択されていません>
-[2023.05.08-01.48.54:118][690]LogAIModule: Creating AISystem for world LastBattleMap
-[2023.05.08-01.48.54:155][690]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2023.05.08-01.48.54:172][690]Cmd: MAP CHECKDEP NOCLEARLOG
-[2023.05.08-01.48.54:234][690]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 61.352ミリ秒かかりました。
-[2023.05.08-01.48.54:234][690]LogFileHelpers: Loading map 'LastBattleMap' took 0.163
-[2023.05.08-01.48.59:830][ 25]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2023.05.08-01.49.14:928][927]LogSlate: Took 0.000180 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2023.05.08-01.49.27:049][652]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2023.05.08-01.49.31:997][936]Cmd: QUIT_EDITOR
-[2023.05.08-01.49.32:013][936]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft IME).
-[2023.05.08-01.49.32:025][936]LogExit: Preparing to exit.
-[2023.05.08-01.49.32:854][936]LogDirectoryWatcher: A directory notification for 'C:/Users/Owner/Documents/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/' was aborted.
-[2023.05.08-01.49.32:865][936]LogExit: Editor shut down
-[2023.05.08-01.49.32:873][936]LogExit: Transaction tracking system shut down
-[2023.05.08-01.49.33:008][936]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2023.05.08-01.49.33:008][936]LogDirectoryWatcher: A directory notification for '../../../../Users/Owner/Documents/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/' was aborted.
-[2023.05.08-01.49.33:008][936]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2023.05.08-01.49.33:008][936]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2023.05.08-01.49.33:008][936]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2023.05.08-01.49.33:045][936]LogExit: Object subsystem successfully closed.
-[2023.05.08-01.49.33:064][936]LogD3D11RHI: Shutdown
-[2023.05.08-01.49.33:064][936]LogD3D11RHI: CleanupD3DDevice
-[2023.05.08-01.49.33:163][936]LogD3D11RHI: ~FD3D11DynamicRHI
-[2023.05.08-01.49.33:186][936]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (532)
-[2023.05.08-01.49.33:186][936]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (530)
-[2023.05.08-01.49.33:186][936]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
-[2023.05.08-01.49.33:186][936]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
-[2023.05.08-01.49.33:186][936]LogDirectoryWatcher: A directory notification for 'C:/UE_4.17/FeaturePacks/' was aborted.
-[2023.05.08-01.49.33:187][936]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
-[2023.05.08-01.49.33:187][936]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
-[2023.05.08-01.49.33:187][936]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
-[2023.05.08-01.49.33:187][936]LogDirectoryWatcher: A directory notification for 'C:/Users/Owner/Documents/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/Collections/' was aborted.
-[2023.05.08-01.49.33:187][936]LogDirectoryWatcher: A directory notification for 'C:/Users/Owner/Documents/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/Developers/Owner/Collections/' was aborted.
-[2023.05.08-01.49.33:187][936]LogDirectoryWatcher: A directory notification for 'C:/Users/Owner/Documents/4-4_GameTaisyou_2023/GameTaisyou_2023/Saved/Collections/' was aborted.
-[2023.05.08-01.49.33:187][936]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
-[2023.05.08-01.49.33:187][936]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
-[2023.05.08-01.49.33:187][936]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
-[2023.05.08-01.49.33:187][936]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
-[2023.05.08-01.49.33:187][936]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
-[2023.05.08-01.49.33:187][936]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
-[2023.05.08-01.49.33:187][936]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
-[2023.05.08-01.49.33:187][936]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
-[2023.05.08-01.49.33:187][936]LogModuleManager: Shutting down and abandoning module BspMode (502)
-[2023.05.08-01.49.33:187][936]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
-[2023.05.08-01.49.33:187][936]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
-[2023.05.08-01.49.33:187][936]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
-[2023.05.08-01.49.33:187][936]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
-[2023.05.08-01.49.33:187][936]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
-[2023.05.08-01.49.33:187][936]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
-[2023.05.08-01.49.33:187][936]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
-[2023.05.08-01.49.33:187][936]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
-[2023.05.08-01.49.33:187][936]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
-[2023.05.08-01.49.33:187][936]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
-[2023.05.08-01.49.33:187][936]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
-[2023.05.08-01.49.33:187][936]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
-[2023.05.08-01.49.33:187][936]LogModuleManager: Shutting down and abandoning module Media (477)
-[2023.05.08-01.49.33:187][936]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
-[2023.05.08-01.49.33:187][936]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
-[2023.05.08-01.49.33:187][936]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
-[2023.05.08-01.49.33:187][936]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
-[2023.05.08-01.49.33:187][936]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
-[2023.05.08-01.49.33:187][936]LogModuleManager: Shutting down and abandoning module SessionServices (464)
-[2023.05.08-01.49.33:187][936]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
-[2023.05.08-01.49.33:187][936]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
-[2023.05.08-01.49.33:187][936]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
-[2023.05.08-01.49.33:188][936]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
-[2023.05.08-01.49.33:188][936]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
-[2023.05.08-01.49.33:188][936]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
-[2023.05.08-01.49.33:188][936]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
-[2023.05.08-01.49.33:188][936]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
-[2023.05.08-01.49.33:188][936]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
-[2023.05.08-01.49.33:188][936]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
-[2023.05.08-01.49.33:616][936]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
-[2023.05.08-01.49.33:616][936]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
-[2023.05.08-01.49.33:616][936]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
-[2023.05.08-01.49.33:616][936]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
-[2023.05.08-01.49.33:616][936]LogModuleManager: Shutting down and abandoning module MergeActors (434)
-[2023.05.08-01.49.33:616][936]LogModuleManager: Shutting down and abandoning module SizeMap (432)
-[2023.05.08-01.49.33:616][936]LogModuleManager: Shutting down and abandoning module TreeMap (430)
-[2023.05.08-01.49.33:616][936]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
-[2023.05.08-01.49.33:616][936]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
-[2023.05.08-01.49.33:616][936]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
-[2023.05.08-01.49.33:616][936]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
-[2023.05.08-01.49.33:616][936]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
-[2023.05.08-01.49.33:616][936]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
-[2023.05.08-01.49.33:616][936]LogModuleManager: Shutting down and abandoning module XmlParser (416)
-[2023.05.08-01.49.33:616][936]LogModuleManager: Shutting down and abandoning module Blutility (414)
-[2023.05.08-01.49.33:616][936]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
-[2023.05.08-01.49.33:616][936]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
-[2023.05.08-01.49.33:617][936]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
-[2023.05.08-01.49.33:617][936]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
-[2023.05.08-01.49.33:617][936]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
-[2023.05.08-01.49.33:617][936]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
-[2023.05.08-01.49.33:617][936]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
-[2023.05.08-01.49.33:617][936]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
-[2023.05.08-01.49.33:617][936]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
-[2023.05.08-01.49.33:669][936]LogModuleManager: Shutting down and abandoning module AutomationController (394)
-[2023.05.08-01.49.33:669][936]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
-[2023.05.08-01.49.33:669][936]LogModuleManager: Shutting down and abandoning module Layers (390)
-[2023.05.08-01.49.33:669][936]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
-[2023.05.08-01.49.33:669][936]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
-[2023.05.08-01.49.33:669][936]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
-[2023.05.08-01.49.33:669][936]LogModuleManager: Shutting down and abandoning module Persona (382)
-[2023.05.08-01.49.33:669][936]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
-[2023.05.08-01.49.33:669][936]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
-[2023.05.08-01.49.33:669][936]LogModuleManager: Shutting down and abandoning module Kismet (376)
-[2023.05.08-01.49.33:669][936]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
-[2023.05.08-01.49.33:669][936]LogModuleManager: Shutting down and abandoning module Toolbox (372)
-[2023.05.08-01.49.33:669][936]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
-[2023.05.08-01.49.33:669][936]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
-[2023.05.08-01.49.33:669][936]LogModuleManager: Shutting down and abandoning module OutputLog (366)
-[2023.05.08-01.49.33:669][936]LogModuleManager: Shutting down and abandoning module GammaUI (364)
-[2023.05.08-01.49.33:669][936]LogModuleManager: Shutting down and abandoning module Documentation (362)
-[2023.05.08-01.49.33:669][936]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
-[2023.05.08-01.49.33:669][936]LogModuleManager: Shutting down and abandoning module MovieScene (358)
-[2023.05.08-01.49.33:669][936]LogModuleManager: Shutting down and abandoning module Niagara (356)
-[2023.05.08-01.49.33:669][936]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
-[2023.05.08-01.49.33:669][936]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
-[2023.05.08-01.49.33:669][936]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
-[2023.05.08-01.49.33:669][936]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
-[2023.05.08-01.49.33:669][936]LogModuleManager: Shutting down and abandoning module PortalServices (346)
-[2023.05.08-01.49.33:669][936]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
-[2023.05.08-01.49.33:670][936]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
-[2023.05.08-01.49.33:670][936]LogModuleManager: Shutting down and abandoning module AIModule (340)
-[2023.05.08-01.49.33:670][936]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
-[2023.05.08-01.49.33:670][936]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
-[2023.05.08-01.49.33:670][936]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
-[2023.05.08-01.49.33:855][936]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
-[2023.05.08-01.49.33:855][936]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
-[2023.05.08-01.49.33:855][936]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
-[2023.05.08-01.49.33:855][936]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
-[2023.05.08-01.49.33:855][936]LogModuleManager: Shutting down and abandoning module OculusInput (324)
-[2023.05.08-01.49.33:855][936]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
-[2023.05.08-01.49.33:855][936]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
-[2023.05.08-01.49.33:855][936]LogModuleManager: Shutting down and abandoning module CableComponent (318)
-[2023.05.08-01.49.33:855][936]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
-[2023.05.08-01.49.33:855][936]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
-[2023.05.08-01.49.33:855][936]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
-[2023.05.08-01.49.33:855][936]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
-[2023.05.08-01.49.33:855][936]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
-[2023.05.08-01.49.33:855][936]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
-[2023.05.08-01.49.33:855][936]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
-[2023.05.08-01.49.33:855][936]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
-[2023.05.08-01.49.33:855][936]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
-[2023.05.08-01.49.33:855][936]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
-[2023.05.08-01.49.33:855][936]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
-[2023.05.08-01.49.33:855][936]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
-[2023.05.08-01.49.33:855][936]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
-[2023.05.08-01.49.33:855][936]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
-[2023.05.08-01.49.33:855][936]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
-[2023.05.08-01.49.33:855][936]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
-[2023.05.08-01.49.33:855][936]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
-[2023.05.08-01.49.33:855][936]LogModuleManager: Shutting down and abandoning module SourceControl (281)
-[2023.05.08-01.49.33:855][936]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
-[2023.05.08-01.49.33:855][936]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
-[2023.05.08-01.49.33:855][936]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
-[2023.05.08-01.49.33:855][936]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
-[2023.05.08-01.49.33:855][936]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
-[2023.05.08-01.49.33:855][936]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
-[2023.05.08-01.49.33:856][936]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
-[2023.05.08-01.49.33:856][936]LogModuleManager: Shutting down and abandoning module MainFrame (266)
-[2023.05.08-01.49.33:856][936]LogModuleManager: Shutting down and abandoning module HotReload (265)
-[2023.05.08-01.49.33:856][936]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
-[2023.05.08-01.49.33:856][936]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
-[2023.05.08-01.49.33:856][936]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
-[2023.05.08-01.49.33:856][936]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
-[2023.05.08-01.49.33:856][936]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
-[2023.05.08-01.49.33:856][936]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
-[2023.05.08-01.49.33:856][936]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
-[2023.05.08-01.49.33:856][936]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
-[2023.05.08-01.49.33:958][936]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
-[2023.05.08-01.49.34:059][936]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
-[2023.05.08-01.49.34:059][936]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
-[2023.05.08-01.49.34:059][936]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
-[2023.05.08-01.49.34:059][936]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
-[2023.05.08-01.49.34:059][936]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
-[2023.05.08-01.49.34:059][936]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
-[2023.05.08-01.49.34:059][936]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
-[2023.05.08-01.49.34:059][936]LogModuleManager: Shutting down and abandoning module Paper2D (228)
-[2023.05.08-01.49.34:059][936]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
-[2023.05.08-01.49.34:059][936]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
-[2023.05.08-01.49.34:061][936]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
-[2023.05.08-01.49.34:061][936]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
-[2023.05.08-01.49.34:061][936]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
-[2023.05.08-01.49.34:061][936]LogModuleManager: Shutting down and abandoning module Overlay (216)
-[2023.05.08-01.49.34:061][936]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
-[2023.05.08-01.49.34:061][936]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
-[2023.05.08-01.49.34:061][936]LogModuleManager: Shutting down and abandoning module VREditor (210)
-[2023.05.08-01.49.34:061][936]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
-[2023.05.08-01.49.34:061][936]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
-[2023.05.08-01.49.34:061][936]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
-[2023.05.08-01.49.34:061][936]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
-[2023.05.08-01.49.34:061][936]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
-[2023.05.08-01.49.34:061][936]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
-[2023.05.08-01.49.34:061][936]LogModuleManager: Shutting down and abandoning module UMG (196)
-[2023.05.08-01.49.34:061][936]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
-[2023.05.08-01.49.34:061][936]LogModuleManager: Shutting down and abandoning module Sequencer (194)
-[2023.05.08-01.49.34:062][936]LogModuleManager: Shutting down and abandoning module MessageLog (191)
-[2023.05.08-01.49.34:062][936]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
-[2023.05.08-01.49.34:062][936]LogModuleManager: Shutting down and abandoning module Slate (184)
-[2023.05.08-01.49.34:062][936]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
-[2023.05.08-01.49.34:064][936]LogModuleManager: Shutting down and abandoning module MRMesh (180)
-[2023.05.08-01.49.34:064][936]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
-[2023.05.08-01.49.34:064][936]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
-[2023.05.08-01.49.34:064][936]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
-[2023.05.08-01.49.34:064][936]LogModuleManager: Shutting down and abandoning module Networking (172)
-[2023.05.08-01.49.34:064][936]LogModuleManager: Shutting down and abandoning module Core (168)
-[2023.05.08-01.49.34:064][936]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
-[2023.05.08-01.49.34:064][936]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
-[2023.05.08-01.49.34:064][936]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
-[2023.05.08-01.49.34:064][936]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
-[2023.05.08-01.49.34:064][936]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
-[2023.05.08-01.49.34:064][936]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
-[2023.05.08-01.49.34:064][936]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
-[2023.05.08-01.49.34:064][936]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
-[2023.05.08-01.49.34:064][936]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
-[2023.05.08-01.49.34:064][936]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
-[2023.05.08-01.49.34:064][936]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
-[2023.05.08-01.49.34:116][936]LogDerivedDataCache: Shutdown
-[2023.05.08-01.49.34:116][936]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
-[2023.05.08-01.49.34:116][936]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
-[2023.05.08-01.49.34:116][936]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
-[2023.05.08-01.49.34:116][936]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
-[2023.05.08-01.49.34:116][936]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
-[2023.05.08-01.49.34:116][936]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
-[2023.05.08-01.49.34:116][936]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
-[2023.05.08-01.49.34:116][936]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
-[2023.05.08-01.49.34:116][936]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
-[2023.05.08-01.49.34:116][936]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
-[2023.05.08-01.49.34:116][936]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
-[2023.05.08-01.49.34:116][936]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
-[2023.05.08-01.49.34:116][936]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
-[2023.05.08-01.49.34:116][936]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
-[2023.05.08-01.49.34:116][936]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
-[2023.05.08-01.49.34:116][936]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
-[2023.05.08-01.49.34:116][936]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
-[2023.05.08-01.49.34:116][936]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
-[2023.05.08-01.49.34:116][936]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
-[2023.05.08-01.49.34:116][936]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
-[2023.05.08-01.49.34:116][936]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
-[2023.05.08-01.49.34:116][936]LogModuleManager: Shutting down and abandoning module Messaging (101)
-[2023.05.08-01.49.34:117][936]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
-[2023.05.08-01.49.34:117][936]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
-[2023.05.08-01.49.34:117][936]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
-[2023.05.08-01.49.34:117][936]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
-[2023.05.08-01.49.34:117][936]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
-[2023.05.08-01.49.34:117][936]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
-[2023.05.08-01.49.34:117][936]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
-[2023.05.08-01.49.34:117][936]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
-[2023.05.08-01.49.34:117][936]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
-[2023.05.08-01.49.34:117][936]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
-[2023.05.08-01.49.34:117][936]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
-[2023.05.08-01.49.34:117][936]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
-[2023.05.08-01.49.34:117][936]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
-[2023.05.08-01.49.34:117][936]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
-[2023.05.08-01.49.34:117][936]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
-[2023.05.08-01.49.34:117][936]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
-[2023.05.08-01.49.34:117][936]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
-[2023.05.08-01.49.34:117][936]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
-[2023.05.08-01.49.34:117][936]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
-[2023.05.08-01.49.34:117][936]LogModuleManager: Shutting down and abandoning module InputCore (60)
-[2023.05.08-01.49.34:117][936]LogModuleManager: Shutting down and abandoning module Settings (58)
-[2023.05.08-01.49.34:117][936]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
-[2023.05.08-01.49.34:117][936]LogModuleManager: Shutting down and abandoning module SteamVR (54)
-[2023.05.08-01.49.34:117][936]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
-[2023.05.08-01.49.34:117][936]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
-[2023.05.08-01.49.34:117][936]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2023.05.08-01.49.34:117][936]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2023.05.08-01.49.34:117][936]LogOnline: Display: Unloading online subsystem: NULL
-[2023.05.08-01.49.34:117][936]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2023.05.08-01.49.34:117][936]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2023.05.08-01.49.34:117][936]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2023.05.08-01.49.34:117][936]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BDD9E3D35-4461-6F69-41D7-179AE6C1194C%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=ae805a914356b2aa000f63a0edcc236c%7Cd81addf00e464976a83f59091fc25d80%7C79aa7d22-b9f4-4679-ac0a-24b08774ed4c&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2023.05.08-01.49.34:138][936]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2023.05.08-01.49.34:139][936]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2023.05.08-01.49.34:139][936]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2023.05.08-01.49.34:139][936]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2023.05.08-01.49.34:139][936]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2023.05.08-01.49.34:139][936]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2023.05.08-01.49.34:139][936]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2023.05.08-01.49.34:139][936]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2023.05.08-01.49.34:140][936]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2023.05.08-01.49.34:140][936]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2023.05.08-01.49.34:140][936]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2023.05.08-01.49.34:140][936]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2023.05.08-01.49.34:140][936]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2023.05.08-01.49.34:140][936]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2023.05.08-01.49.34:140][936]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2023.05.08-01.49.34:140][936]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2023.05.08-01.49.34:140][936]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2023.05.08-01.49.34:140][936]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2023.05.08-01.49.34:140][936]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2023.05.08-01.49.34:144][936]LogExit: Exiting.
-[2023.05.08-01.49.34:151][936]Log file closed, 05/08/23 10:49:34
+[2023.05.08-01.52.03:603][  0]LogInit: Selected Device Profile: [Windows]
+[2023.05.08-01.52.03:603][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2023.05.08-01.52.03:616][  0]LogInit: Computer: KBC12006017
+[2023.05.08-01.52.03:616][  0]LogInit: User: 小浜大和
+[2023.05.08-01.52.03:616][  0]LogInit: CPU Page size=4096, Cores=8
+[2023.05.08-01.52.03:616][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2023.05.08-01.52.03:616][  0]LogMemory: Memory total: Physical=63.9GB (64GB approx)
+[2023.05.08-01.52.03:616][  0]LogMemory: Platform Memory Stats for Windows
+[2023.05.08-01.52.03:616][  0]LogMemory: Process Physical Memory: 282.23 MB used, 282.23 MB peak
+[2023.05.08-01.52.03:616][  0]LogMemory: Process Virtual Memory: 281.20 MB used, 281.20 MB peak
+[2023.05.08-01.52.03:616][  0]LogMemory: Physical Memory: 12163.51 MB used,  53264.64 MB free, 65428.15 MB total
+[2023.05.08-01.52.03:616][  0]LogMemory: Virtual Memory: 4804.54 MB used,  53264.64 MB free, 134217728.00 MB total
+[2023.05.08-01.52.03:848][  0]LogInit: Using OS detected language (ja-JP).
+[2023.05.08-01.52.03:848][  0]LogInit: Using OS detected locale (ja-JP).
+[2023.05.08-01.52.03:851][  0]LogTextLocalizationManager: No specific localization for 'ja-JP' exists, so the 'ja' localization will be used.
+[2023.05.08-01.52.04:376][  0]LogD3D11RHI: D3D11 adapters:
+[2023.05.08-01.52.04:419][  0]LogD3D11RHI:    0. 'AMD Radeon Pro 5500M' (Feature Level 11_0)
+[2023.05.08-01.52.04:419][  0]LogD3D11RHI:       8151/0/32714 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2023.05.08-01.52.04:421][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2023.05.08-01.52.04:421][  0]LogD3D11RHI:       0/0/32714 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2023.05.08-01.52.04:421][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2023.05.08-01.52.04:427][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2023.05.08-01.52.04:427][  0]LogD3D11RHI:     GPU DeviceId: 0x7340 (for the marketing name, search the web for "GPU Device Id")
+[2023.05.08-01.52.04:427][  0]LogWindows: EnumDisplayDevices:
+[2023.05.08-01.52.04:427][  0]LogWindows:    0. 'AMD Radeon Pro 5500M' (P:1 D:1)
+[2023.05.08-01.52.04:427][  0]LogWindows:    1. 'AMD Radeon Pro 5500M' (P:0 D:0)
+[2023.05.08-01.52.04:427][  0]LogWindows:    2. 'AMD Radeon Pro 5500M' (P:0 D:0)
+[2023.05.08-01.52.04:427][  0]LogWindows:    3. 'AMD Radeon Pro 5500M' (P:0 D:0)
+[2023.05.08-01.52.04:427][  0]LogWindows:    4. 'AMD Radeon Pro 5500M' (P:0 D:0)
+[2023.05.08-01.52.04:428][  0]LogWindows:    5. 'AMD Radeon Pro 5500M' (P:0 D:0)
+[2023.05.08-01.52.04:428][  0]LogWindows:    6. 'AMD Radeon Pro 5500M' (P:0 D:0)
+[2023.05.08-01.52.04:428][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2023.05.08-01.52.04:428][  0]LogD3D11RHI:     Adapter Name: AMD Radeon Pro 5500M
+[2023.05.08-01.52.04:428][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2023.05.08-01.52.04:428][  0]LogD3D11RHI:      Driver Date: Unknown
+[2023.05.08-01.52.04:428][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2023.05.08-01.52.04:480][  0]LogD3D11RHI: Async texture creation enabled
+[2023.05.08-01.52.04:508][  0]LogD3D11RHI: GPU Timing Frequency: 100.000000 (Debug: 2 1)
+[2023.05.08-01.52.04:511][  0]LogShaderCompilers: Guid format shader working directory is -37 characters bigger than the processId version (../../../../../../Users/81806/OneDrive/ドキュメント/4-4_GameTaisyou_2023/GameTaisyou_2023/Intermediate/Shaders/WorkingDirectory/8104/).
+[2023.05.08-01.52.04:511][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/81806/AppData/Local/Temp/UnrealShaderWorkingDir/B36D3A20414A181CAC86CBB059765B17/'.
+[2023.05.08-01.52.04:511][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2023.05.08-01.52.05:705][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2023.05.08-01.52.05:769][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2023.05.08-01.52.05:857][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2023.05.08-01.52.05:926][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2023.05.08-01.52.05:990][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2023.05.08-01.52.06:074][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2023.05.08-01.52.06:143][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2023.05.08-01.52.06:208][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2023.05.08-01.52.06:267][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2023.05.08-01.52.06:330][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.05.08-01.52.06:391][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2023.05.08-01.52.06:454][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2023.05.08-01.52.06:517][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2023.05.08-01.52.06:580][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2023.05.08-01.52.06:641][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2023.05.08-01.52.06:781][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2023.05.08-01.52.06:781][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2023.05.08-01.52.06:838][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2023.05.08-01.52.06:960][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2023.05.08-01.52.06:999][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2023.05.08-01.52.07:061][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2023.05.08-01.52.07:130][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2023.05.08-01.52.07:196][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2023.05.08-01.52.07:258][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2023.05.08-01.52.07:258][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2023.05.08-01.52.07:973][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2023.05.08-01.52.08:016][  0]LogDerivedDataCache: Loaded boot cache 0.04s 93MB C:/Users/81806/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2023.05.08-01.52.08:016][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/81806/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2023.05.08-01.52.08:016][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/81806/OneDrive/ドキュメント/4-4_GameTaisyou_2023/GameTaisyou_2023/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2023.05.08-01.52.08:016][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2023.05.08-01.52.08:016][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/81806/OneDrive/ドキュメント/4-4_GameTaisyou_2023/GameTaisyou_2023/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2023.05.08-01.52.08:016][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2023.05.08-01.52.08:029][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2023.05.08-01.52.08:041][  0]LogDerivedDataCache: Using Local data cache path C:/Users/81806/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2023.05.08-01.52.08:059][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2023.05.08-01.52.08:060][  0]LogSlate: Using Freetype 2.6.0
+[2023.05.08-01.52.08:060][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2023.05.08-01.52.08:061][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2023.05.08-01.52.08:304][  0]LogAssetRegistry: FAssetRegistry took 0.0260 seconds to start up
+[2023.05.08-01.52.08:480][  0]LogInit: Selected Device Profile: [Windows]
+[2023.05.08-01.52.09:325][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2023.05.08-01.52.09:418][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2023.05.08-01.52.09:418][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2023.05.08-01.52.09:418][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2023.05.08-01.52.09:418][  0]LogMeshReduction: No automatic mesh merging module available
+[2023.05.08-01.52.09:418][  0]LogMeshMerging: No automatic mesh merging module available
+[2023.05.08-01.52.09:439][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2023.05.08-01.52.10:158][  0]LogNetVersion: GameTaisyou_2023 , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2042799889)
+[2023.05.08-01.52.10:541][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.061187 seconds
+[2023.05.08-01.52.10:549][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2023.05.08-01.52.10:549][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2023.05.08-01.52.10:549][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2023.05.08-01.52.10:717][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2023.05.08-01.52.15:302][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2023.05.08-01.52.15:353][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2023.05.08-01.52.16:105][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2023.05.08-01.52.16:584][  0]SourceControl: ソースコントロールは無効です
+[2023.05.08-01.52.16:584][  0]SourceControl: ソースコントロールは無効です
+[2023.05.08-01.52.16:645][  0]SourceControl: ソースコントロールは無効です
+[2023.05.08-01.52.16:703][  0]SourceControl: ソースコントロールは無効です
+[2023.05.08-01.52.17:439][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2023.05.08-01.52.17:739][  0]LogOcInput: OculusInput pre-init called
+[2023.05.08-01.52.18:045][  0]LogEngine: Initializing Engine...
+[2023.05.08-01.52.18:047][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2023.05.08-01.52.18:328][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2023.05.08-01.52.18:328][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2023.05.08-01.52.18:497][  0]LogAIModule: Creating AISystem for world Untitled
+[2023.05.08-01.52.18:521][  0]LogInit: XAudio2 using 'ヘッドホン (Apple Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2023.05.08-01.52.18:537][  0]LogInit: FAudioDevice initialized.
+[2023.05.08-01.52.18:589][  0]LogDerivedDataCache: Saved boot cache 0.05s 93MB C:/Users/81806/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2023.05.08-01.52.18:595][  0]LogInit: Texture streaming: Enabled
+[2023.05.08-01.52.18:761][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2023.05.08-01.52.19:037][  0]LogInit: Transaction tracking system initialized
+[2023.05.08-01.52.19:459][  0]BlueprintLog: New page: エディタの読み込み
+[2023.05.08-01.52.20:642][  0]LocalizationService: ローカライズのサービスが無効になりました
+[2023.05.08-01.52.21:298][  0]LogLinker: Warning: ファイル '/Game/ThirdPersonBP/ThirdPersonOverview' が見つかりません
+[2023.05.08-01.52.21:298][  0]LogLinker: Warning: ファイル '/Game/ThirdPersonBP/ThirdPersonOverview' が見つかりません
+[2023.05.08-01.52.21:298][  0]LogUObjectGlobals: Warning: オブジェクト 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C' が見つかりませんでした
+[2023.05.08-01.52.21:523][  0]LogConsoleResponse: Display: 
+[2023.05.08-01.52.21:710][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2023.05.08-01.52.21:710][  0]LogFileCache: Scanning file cache for directory 'C:/Users/81806/OneDrive/ドキュメント/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/' took 0.02s
+[2023.05.08-01.52.21:710][  0]LogCook: Display: Mobile HDR setting 1
+[2023.05.08-01.52.21:710][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2023.05.08-01.52.23:048][  0]SourceControl: ソースコントロールは無効です
+[2023.05.08-01.52.23:048][  0]Cmd: MAP LOAD FILE="../../../../../../Users/81806/OneDrive/ドキュメント/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/Map/LastBattleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.05.08-01.52.23:049][  0]LightingResults: New page: ライティングのビルド
+[2023.05.08-01.52.23:102][  0]MapCheck: New page: マップをチェック
+[2023.05.08-01.52.23:102][  0]LightingResults: New page: <何も選択されていません>
+[2023.05.08-01.52.23:189][  0]LogLinker: Warning: ファイル '/Game/Map/LastBattleMap_BuiltData' が見つかりません
+[2023.05.08-01.52.23:189][  0]LogLinker: Warning: ../../../../../../Users/81806/OneDrive/ドキュメント/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/Map/LastBattleMap.umap のロード中にアセット '/Game/Map/LastBattleMap_BuiltData'  のファイルが見つかりません
+[2023.05.08-01.52.23:189][  0]LoadErrors: Error: /Game/Map/LastBattleMap : アセットのファイルが見つかりません /Game/Map/LastBattleMap_BuiltData
+[2023.05.08-01.52.23:191][  0]LogLinker: Warning: ファイル '/Game/Map/LastBattleMap_BuiltData' が見つかりません
+[2023.05.08-01.52.23:191][  0]LogLinker: Warning: ../../../../../../Users/81806/OneDrive/ドキュメント/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/Map/LastBattleMap.umap のロード中にアセット '/Game/Map/LastBattleMap_BuiltData'  のファイルが見つかりません
+[2023.05.08-01.52.23:191][  0]LoadErrors: Error: /Game/Map/LastBattleMap : アセットのファイルが見つかりません /Game/Map/LastBattleMap_BuiltData
+[2023.05.08-01.52.23:194][  0]LogLinker: Warning: ファイル '/Game/Map/LastBattleMap_BuiltData' が見つかりません
+[2023.05.08-01.52.23:194][  0]LoadErrors: ロードに失敗しました /Game/Map/LastBattleMap_BuiltData.LastBattleMap_BuiltData 参照元 PersistentLevel
+[2023.05.08-01.52.23:194][  0]LogLinker: Warning: NULL のロード中にアセット '/Game/Map/LastBattleMap_BuiltData'  のファイルが見つかりません
+[2023.05.08-01.52.23:194][  0]LoadErrors: ロードに失敗しました /Game/Map/LastBattleMap_BuiltData.LastBattleMap_BuiltData 参照元 PersistentLevel
+[2023.05.08-01.52.23:252][  0]LogAIModule: Creating AISystem for world LastBattleMap
+[2023.05.08-01.52.23:256][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.05.08-01.52.23:273][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.05.08-01.52.23:332][  0]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 58.8ミリ秒かかりました。
+[2023.05.08-01.52.23:332][  0]LogFileHelpers: Loading map 'LastBattleMap' took 0.283
+[2023.05.08-01.52.23:455][  0]LogCollectionManager: Loaded 0 collections in 0.001204 seconds
+[2023.05.08-01.52.23:552][  0]LogFileCache: Scanning file cache for directory 'C:/Users/81806/OneDrive/ドキュメント/4-4_GameTaisyou_2023/GameTaisyou_2023/Saved/Collections/' took 0.01s
+[2023.05.08-01.52.23:552][  0]LogFileCache: Scanning file cache for directory 'C:/Users/81806/OneDrive/ドキュメント/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/Developers/小浜大和/Collections/' took 0.01s
+[2023.05.08-01.52.23:552][  0]LogFileCache: Scanning file cache for directory 'C:/Users/81806/OneDrive/ドキュメント/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/Collections/' took 0.01s
+[2023.05.08-01.52.23:552][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2023.05.08-01.52.23:560][  0]LogContentBrowser: Native class hierarchy populated in 0.0070 seconds. Added 2386 classes and 500 folders.
+[2023.05.08-01.52.23:646][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2023.05.08-01.52.23:683][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2023.05.08-01.52.23:783][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2023.05.08-01.52.23:846][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0005 seconds. Added 2 classes and 3 folders.
+[2023.05.08-01.52.23:933][  0]LogSlate: Took 0.000433 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.05.08-01.52.23:937][  0]LogSlate: Took 0.002380 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2023.05.08-01.52.23:938][  0]LogSlate: Took 0.000146 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2023.05.08-01.52.23:940][  0]LogSlate: Took 0.000133 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2023.05.08-01.52.24:033][  0]LogRenderer: Reallocating scene render targets to support 924x476 Format 10 NumSamples 1 (Frame:1).
+[2023.05.08-01.52.24:341][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2023.05.08-01.52.24:341][  0]LogLoad: (Engine Initialization) Total time: 22.73 seconds
+[2023.05.08-01.52.24:342][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2023.05.08-01.52.24:342][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2023.05.08-01.52.24:386][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2023.05.08-01.52.24:443][  0]LogSlate: Took 0.000223 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2023.05.08-01.52.24:470][  1]LogAssetRegistry: Asset discovery search completed in 16.1887 seconds
+[2023.05.08-01.52.24:472][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2023.05.08-01.52.24:472][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000036 seconds (updated 0 objects)
+[2023.05.08-01.53.24:901][596]LogSlate: Took 0.000179 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2023.05.08-01.53.25:672][596]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 113 classes and 0 folders.
+[2023.05.08-01.53.26:197][596]LogSlate: Took 0.000238 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.05.08-01.53.54:260][369]LogLinker: ファイル '/Game/Maps/One_v_one' が見つかりません
+[2023.05.08-01.53.54:261][369]LogLinker: ファイル '/Game/Maps/One_v_one' が見つかりません
+[2023.05.08-01.53.54:262][369]LogLinker: ファイル '/Game/One_v_One/BP/BP_Hero' が見つかりません
+[2023.05.08-01.53.54:262][369]LogLinker: ファイル '/Game/One_v_One/BP/BP_Hero' が見つかりません
+[2023.05.08-01.53.54:263][369]LogLinker: ファイル '/Game/BP/BP_E1' が見つかりません
+[2023.05.08-01.53.54:264][369]LogLinker: ファイル '/Game/BP/BP_E1' が見つかりません
+[2023.05.08-01.53.54:265][369]LogProperty: Warning: ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef: unresolved reference to 'TargetPoint'/Game/Maps/One_v_one.One_v_one:PersistentLevel.EnemySpawnPoint''
+[2023.05.08-01.53.54:265][369]LogProperty: Warning: ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef: unresolved reference to 'TargetPoint'/Game/Maps/One_v_one.One_v_one:PersistentLevel.PlayerSpawnPoint''
+[2023.05.08-01.53.54:269][369]LogProperty: Warning: ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef: unresolved reference to 'BP_GameCamera_C'/Game/Maps/One_v_one.One_v_one:PersistentLevel.BP_GameCamera_2''
+[2023.05.08-01.53.54:269][369]LogLinker: ファイル '/Game/One_v_One/BP/BP_GameCamera' が見つかりません
+[2023.05.08-01.53.54:270][369]LogLinker: ファイル '/Game/One_v_One/BP/BP_GameCamera' が見つかりません
+[2023.05.08-01.53.54:272][369]LogLinker: ファイル '/Game/One_v_One/UI/W_Test' が見つかりません
+[2023.05.08-01.53.54:272][369]LogLinker: ファイル '/Game/One_v_One/UI/W_Test' が見つかりません
+[2023.05.08-01.53.54:289][369]LogLinker: ファイル '/Game/One_v_One/BP/BP_One_V_OneInstance' が見つかりません
+[2023.05.08-01.53.54:290][369]LogLinker: ファイル '/Game/One_v_One/BP/BP_One_V_OneInstance' が見つかりません
+[2023.05.08-01.53.54:290][369]LogProperty: Warning: ClassProperty /Script/BlueprintGraph.K2Node_DynamicCast:TargetType: unresolved reference to 'BlueprintGeneratedClass'/Game/One_v_One/BP/BP_One_V_OneInstance.BP_One_V_OneInstance_C''
+[2023.05.08-01.53.54:291][369]LogProperty: Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'/Game/One_v_One/BP/BP_One_V_OneInstance.BP_One_V_OneInstance_C',MemberName="Create_Character",MemberGuid=CFF5ED6E42EBCF312109739231FFCF1A)'
+[2023.05.08-01.53.54:292][369]LogProperty: Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'/Game/One_v_One/BP/BP_One_V_OneInstance.BP_One_V_OneInstance_C',MemberName="SetPlayer1_Special",MemberGuid=2A9092964E48C8D19A7E969522A5F9FA)'
+[2023.05.08-01.53.54:292][369]LogProperty: Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'/Game/One_v_One/BP/BP_One_V_OneInstance.BP_One_V_OneInstance_C',MemberName="SetPlayer1_Item",MemberGuid=545E5D5E4049ABD6EE6987A30DC6D8F9)'
+[2023.05.08-01.53.54:293][369]LogLinker: ファイル '/Game/BP/BP_P2' が見つかりません
+[2023.05.08-01.53.54:293][369]LogLinker: ファイル '/Game/BP/BP_P2' が見つかりません
+[2023.05.08-01.53.54:295][369]LogProperty: Warning: ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef: unresolved reference to 'TargetPoint'/Game/Maps/One_v_one.One_v_one:PersistentLevel.EnemySpawnPoint''
+[2023.05.08-01.53.54:295][369]LogProperty: Warning: ClassProperty /Script/BlueprintGraph.K2Node_DynamicCast:TargetType: unresolved reference to 'BlueprintGeneratedClass'/Game/One_v_One/BP/BP_One_V_OneInstance.BP_One_V_OneInstance_C''
+[2023.05.08-01.53.54:296][369]LogProperty: Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'/Game/One_v_One/BP/BP_One_V_OneInstance.BP_One_V_OneInstance_C',MemberName="EnemyA",MemberGuid=A7174414434A923E3845A5937D5361A5)'
+[2023.05.08-01.53.54:296][369]LogLinker: ファイル '/Game/One_v_One/BP/BP_Character' が見つかりません
+[2023.05.08-01.53.54:297][369]LogLinker: ファイル '/Game/One_v_One/BP/BP_Character' が見つかりません
+[2023.05.08-01.53.54:298][369]LogProperty: Warning: ObjectProperty /Script/BlueprintGraph.K2Node_StructOperation:StructType: unresolved reference to 'UserDefinedStruct'/Game/One_v_One/BP/BP_Character.BP_Character''
+[2023.05.08-01.53.54:308][369]LogBlueprint: Warning: [LastBattleMap] 'Enemy1' variable not found. Base class was probably changed.
+[2023.05.08-01.53.54:308][369]LogBlueprint: Warning: [LastBattleMap] 'Enemy1' variable not found. Base class was probably changed.
+[2023.05.08-01.53.54:309][369]LogBlueprint: Warning: [LastBattleMap] 'Command' variable not found. Base class was probably changed.
+[2023.05.08-01.53.54:309][369]LogBlueprint: Warning: [LastBattleMap] 'Command' variable not found. Base class was probably changed.
+[2023.05.08-01.53.54:309][369]LogBlueprint: Warning: [LastBattleMap] 'Com_Button_UpDown' variable not found. Base class was probably changed.
+[2023.05.08-01.53.54:309][369]LogBlueprint: Warning: [LastBattleMap] 'Com_Button_UpDown' variable not found. Base class was probably changed.
+[2023.05.08-01.53.54:309][369]LogBlueprint: Warning: [LastBattleMap] 'Com_Button_UpDown' variable not found. Base class was probably changed.
+[2023.05.08-01.53.54:309][369]LogBlueprint: Warning: [LastBattleMap] 'Com_Button_UpDown' variable not found. Base class was probably changed.
+[2023.05.08-01.53.54:309][369]LogBlueprint: Warning: [LastBattleMap] 'Com_Button_UpDown' variable not found. Base class was probably changed.
+[2023.05.08-01.53.54:309][369]LogBlueprint: Warning: [LastBattleMap] 'Com_Button_UpDown' variable not found. Base class was probably changed.
+[2023.05.08-01.53.54:310][369]LogBlueprint: Warning: [LastBattleMap] 'Com_Button_UpDown' variable not found. Base class was probably changed.
+[2023.05.08-01.53.54:310][369]LogBlueprint: Warning: [LastBattleMap] 'Com_Button_UpDown' variable not found. Base class was probably changed.
+[2023.05.08-01.53.54:310][369]LogBlueprint: Warning: [LastBattleMap] 'Com_Button_UpDown' variable not found. Base class was probably changed.
+[2023.05.08-01.53.54:310][369]LogBlueprint: Warning: [LastBattleMap] 'Com_Button_UpDown' variable not found. Base class was probably changed.
+[2023.05.08-01.53.54:310][369]LogBlueprint: Warning: [LastBattleMap] 'Com_Button_UpDown' variable not found. Base class was probably changed.
+[2023.05.08-01.53.54:310][369]LogBlueprint: Warning: [LastBattleMap] 'Command' variable not found. Base class was probably changed.
+[2023.05.08-01.53.54:310][369]LogBlueprint: Warning: [LastBattleMap] 'Command' variable not found. Base class was probably changed.
+[2023.05.08-01.53.54:311][369]LogBlueprint: Warning: [LastBattleMap] 'Sp_Button_UpDown' variable not found. Base class was probably changed.
+[2023.05.08-01.53.54:311][369]LogBlueprint: Warning: [LastBattleMap] 'Sp_Button_UpDown' variable not found. Base class was probably changed.
+[2023.05.08-01.53.54:311][369]LogBlueprint: Warning: [LastBattleMap] 'Sp_Button_UpDown' variable not found. Base class was probably changed.
+[2023.05.08-01.53.54:311][369]LogBlueprint: Warning: [LastBattleMap] 'Sp_Button_UpDown' variable not found. Base class was probably changed.
+[2023.05.08-01.53.54:311][369]LogBlueprint: Warning: [LastBattleMap] 'Sp_Button_UpDown' variable not found. Base class was probably changed.
+[2023.05.08-01.53.54:311][369]LogBlueprint: Warning: [LastBattleMap] 'Item_Button_UpDown' variable not found. Base class was probably changed.
+[2023.05.08-01.53.54:311][369]LogBlueprint: Warning: [LastBattleMap] 'Item_Button_UpDown' variable not found. Base class was probably changed.
+[2023.05.08-01.53.54:311][369]LogBlueprint: Warning: [LastBattleMap] 'Item_Button_UpDown' variable not found. Base class was probably changed.
+[2023.05.08-01.53.54:311][369]LogBlueprint: Warning: [LastBattleMap] 'Item_Button_UpDown' variable not found. Base class was probably changed.
+[2023.05.08-01.53.54:312][369]LogBlueprint: Warning: [LastBattleMap] 'Item_Button_UpDown' variable not found. Base class was probably changed.
+[2023.05.08-01.53.54:312][369]LogBlueprint: Warning: [LastBattleMap] 'Sp_Button_UpDown' variable not found. Base class was probably changed.
+[2023.05.08-01.53.54:312][369]LogBlueprint: Warning: [LastBattleMap] 'Sp_Button_UpDown' variable not found. Base class was probably changed.
+[2023.05.08-01.53.54:312][369]LogBlueprint: Warning: [LastBattleMap] 'Sp_Button_UpDown' variable not found. Base class was probably changed.
+[2023.05.08-01.53.54:312][369]LogBlueprint: Warning: [LastBattleMap] 'Sp_Button_UpDown' variable not found. Base class was probably changed.
+[2023.05.08-01.53.54:312][369]LogBlueprint: Warning: [LastBattleMap] 'Sp_Button_UpDown' variable not found. Base class was probably changed.
+[2023.05.08-01.53.54:312][369]LogBlueprint: Warning: [LastBattleMap] 'Item_Button_UpDown' variable not found. Base class was probably changed.
+[2023.05.08-01.53.54:312][369]LogBlueprint: Warning: [LastBattleMap] 'Item_Button_UpDown' variable not found. Base class was probably changed.
+[2023.05.08-01.53.54:312][369]LogBlueprint: Warning: [LastBattleMap] 'Item_Button_UpDown' variable not found. Base class was probably changed.
+[2023.05.08-01.53.54:312][369]LogBlueprint: Warning: [LastBattleMap] 'Item_Button_UpDown' variable not found. Base class was probably changed.
+[2023.05.08-01.53.54:312][369]LogBlueprint: Warning: [LastBattleMap] 'Item_Button_UpDown' variable not found. Base class was probably changed.
+[2023.05.08-01.53.54:313][369]LogBlueprint: Warning: [LastBattleMap] 'Item_Button_UpDown' variable not found. Base class was probably changed.
+[2023.05.08-01.53.54:313][369]LogBlueprint: Warning: [LastBattleMap] 'Item_Button_UpDown' variable not found. Base class was probably changed.
+[2023.05.08-01.53.54:313][369]LogBlueprint: Warning: [LastBattleMap] 'Sp_Button_UpDown' variable not found. Base class was probably changed.
+[2023.05.08-01.53.54:313][369]LogBlueprint: Warning: [LastBattleMap] 'Sp_Button_UpDown' variable not found. Base class was probably changed.
+[2023.05.08-01.53.54:314][369]LogBlueprint: Warning: [LastBattleMap] 'Cummand_UI' variable not found. Base class was probably changed.
+[2023.05.08-01.53.54:314][369]LogBlueprint: Warning: [LastBattleMap] 'Cummand_UI' variable not found. Base class was probably changed.
+[2023.05.08-01.53.54:314][369]LogBlueprint: Warning: [LastBattleMap] 'Enemy1' variable not found. Base class was probably changed.
+[2023.05.08-01.53.54:314][369]LogBlueprint: Warning: [LastBattleMap] 'Enemy1' variable not found. Base class was probably changed.
+[2023.05.08-01.53.54:314][369]LogBlueprint: Warning: [LastBattleMap] 'EnemyA' variable not found. Base class was probably changed.
+[2023.05.08-01.53.54:324][369]LogSlate: Took 0.000146 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2023.05.08-01.53.54:644][370]LogSlate: Took 0.000153 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2023.05.08-01.55.22:947][793]LogEditorTransaction: Undo 選択対象を削除
+[2023.05.08-01.55.23:235][795]LogEditorTransaction: Undo クリップボードの内容を貼り付け
+[2023.05.08-01.55.23:458][807]LogEditorTransaction: Undo 選択対象を削除
+[2023.05.08-01.56.11:324][ 73]LogRenderer: Reallocating scene render targets to support 924x616 Format 10 NumSamples 1 (Frame:1).
+[2023.05.08-01.56.15:770][249]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2023.05.08-01.56.30:912][512]BlueprintLog: New page: BP_GameMode をコンパイル
+[2023.05.08-01.56.46:272][213]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.GameTaisyou2023
+[2023.05.08-01.56.46:272][213]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2023.05.08-01.56.46:272][213]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
+[2023.05.08-01.56.46:272][213]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2023.05.08-01.56.46:277][213]LogTemp: BranchPath = KBC12006017/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = KBC12006017/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
+[2023.05.08-01.56.46:293][213]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\81806\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2023.05.08-01.56.54:449][675]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2023.05.08-01.58.54:215][539]LogLinker: ファイル '/Game/One_v_One/BP/BP_SpecialAtk' が見つかりません
+[2023.05.08-01.58.54:215][539]LogLinker: ファイル '/Game/One_v_One/BP/BP_SpecialAtk' が見つかりません
+[2023.05.08-01.58.54:215][539]LogProperty: Warning: ObjectProperty /Script/BlueprintGraph.K2Node_StructOperation:StructType: unresolved reference to 'UserDefinedStruct'/Game/One_v_One/BP/BP_SpecialAtk.BP_SpecialAtk''
+[2023.05.08-01.58.54:216][539]LogProperty: Warning: ObjectProperty /Script/BlueprintGraph.K2Node_StructOperation:StructType: unresolved reference to 'UserDefinedStruct'/Game/One_v_One/BP/BP_SpecialAtk.BP_SpecialAtk''
+[2023.05.08-01.58.54:218][539]LogProperty: Warning: ObjectProperty /Script/BlueprintGraph.K2Node_StructOperation:StructType: unresolved reference to 'UserDefinedStruct'/Game/One_v_One/BP/BP_SpecialAtk.BP_SpecialAtk''
+[2023.05.08-01.58.54:219][539]LogProperty: Warning: ObjectProperty /Script/BlueprintGraph.K2Node_StructOperation:StructType: unresolved reference to 'UserDefinedStruct'/Game/One_v_One/BP/BP_SpecialAtk.BP_SpecialAtk''
+[2023.05.08-01.58.54:221][539]LogProperty: Warning: ObjectProperty /Script/BlueprintGraph.K2Node_StructOperation:StructType: unresolved reference to 'UserDefinedStruct'/Game/One_v_One/BP/BP_SpecialAtk.BP_SpecialAtk''
+[2023.05.08-01.58.54:225][539]LogBlueprint: Warning: [BP_GameInstance] 'Player_Spe' variable not found. Base class was probably changed.
+[2023.05.08-01.58.54:225][539]LogBlueprint: Warning: [BP_GameInstance] 'Player_Spe' variable not found. Base class was probably changed.
+[2023.05.08-01.58.58:177][761]LogEditorTransaction: Undo ノードを移動
+[2023.05.08-01.58.58:752][785]LogEditorTransaction: Undo クリップボードの内容を貼り付け
+[2023.05.08-02.00.18:153][210]LogSavePackage: Save=23.33ms
+[2023.05.08-02.00.18:153][210]LogSavePackage: Moving '../../../../../../Users/81806/OneDrive/ドキュメント/4-4_GameTaisyou_2023/GameTaisyou_2023/Saved/LastBattleMapACFC304040131E6CA20546BC91A5832D.tmp' to '../../../../../../Users/81806/OneDrive/ドキュメント/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/Map/LastBattleMap.umap'
+[2023.05.08-02.00.18:156][210]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/81806/OneDrive/ドキュメント/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/Map/LastBattleMap.umap
+[2023.05.08-02.00.33:716][920]LogLinker: Warning: ファイル '/Game/BP/BP_GameMode' が見つかりません
+[2023.05.08-02.00.33:716][920]LogLinker: Warning: ファイル '/Game/BP/BP_GameMode' が見つかりません
+[2023.05.08-02.00.33:716][920]LogUObjectGlobals: Warning: オブジェクト 'Class /Game/BP/BP_GameMode.BP_GameMode_C' が見つかりませんでした
+[2023.05.08-02.00.37:134][110]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2023.05.08-02.00.38:387][185]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2023.05.08-02.00.38:389][185]LogLinker: Warning: ファイル '/Game/One_v_One/BP/BP_Item' が見つかりません
+[2023.05.08-02.00.38:389][185]LogLinker: Warning: ../../../../../../Users/81806/OneDrive/ドキュメント/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/BP/BP_One_V_OneInstance.uasset のロード中にアセット '/Game/One_v_One/BP/BP_Item'  のファイルが見つかりません
+[2023.05.08-02.00.38:389][185]LoadErrors: Error: /Game/BP/BP_One_V_OneInstance : アセットのファイルが見つかりません /Game/One_v_One/BP/BP_Item
+[2023.05.08-02.00.38:390][185]LogLinker: Warning: ファイル '/Game/One_v_One/BP/BP_Item' が見つかりません
+[2023.05.08-02.00.38:390][185]LogLinker: Warning: ../../../../../../Users/81806/OneDrive/ドキュメント/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/BP/BP_One_V_OneInstance.uasset のロード中にアセット '/Game/One_v_One/BP/BP_Item'  のファイルが見つかりません
+[2023.05.08-02.00.38:391][185]LogLinker: Warning: ファイル '/Game/One_v_One/BP/BP_Item' が見つかりません
+[2023.05.08-02.00.38:391][185]LoadErrors: ロードに失敗しました /Game/One_v_One/BP/BP_Item.BP_Item 参照元 K2Node_MakeStruct_BP_Item
+[2023.05.08-02.00.38:391][185]LogLinker: Warning: NULL のロード中にアセット '/Game/One_v_One/BP/BP_Item'  のファイルが見つかりません
+[2023.05.08-02.00.38:391][185]LogProperty: Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/BP/BP_One_V_OneInstance.BP_One_V_OneInstance_C:SetPlayer1_Item.K2Node_MakeStruct_BP_Item'. Unknown structure.
+[2023.05.08-02.00.38:391][185]LogLinker: Warning: ファイル '/Game/One_v_One/BP/BP_Item' が見つかりません
+[2023.05.08-02.00.38:391][185]LoadErrors: ロードに失敗しました /Game/One_v_One/BP/BP_Item.BP_Item 参照元 K2Node_MakeStruct_BP_Item2
+[2023.05.08-02.00.38:391][185]LogLinker: Warning: NULL のロード中にアセット '/Game/One_v_One/BP/BP_Item'  のファイルが見つかりません
+[2023.05.08-02.00.38:391][185]LogProperty: Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/BP/BP_One_V_OneInstance.BP_One_V_OneInstance_C:SetPlayer1_Item.K2Node_MakeStruct_BP_Item2'. Unknown structure.
+[2023.05.08-02.00.38:392][185]LogLinker: Warning: ファイル '/Game/One_v_One/BP/BP_Item' が見つかりません
+[2023.05.08-02.00.38:392][185]LoadErrors: ロードに失敗しました /Game/One_v_One/BP/BP_Item.BP_Item 参照元 K2Node_MakeStruct_BP_Item3
+[2023.05.08-02.00.38:392][185]LogLinker: Warning: NULL のロード中にアセット '/Game/One_v_One/BP/BP_Item'  のファイルが見つかりません
+[2023.05.08-02.00.38:392][185]LogProperty: Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/BP/BP_One_V_OneInstance.BP_One_V_OneInstance_C:SetPlayer1_Item.K2Node_MakeStruct_BP_Item3'. Unknown structure.
+[2023.05.08-02.00.38:392][185]LogLinker: Warning: ファイル '/Game/One_v_One/BP/BP_Item' が見つかりません
+[2023.05.08-02.00.38:392][185]LoadErrors: ロードに失敗しました /Game/One_v_One/BP/BP_Item.BP_Item 参照元 K2Node_MakeStruct_BP_Item4
+[2023.05.08-02.00.38:392][185]LogLinker: Warning: NULL のロード中にアセット '/Game/One_v_One/BP/BP_Item'  のファイルが見つかりません
+[2023.05.08-02.00.38:392][185]LogProperty: Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/BP/BP_One_V_OneInstance.BP_One_V_OneInstance_C:SetPlayer1_Item.K2Node_MakeStruct_BP_Item4'. Unknown structure.
+[2023.05.08-02.00.38:393][185]LogLinker: Warning: ファイル '/Game/One_v_One/BP/BP_Item' が見つかりません
+[2023.05.08-02.00.38:393][185]LoadErrors: ロードに失敗しました /Game/One_v_One/BP/BP_Item.BP_Item 参照元 K2Node_MakeStruct_BP_Item5
+[2023.05.08-02.00.38:393][185]LogLinker: Warning: NULL のロード中にアセット '/Game/One_v_One/BP/BP_Item'  のファイルが見つかりません
+[2023.05.08-02.00.38:393][185]LogProperty: Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/BP/BP_One_V_OneInstance.BP_One_V_OneInstance_C:SetPlayer1_Item.K2Node_MakeStruct_BP_Item5'. Unknown structure.
+[2023.05.08-02.00.38:393][185]LogLinker: Warning: ファイル '/Game/One_v_One/BP/BP_Item' が見つかりません
+[2023.05.08-02.00.38:394][185]LoadErrors: ロードに失敗しました /Game/One_v_One/BP/BP_Item.BP_Item 参照元 K2Node_MakeArray_Array
+[2023.05.08-02.00.38:394][185]LogLinker: Warning: NULL のロード中にアセット '/Game/One_v_One/BP/BP_Item'  のファイルが見つかりません
+[2023.05.08-02.00.38:394][185]LogProperty: Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/BP/BP_One_V_OneInstance.BP_One_V_OneInstance_C:SetPlayer1_Item.K2Node_MakeArray_Array.K2Node_MakeArray_Array'. Unknown structure.
+[2023.05.08-02.00.38:394][185]LogProperty: Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/BP/BP_One_V_OneInstance.BP_One_V_OneInstance_C:SetPlayer1_Special.K2Node_MakeStruct_BP_SpecialAtk'. Unknown structure.
+[2023.05.08-02.00.38:394][185]LogProperty: Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/BP/BP_One_V_OneInstance.BP_One_V_OneInstance_C:SetPlayer1_Special.K2Node_MakeStruct_BP_SpecialAtk2'. Unknown structure.
+[2023.05.08-02.00.38:395][185]LogProperty: Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/BP/BP_One_V_OneInstance.BP_One_V_OneInstance_C:SetPlayer1_Special.K2Node_MakeStruct_BP_SpecialAtk3'. Unknown structure.
+[2023.05.08-02.00.38:395][185]LogProperty: Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/BP/BP_One_V_OneInstance.BP_One_V_OneInstance_C:SetPlayer1_Special.K2Node_MakeStruct_BP_SpecialAtk4'. Unknown structure.
+[2023.05.08-02.00.38:395][185]LogProperty: Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/BP/BP_One_V_OneInstance.BP_One_V_OneInstance_C:SetPlayer1_Special.K2Node_MakeStruct_BP_SpecialAtk5'. Unknown structure.
+[2023.05.08-02.00.38:396][185]LogProperty: Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/BP/BP_One_V_OneInstance.BP_One_V_OneInstance_C:SetPlayer1_Special.K2Node_MakeArray_Array.K2Node_MakeArray_Array'. Unknown structure.
+[2023.05.08-02.00.38:396][185]LogProperty: Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/BP/BP_One_V_OneInstance.BP_One_V_OneInstance_C:Create_Character.K2Node_MakeStruct_BP_Character'. Unknown structure.
+[2023.05.08-02.00.38:397][185]LogProperty: Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/BP/BP_One_V_OneInstance.BP_One_V_OneInstance_C:Create_Character.K2Node_MakeStruct_BP_Character2'. Unknown structure.
+[2023.05.08-02.00.38:397][185]LogProperty: Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/BP/BP_One_V_OneInstance.BP_One_V_OneInstance_C:Create_Character.K2Node_MakeStruct_BP_Character3'. Unknown structure.
+[2023.05.08-02.00.38:397][185]LogProperty: Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/BP/BP_One_V_OneInstance.BP_One_V_OneInstance_C:Sub'. Unknown structure.
+[2023.05.08-02.00.38:397][185]LogProperty: Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/BP/BP_One_V_OneInstance.BP_One_V_OneInstance_C:NowChara'. Unknown structure.
+[2023.05.08-02.00.38:398][185]LogProperty: Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/BP/BP_One_V_OneInstance.BP_One_V_OneInstance_C:Target'. Unknown structure.
+[2023.05.08-02.00.38:398][185]LogProperty: Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/BP/BP_One_V_OneInstance.BP_One_V_OneInstance_C:EnemyTarget'. Unknown structure.
+[2023.05.08-02.00.38:399][185]LogProperty: Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/BP/BP_One_V_OneInstance.BP_One_V_OneInstance_C:Hero'. Unknown structure.
+[2023.05.08-02.00.38:399][185]LogProperty: Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/BP/BP_One_V_OneInstance.BP_One_V_OneInstance_C:EnemyA'. Unknown structure.
+[2023.05.08-02.00.38:399][185]LogProperty: Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/BP/BP_One_V_OneInstance.BP_One_V_OneInstance_C:EnemyB'. Unknown structure.
+[2023.05.08-02.00.38:400][185]LogLinker: Warning: ファイル '/Game/One_v_One/BP/BP_Item' が見つかりません
+[2023.05.08-02.00.38:400][185]LoadErrors: ロードに失敗しました /Game/One_v_One/BP/BP_Item.BP_Item 参照元 Player_Item
+[2023.05.08-02.00.38:400][185]LogLinker: Warning: NULL のロード中にアセット '/Game/One_v_One/BP/BP_Item'  のファイルが見つかりません
+[2023.05.08-02.00.38:400][185]LogProperty: Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/BP/BP_One_V_OneInstance.BP_One_V_OneInstance_C:Player_Item.Player_Item'. Unknown structure.
+[2023.05.08-02.00.38:400][185]LogProperty: Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/BP/BP_One_V_OneInstance.BP_One_V_OneInstance_C:Player_Spe.Player_Spe'. Unknown structure.
+[2023.05.08-02.00.38:401][185]LogLinker: Warning: ファイル '/Game/One_v_One/BP/BP_Item' が見つかりません
+[2023.05.08-02.00.38:401][185]LogLinker: Warning: NULL のロード中にアセット '/Game/One_v_One/BP/BP_Item'  のファイルが見つかりません
+[2023.05.08-02.00.38:401][185]LogLinker: Warning: ファイル '/Game/One_v_One/BP/BP_Item' が見つかりません
+[2023.05.08-02.00.38:401][185]LogLinker: Warning: NULL のロード中にアセット '/Game/One_v_One/BP/BP_Item'  のファイルが見つかりません
+[2023.05.08-02.00.38:401][185]LogClass: Warning: Property Sub of Sub has a struct type mismatch (tag BP_Character != prop FallbackStruct) in package:  ../../../../../../Users/81806/OneDrive/ドキュメント/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/BP/BP_One_V_OneInstance.uasset. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2023.05.08-02.00.38:401][185]LogClass: Warning: Property NowChara of NowChara has a struct type mismatch (tag BP_Character != prop FallbackStruct) in package:  ../../../../../../Users/81806/OneDrive/ドキュメント/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/BP/BP_One_V_OneInstance.uasset. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2023.05.08-02.00.38:401][185]LogClass: Warning: Property Target of Target has a struct type mismatch (tag BP_Character != prop FallbackStruct) in package:  ../../../../../../Users/81806/OneDrive/ドキュメント/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/BP/BP_One_V_OneInstance.uasset. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2023.05.08-02.00.38:401][185]LogClass: Warning: Property EnemyTarget of EnemyTarget has a struct type mismatch (tag BP_Character != prop FallbackStruct) in package:  ../../../../../../Users/81806/OneDrive/ドキュメント/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/BP/BP_One_V_OneInstance.uasset. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2023.05.08-02.00.38:401][185]LogClass: Warning: Property Hero of Hero has a struct type mismatch (tag BP_Character != prop FallbackStruct) in package:  ../../../../../../Users/81806/OneDrive/ドキュメント/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/BP/BP_One_V_OneInstance.uasset. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2023.05.08-02.00.38:401][185]LogClass: Warning: Property EnemyA of EnemyA has a struct type mismatch (tag BP_Character != prop FallbackStruct) in package:  ../../../../../../Users/81806/OneDrive/ドキュメント/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/BP/BP_One_V_OneInstance.uasset. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2023.05.08-02.00.38:401][185]LogClass: Warning: Property EnemyB of EnemyB has a struct type mismatch (tag BP_Character != prop FallbackStruct) in package:  ../../../../../../Users/81806/OneDrive/ドキュメント/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/BP/BP_One_V_OneInstance.uasset. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2023.05.08-02.00.38:403][185]LogLinker: Warning: ファイル '/Game/One_v_One/BP/BP_Item' が見つかりません
+[2023.05.08-02.00.38:403][185]LoadErrors: ロードに失敗しました /Game/One_v_One/BP/BP_Item.BP_Item 参照元 BP_One_V_OneInstance
+[2023.05.08-02.00.38:403][185]LogLinker: Warning: NULL のロード中にアセット '/Game/One_v_One/BP/BP_Item'  のファイルが見つかりません
+[2023.05.08-02.00.38:409][185]LogLinker: Warning: ファイル '/Game/One_v_One/BP/BP_Item' が見つかりません
+[2023.05.08-02.00.38:409][185]LoadErrors: ロードに失敗しました /Game/One_v_One/BP/BP_Item.BP_Item 参照元 K2Node_MakeStruct_2
+[2023.05.08-02.00.38:409][185]LogLinker: Warning: NULL のロード中にアセット '/Game/One_v_One/BP/BP_Item'  のファイルが見つかりません
+[2023.05.08-02.00.38:409][185]LogLinker: Warning: ファイル '/Game/One_v_One/BP/BP_Item' が見つかりません
+[2023.05.08-02.00.38:410][185]LogLinker: Warning: NULL のロード中にアセット '/Game/One_v_One/BP/BP_Item'  のファイルが見つかりません
+[2023.05.08-02.00.38:410][185]LogLinker: Warning: ファイル '/Game/One_v_One/BP/BP_Item' が見つかりません
+[2023.05.08-02.00.38:410][185]LoadErrors: ロードに失敗しました /Game/One_v_One/BP/BP_Item.BP_Item 参照元 K2Node_MakeStruct_3
+[2023.05.08-02.00.38:410][185]LogLinker: Warning: NULL のロード中にアセット '/Game/One_v_One/BP/BP_Item'  のファイルが見つかりません
+[2023.05.08-02.00.38:410][185]LogLinker: Warning: ファイル '/Game/One_v_One/BP/BP_Item' が見つかりません
+[2023.05.08-02.00.38:410][185]LogLinker: Warning: NULL のロード中にアセット '/Game/One_v_One/BP/BP_Item'  のファイルが見つかりません
+[2023.05.08-02.00.38:411][185]LogLinker: Warning: ファイル '/Game/One_v_One/BP/BP_Item' が見つかりません
+[2023.05.08-02.00.38:411][185]LoadErrors: ロードに失敗しました /Game/One_v_One/BP/BP_Item.BP_Item 参照元 K2Node_MakeStruct_4
+[2023.05.08-02.00.38:411][185]LogLinker: Warning: NULL のロード中にアセット '/Game/One_v_One/BP/BP_Item'  のファイルが見つかりません
+[2023.05.08-02.00.38:411][185]LogLinker: Warning: ファイル '/Game/One_v_One/BP/BP_Item' が見つかりません
+[2023.05.08-02.00.38:411][185]LogLinker: Warning: NULL のロード中にアセット '/Game/One_v_One/BP/BP_Item'  のファイルが見つかりません
+[2023.05.08-02.00.38:411][185]LogLinker: Warning: ファイル '/Game/One_v_One/BP/BP_Item' が見つかりません
+[2023.05.08-02.00.38:412][185]LoadErrors: ロードに失敗しました /Game/One_v_One/BP/BP_Item.BP_Item 参照元 K2Node_MakeStruct_5
+[2023.05.08-02.00.38:412][185]LogLinker: Warning: NULL のロード中にアセット '/Game/One_v_One/BP/BP_Item'  のファイルが見つかりません
+[2023.05.08-02.00.38:412][185]LogLinker: Warning: ファイル '/Game/One_v_One/BP/BP_Item' が見つかりません
+[2023.05.08-02.00.38:412][185]LogLinker: Warning: NULL のロード中にアセット '/Game/One_v_One/BP/BP_Item'  のファイルが見つかりません
+[2023.05.08-02.00.38:412][185]LogLinker: Warning: ファイル '/Game/One_v_One/BP/BP_Item' が見つかりません
+[2023.05.08-02.00.38:412][185]LoadErrors: ロードに失敗しました /Game/One_v_One/BP/BP_Item.BP_Item 参照元 K2Node_MakeStruct_1
+[2023.05.08-02.00.38:412][185]LogLinker: Warning: NULL のロード中にアセット '/Game/One_v_One/BP/BP_Item'  のファイルが見つかりません
+[2023.05.08-02.00.38:413][185]LogLinker: Warning: ファイル '/Game/One_v_One/BP/BP_Item' が見つかりません
+[2023.05.08-02.00.38:413][185]LogLinker: Warning: NULL のロード中にアセット '/Game/One_v_One/BP/BP_Item'  のファイルが見つかりません
+[2023.05.08-02.00.38:413][185]LogLinker: Warning: ファイル '/Game/One_v_One/BP/BP_Item' が見つかりません
+[2023.05.08-02.00.38:413][185]LoadErrors: ロードに失敗しました /Game/One_v_One/BP/BP_Item.BP_Item 参照元 K2Node_VariableSet_915
+[2023.05.08-02.00.38:413][185]LogLinker: Warning: NULL のロード中にアセット '/Game/One_v_One/BP/BP_Item'  のファイルが見つかりません
+[2023.05.08-02.00.38:413][185]LogLinker: Warning: ファイル '/Game/One_v_One/BP/BP_Item' が見つかりません
+[2023.05.08-02.00.38:414][185]LogLinker: Warning: NULL のロード中にアセット '/Game/One_v_One/BP/BP_Item'  のファイルが見つかりません
+[2023.05.08-02.00.38:414][185]LogLinker: Warning: ファイル '/Game/One_v_One/BP/BP_Item' が見つかりません
+[2023.05.08-02.00.38:414][185]LoadErrors: ロードに失敗しました /Game/One_v_One/BP/BP_Item.BP_Item 参照元 K2Node_MakeArray_2
+[2023.05.08-02.00.38:414][185]LogLinker: Warning: NULL のロード中にアセット '/Game/One_v_One/BP/BP_Item'  のファイルが見つかりません
+[2023.05.08-02.00.38:414][185]LogLinker: Warning: ファイル '/Game/One_v_One/BP/BP_Item' が見つかりません
+[2023.05.08-02.00.38:414][185]LogLinker: Warning: NULL のロード中にアセット '/Game/One_v_One/BP/BP_Item'  のファイルが見つかりません
+[2023.05.08-02.00.38:414][185]LogLinker: Warning: ファイル '/Game/One_v_One/BP/BP_Item' が見つかりません
+[2023.05.08-02.00.38:415][185]LogLinker: Warning: NULL のロード中にアセット '/Game/One_v_One/BP/BP_Item'  のファイルが見つかりません
+[2023.05.08-02.00.38:415][185]LogLinker: Warning: ファイル '/Game/One_v_One/BP/BP_Item' が見つかりません
+[2023.05.08-02.00.38:415][185]LogLinker: Warning: NULL のロード中にアセット '/Game/One_v_One/BP/BP_Item'  のファイルが見つかりません
+[2023.05.08-02.00.38:415][185]LogLinker: Warning: ファイル '/Game/One_v_One/BP/BP_Item' が見つかりません
+[2023.05.08-02.00.38:415][185]LogLinker: Warning: NULL のロード中にアセット '/Game/One_v_One/BP/BP_Item'  のファイルが見つかりません
+[2023.05.08-02.00.38:415][185]LogLinker: Warning: ファイル '/Game/One_v_One/BP/BP_Item' が見つかりません
+[2023.05.08-02.00.38:416][185]LogLinker: Warning: NULL のロード中にアセット '/Game/One_v_One/BP/BP_Item'  のファイルが見つかりません
+[2023.05.08-02.00.38:416][185]LogBlueprint: Error: [Compiler ] Internal Compiler Error: Tried to create a property Player1_Sp in scope BP_One_V_OneInstance_C, but another object (ArrayProperty Player1_Sp) already already exists there.
+[2023.05.08-02.00.38:416][185]LogBlueprint: Error: [Compiler BP_One_V_OneInstance] BP_One_V_OneInstance  で宣言された変数 Player_Spe には無効な型 構造体 の配列 があります
+[2023.05.08-02.00.38:416][185]LogBlueprint: Error: [Compiler BP_One_V_OneInstance] BP_One_V_OneInstance  で宣言された変数 Player1_Sp には無効な型 構造体 の配列 があります
+[2023.05.08-02.00.38:416][185]LogBlueprint: Error: [Compiler BP_One_V_OneInstance] BP_One_V_OneInstance  で宣言された変数 Player_Item には無効な型 構造体 の配列 があります
+[2023.05.08-02.00.38:416][185]LogBlueprint: Error: [Compiler BP_One_V_OneInstance] BP_One_V_OneInstance  で宣言された変数 Player1_Item には無効な型 構造体 の配列 があります
+[2023.05.08-02.00.38:417][185]LogBlueprint: Error: [Compiler BP_One_V_OneInstance] BP_One_V_OneInstance  で宣言された変数 EnemyB には無効な型 構造体 があります
+[2023.05.08-02.00.38:417][185]LogBlueprint: Error: [Compiler BP_One_V_OneInstance] BP_One_V_OneInstance  で宣言された変数 EnemyA には無効な型 構造体 があります
+[2023.05.08-02.00.38:417][185]LogBlueprint: Error: [Compiler BP_One_V_OneInstance] BP_One_V_OneInstance  で宣言された変数 Hero には無効な型 構造体 があります
+[2023.05.08-02.00.38:417][185]LogBlueprint: Error: [Compiler BP_One_V_OneInstance] Internal Compiler Error: Tried to create a property Player1_Sp in scope SKEL_BP_One_V_OneInstance_C, but another object (ArrayProperty Player1_Sp) already already exists there.
+[2023.05.08-02.00.38:417][185]LogBlueprint: Error: [Compiler BP_One_V_OneInstance] BP_One_V_OneInstance  で宣言された変数 Player1_Sp には無効な型 構造体 の配列 があります
+[2023.05.08-02.00.38:417][185]LogBlueprint: Error: [Compiler BP_One_V_OneInstance] BP_One_V_OneInstance  で宣言された変数 EnemyTarget には無効な型 構造体 があります
+[2023.05.08-02.00.38:417][185]LogBlueprint: Error: [Compiler BP_One_V_OneInstance] BP_One_V_OneInstance  で宣言された変数 Target には無効な型 構造体 があります
+[2023.05.08-02.00.38:417][185]LogBlueprint: Error: [Compiler BP_One_V_OneInstance] BP_One_V_OneInstance  で宣言された変数 NowChara には無効な型 構造体 があります
+[2023.05.08-02.00.38:417][185]LogBlueprint: Error: [Compiler BP_One_V_OneInstance] BP_One_V_OneInstance  で宣言された変数 Sub には無効な型 構造体 があります
+[2023.05.08-02.00.38:417][185]LogBlueprint: Warning: [BP_One_V_OneInstance] 'EnemyA' variable not found. Base class was probably changed.
+[2023.05.08-02.00.38:417][185]LogBlueprint: Warning: [BP_One_V_OneInstance] 'EnemyA' variable not found. Base class was probably changed.
+[2023.05.08-02.00.38:417][185]LogBlueprint: Warning: [BP_One_V_OneInstance] 'Hero' variable not found. Base class was probably changed.
+[2023.05.08-02.00.38:417][185]LogBlueprint: Warning: [BP_One_V_OneInstance] 'Hero' variable not found. Base class was probably changed.
+[2023.05.08-02.00.38:417][185]LogBlueprint: Warning: [BP_One_V_OneInstance] 'EnemyB' variable not found. Base class was probably changed.
+[2023.05.08-02.00.38:417][185]LogBlueprint: Warning: [BP_One_V_OneInstance] 'EnemyB' variable not found. Base class was probably changed.
+[2023.05.08-02.00.38:417][185]LogBlueprint: Warning: [BP_One_V_OneInstance] 'Player_Spe' variable not found. Base class was probably changed.
+[2023.05.08-02.00.38:417][185]LogBlueprint: Warning: [BP_One_V_OneInstance] 'Player_Spe' variable not found. Base class was probably changed.
+[2023.05.08-02.00.38:417][185]LogBlueprint: Warning: [BP_One_V_OneInstance] 'Player_Item' variable not found. Base class was probably changed.
+[2023.05.08-02.00.38:418][185]LogBlueprint: Warning: [BP_One_V_OneInstance] 'Player_Item' variable not found. Base class was probably changed.
+[2023.05.08-02.00.38:419][185]LogBlueprint: Error: [Compiler BP_One_V_OneInstance] BP_One_V_OneInstance  で宣言された変数 Player_Spe には無効な型 構造体 の配列 があります
+[2023.05.08-02.00.38:419][185]LogBlueprint: Error: [Compiler BP_One_V_OneInstance] BP_One_V_OneInstance  で宣言された変数 Player1_Sp には無効な型 構造体 の配列 があります
+[2023.05.08-02.00.38:419][185]LogBlueprint: Error: [Compiler BP_One_V_OneInstance] BP_One_V_OneInstance  で宣言された変数 Player_Item には無効な型 構造体 の配列 があります
+[2023.05.08-02.00.38:419][185]LogBlueprint: Error: [Compiler BP_One_V_OneInstance] BP_One_V_OneInstance  で宣言された変数 Player1_Item には無効な型 構造体 の配列 があります
+[2023.05.08-02.00.38:419][185]LogBlueprint: Error: [Compiler BP_One_V_OneInstance] BP_One_V_OneInstance  で宣言された変数 EnemyB には無効な型 構造体 があります
+[2023.05.08-02.00.38:419][185]LogBlueprint: Error: [Compiler BP_One_V_OneInstance] BP_One_V_OneInstance  で宣言された変数 EnemyA には無効な型 構造体 があります
+[2023.05.08-02.00.38:419][185]LogBlueprint: Error: [Compiler BP_One_V_OneInstance] BP_One_V_OneInstance  で宣言された変数 Hero には無効な型 構造体 があります
+[2023.05.08-02.00.38:419][185]LogBlueprint: Error: [Compiler BP_One_V_OneInstance] Internal Compiler Error: Tried to create a property Player1_Sp in scope BP_One_V_OneInstance_C, but another object (ArrayProperty Player1_Sp) already already exists there.
+[2023.05.08-02.00.38:419][185]LogBlueprint: Error: [Compiler BP_One_V_OneInstance] BP_One_V_OneInstance  で宣言された変数 Player1_Sp には無効な型 構造体 の配列 があります
+[2023.05.08-02.00.38:419][185]LogBlueprint: Error: [Compiler BP_One_V_OneInstance] BP_One_V_OneInstance  で宣言された変数 EnemyTarget には無効な型 構造体 があります
+[2023.05.08-02.00.38:419][185]LogBlueprint: Error: [Compiler BP_One_V_OneInstance] BP_One_V_OneInstance  で宣言された変数 Target には無効な型 構造体 があります
+[2023.05.08-02.00.38:419][185]LogBlueprint: Error: [Compiler BP_One_V_OneInstance] BP_One_V_OneInstance  で宣言された変数 NowChara には無効な型 構造体 があります
+[2023.05.08-02.00.38:419][185]LogBlueprint: Error: [Compiler BP_One_V_OneInstance] BP_One_V_OneInstance  で宣言された変数 Sub には無効な型 構造体 があります
+[2023.05.08-02.00.38:420][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] "Hero"という名前の変数は 'BP_One_V_OneInstance_C'にありません。
+'BP_One_V_OneInstance_C' が  Set Hero  用にコンパイルされていることを確認してください。
+[2023.05.08-02.00.38:420][185]LogBlueprint: Error: [Compiler BP_One_V_OneInstance] In use pin  BP Character  no longer exists on this node. Please refresh node or break links to remove pin.
+[2023.05.08-02.00.38:420][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Character Name  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:420][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Max HP  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:420][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Now HP  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:420][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Max MP  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:420][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Now MP  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:420][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Defult Atk  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:420][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Now Atk  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:420][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Defult Spd  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:420][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Now Spd  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:420][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Defult Def  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:420][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Now Def  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:420][185]LogBlueprint: Error: [Compiler BP_One_V_OneInstance] <unknown struct> を作成  に構造体がありません
+[2023.05.08-02.00.38:420][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] "EnemyA"という名前の変数は 'BP_One_V_OneInstance_C'にありません。
+'BP_One_V_OneInstance_C' が  Set EnemyA  用にコンパイルされていることを確認してください。
+[2023.05.08-02.00.38:420][185]LogBlueprint: Error: [Compiler BP_One_V_OneInstance] In use pin  BP Character  no longer exists on this node. Please refresh node or break links to remove pin.
+[2023.05.08-02.00.38:420][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Character Name  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:420][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Max HP  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:420][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Now HP  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:420][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Max MP  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:420][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Now MP  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:420][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Defult Atk  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:420][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Now Atk  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:421][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Defult Spd  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:421][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Now Spd  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:421][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Defult Def  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:421][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Now Def  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:421][185]LogBlueprint: Error: [Compiler BP_One_V_OneInstance] <unknown struct> を作成  に構造体がありません
+[2023.05.08-02.00.38:421][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] "EnemyB"という名前の変数は 'BP_One_V_OneInstance_C'にありません。
+'BP_One_V_OneInstance_C' が  Set EnemyB  用にコンパイルされていることを確認してください。
+[2023.05.08-02.00.38:421][185]LogBlueprint: Error: [Compiler BP_One_V_OneInstance] In use pin  BP Character  no longer exists on this node. Please refresh node or break links to remove pin.
+[2023.05.08-02.00.38:421][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Character Name  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:421][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Max HP  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:421][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Now HP  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:421][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Max MP  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:421][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Now MP  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:421][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Defult Atk  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:421][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Now Atk  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:421][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Defult Spd  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:421][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Now Spd  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:421][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Defult Def  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:421][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Now Def  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:421][185]LogBlueprint: Error: [Compiler BP_One_V_OneInstance] <unknown struct> を作成  に構造体がありません
+[2023.05.08-02.00.38:422][185]LogBlueprint: Error: [Compiler BP_One_V_OneInstance] In use pin  BP Special Atk  no longer exists on this node. Please refresh node or break links to remove pin.
+[2023.05.08-02.00.38:422][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Sp Name  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:422][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Use MP  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:422][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Atk  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:422][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Spd  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:422][185]LogBlueprint: Error: [Compiler BP_One_V_OneInstance] <unknown struct> を作成  に構造体がありません
+[2023.05.08-02.00.38:422][185]LogBlueprint: Error: [Compiler BP_One_V_OneInstance] In use pin  BP Special Atk  no longer exists on this node. Please refresh node or break links to remove pin.
+[2023.05.08-02.00.38:422][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Sp Name  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:422][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Use MP  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:422][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Atk Buf  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:422][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Spd  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:422][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Buf  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:422][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Active Turn  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:422][185]LogBlueprint: Error: [Compiler BP_One_V_OneInstance] <unknown struct> を作成  に構造体がありません
+[2023.05.08-02.00.38:422][185]LogBlueprint: Error: [Compiler BP_One_V_OneInstance] In use pin  BP Special Atk  no longer exists on this node. Please refresh node or break links to remove pin.
+[2023.05.08-02.00.38:422][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Sp Name  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:422][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Use MP  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:422][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Atk  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:422][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Spd  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:422][185]LogBlueprint: Error: [Compiler BP_One_V_OneInstance] <unknown struct> を作成  に構造体がありません
+[2023.05.08-02.00.38:422][185]LogBlueprint: Error: [Compiler BP_One_V_OneInstance] In use pin  BP Special Atk  no longer exists on this node. Please refresh node or break links to remove pin.
+[2023.05.08-02.00.38:422][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Sp Name  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:422][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Use MP  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:423][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Spd  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:423][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Heal  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:423][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Buf  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:423][185]LogBlueprint: Error: [Compiler BP_One_V_OneInstance] <unknown struct> を作成  に構造体がありません
+[2023.05.08-02.00.38:423][185]LogBlueprint: Error: [Compiler BP_One_V_OneInstance] In use pin  BP Special Atk  no longer exists on this node. Please refresh node or break links to remove pin.
+[2023.05.08-02.00.38:423][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Sp Name  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:423][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Use MP  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:423][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Atk  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:423][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Spd  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:423][185]LogBlueprint: Error: [Compiler BP_One_V_OneInstance] <unknown struct> を作成  に構造体がありません
+[2023.05.08-02.00.38:423][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] "Player_Spe"という名前の変数は 'BP_One_V_OneInstance_C'にありません。
+'BP_One_V_OneInstance_C' が  Set Player_Spe  用にコンパイルされていることを確認してください。
+[2023.05.08-02.00.38:424][185]LogBlueprint: Error: [Compiler BP_One_V_OneInstance] In use pin  BP Item  no longer exists on this node. Please refresh node or break links to remove pin.
+[2023.05.08-02.00.38:424][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Quantity  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:424][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Item Name  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:424][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Heal HP  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:424][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Spd  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:424][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Heal Buf  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:424][185]LogBlueprint: Error: [Compiler BP_One_V_OneInstance] <unknown struct> を作成  に構造体がありません
+[2023.05.08-02.00.38:424][185]LogBlueprint: Error: [Compiler BP_One_V_OneInstance] In use pin  BP Item  no longer exists on this node. Please refresh node or break links to remove pin.
+[2023.05.08-02.00.38:424][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Quantity  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:424][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Item Name  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:424][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Atk  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:424][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Spd  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:424][185]LogBlueprint: Error: [Compiler BP_One_V_OneInstance] <unknown struct> を作成  に構造体がありません
+[2023.05.08-02.00.38:424][185]LogBlueprint: Error: [Compiler BP_One_V_OneInstance] In use pin  BP Item  no longer exists on this node. Please refresh node or break links to remove pin.
+[2023.05.08-02.00.38:424][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Quantity  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:424][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Item Name  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:424][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Heal MP  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:424][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Spd  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:424][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Heal Buf  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:425][185]LogBlueprint: Error: [Compiler BP_One_V_OneInstance] <unknown struct> を作成  に構造体がありません
+[2023.05.08-02.00.38:425][185]LogBlueprint: Error: [Compiler BP_One_V_OneInstance] In use pin  BP Item  no longer exists on this node. Please refresh node or break links to remove pin.
+[2023.05.08-02.00.38:425][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Quantity  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:425][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Item Name  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:425][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Atk Buf  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:425][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Spd  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:425][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Atk Buf  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:425][185]LogBlueprint: Error: [Compiler BP_One_V_OneInstance] <unknown struct> を作成  に構造体がありません
+[2023.05.08-02.00.38:425][185]LogBlueprint: Error: [Compiler BP_One_V_OneInstance] In use pin  BP Item  no longer exists on this node. Please refresh node or break links to remove pin.
+[2023.05.08-02.00.38:425][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Quantity  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:425][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Item Name  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:425][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Heal HP  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:425][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Spd  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:425][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Defence Buf  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:425][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] Input pin  Def Buf  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2023.05.08-02.00.38:425][185]LogBlueprint: Error: [Compiler BP_One_V_OneInstance] <unknown struct> を作成  に構造体がありません
+[2023.05.08-02.00.38:425][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] "Player_Item"という名前の変数は 'BP_One_V_OneInstance_C'にありません。
+'BP_One_V_OneInstance_C' が  Set Player_Item  用にコンパイルされていることを確認してください。
+[2023.05.08-02.00.38:425][185]LogBlueprint: Warning: [Compiler BP_One_V_OneInstance] [0516.82] Compile of BP_One_V_OneInstance failed. 52 Fatal Issue(s) 86 Warning(s) [in 9 ms] (/Game/BP/BP_One_V_OneInstance.BP_One_V_OneInstance)
+[2023.05.08-02.00.49:076][325]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2023.05.08-02.00.50:716][423]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2023.05.08-02.02.15:136][775]BlueprintLog: New page: BP_One_V_OneInstance をコンパイル
+[2023.05.08-02.04.08:680][648]LogSavePackage: Save=23.23ms
+[2023.05.08-02.04.08:680][648]LogSavePackage: Moving '../../../../../../Users/81806/OneDrive/ドキュメント/4-4_GameTaisyou_2023/GameTaisyou_2023/Saved/LastBattleMapB7B676B644D1D216C1F6BFA1DE00A9FA.tmp' to '../../../../../../Users/81806/OneDrive/ドキュメント/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/Map/LastBattleMap.umap'
+[2023.05.08-02.04.08:681][648]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/81806/OneDrive/ドキュメント/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/Map/LastBattleMap.umap
+[2023.05.08-02.11.11:420][966]LogLinker: Warning: ファイル '/Game/BP/BP_One_V_OneInstance' が見つかりません
+[2023.05.08-02.11.11:420][966]LogLinker: Warning: ファイル '/Game/BP/BP_One_V_OneInstance' が見つかりません
+[2023.05.08-02.11.11:420][966]LogUObjectGlobals: Warning: オブジェクト 'Class /Game/BP/BP_One_V_OneInstance.BP_One_V_OneInstance_C' が見つかりませんでした
+[2023.05.08-02.11.13:679][ 89]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2023.05.08-02.11.19:994][358]LogSavePackage: Save=27.16ms
+[2023.05.08-02.11.19:994][358]LogSavePackage: Moving '../../../../../../Users/81806/OneDrive/ドキュメント/4-4_GameTaisyou_2023/GameTaisyou_2023/Saved/BP_One_v_One_GameInstance6ED1CC274592A61B161CD587D5E86630.tmp' to '../../../../../../Users/81806/OneDrive/ドキュメント/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/BP/BP_One_v_One_GameInstance.uasset'
+[2023.05.08-02.11.19:997][358]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/81806/OneDrive/ドキュメント/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/BP/BP_One_v_One_GameInstance.uasset
+[2023.05.08-02.11.20:305][359]Cmd: QUIT_EDITOR
+[2023.05.08-02.11.20:391][359]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft IME).
+[2023.05.08-02.11.20:401][359]LogExit: Preparing to exit.
+[2023.05.08-02.11.21:061][359]LogDirectoryWatcher: A directory notification for 'C:/Users/81806/OneDrive/ドキュメント/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/' was aborted.
+[2023.05.08-02.11.21:089][359]LogExit: Editor shut down
+[2023.05.08-02.11.21:095][359]LogExit: Transaction tracking system shut down
+[2023.05.08-02.11.21:248][359]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2023.05.08-02.11.21:248][359]LogDirectoryWatcher: A directory notification for '../../../../../../Users/81806/OneDrive/ドキュメント/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/' was aborted.
+[2023.05.08-02.11.21:248][359]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2023.05.08-02.11.21:249][359]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2023.05.08-02.11.21:249][359]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2023.05.08-02.11.21:322][359]LogExit: Object subsystem successfully closed.
+[2023.05.08-02.11.21:349][359]LogD3D11RHI: Shutdown
+[2023.05.08-02.11.21:349][359]LogD3D11RHI: CleanupD3DDevice
+[2023.05.08-02.11.21:566][359]LogD3D11RHI: ~FD3D11DynamicRHI
+[2023.05.08-02.11.21:592][359]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (538)
+[2023.05.08-02.11.21:592][359]LogModuleManager: Shutting down and abandoning module BlueprintGraph (536)
+[2023.05.08-02.11.21:592][359]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (534)
+[2023.05.08-02.11.21:592][359]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (532)
+[2023.05.08-02.11.21:592][359]LogModuleManager: Shutting down and abandoning module WorldBrowser (530)
+[2023.05.08-02.11.21:592][359]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2023.05.08-02.11.21:592][359]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2023.05.08-02.11.21:592][359]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2023.05.08-02.11.21:593][359]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2023.05.08-02.11.21:593][359]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2023.05.08-02.11.21:593][359]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2023.05.08-02.11.21:594][359]LogDirectoryWatcher: A directory notification for 'C:/Users/81806/OneDrive/ドキュメント/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/Collections/' was aborted.
+[2023.05.08-02.11.21:594][359]LogDirectoryWatcher: A directory notification for 'C:/Users/81806/OneDrive/ドキュメント/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/Developers/小浜大和/Collections/' was aborted.
+[2023.05.08-02.11.21:594][359]LogDirectoryWatcher: A directory notification for 'C:/Users/81806/OneDrive/ドキュメント/4-4_GameTaisyou_2023/GameTaisyou_2023/Saved/Collections/' was aborted.
+[2023.05.08-02.11.21:594][359]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2023.05.08-02.11.21:594][359]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2023.05.08-02.11.21:594][359]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2023.05.08-02.11.21:594][359]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2023.05.08-02.11.21:594][359]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2023.05.08-02.11.21:594][359]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2023.05.08-02.11.21:594][359]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2023.05.08-02.11.21:594][359]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2023.05.08-02.11.21:594][359]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2023.05.08-02.11.21:594][359]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2023.05.08-02.11.21:594][359]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2023.05.08-02.11.21:594][359]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2023.05.08-02.11.21:594][359]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2023.05.08-02.11.21:594][359]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2023.05.08-02.11.21:594][359]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2023.05.08-02.11.21:594][359]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2023.05.08-02.11.21:594][359]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2023.05.08-02.11.21:594][359]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2023.05.08-02.11.21:594][359]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2023.05.08-02.11.21:594][359]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2023.05.08-02.11.21:595][359]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2023.05.08-02.11.21:595][359]LogModuleManager: Shutting down and abandoning module Media (477)
+[2023.05.08-02.11.21:595][359]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2023.05.08-02.11.21:595][359]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2023.05.08-02.11.21:595][359]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2023.05.08-02.11.21:595][359]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2023.05.08-02.11.21:595][359]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2023.05.08-02.11.21:595][359]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2023.05.08-02.11.21:595][359]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2023.05.08-02.11.21:595][359]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2023.05.08-02.11.21:595][359]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2023.05.08-02.11.21:595][359]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2023.05.08-02.11.21:595][359]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2023.05.08-02.11.21:595][359]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2023.05.08-02.11.21:595][359]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2023.05.08-02.11.21:595][359]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2023.05.08-02.11.21:595][359]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2023.05.08-02.11.21:595][359]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2023.05.08-02.11.21:717][359]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2023.05.08-02.11.21:717][359]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2023.05.08-02.11.21:717][359]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2023.05.08-02.11.21:717][359]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2023.05.08-02.11.21:717][359]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2023.05.08-02.11.21:717][359]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2023.05.08-02.11.21:717][359]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2023.05.08-02.11.21:717][359]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2023.05.08-02.11.21:717][359]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2023.05.08-02.11.21:717][359]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2023.05.08-02.11.21:717][359]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2023.05.08-02.11.21:717][359]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2023.05.08-02.11.21:717][359]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2023.05.08-02.11.21:717][359]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2023.05.08-02.11.21:717][359]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2023.05.08-02.11.21:717][359]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2023.05.08-02.11.21:718][359]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2023.05.08-02.11.21:718][359]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2023.05.08-02.11.21:718][359]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2023.05.08-02.11.21:718][359]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2023.05.08-02.11.21:718][359]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2023.05.08-02.11.21:718][359]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2023.05.08-02.11.21:718][359]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2023.05.08-02.11.21:718][359]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2023.05.08-02.11.21:772][359]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2023.05.08-02.11.21:772][359]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2023.05.08-02.11.21:772][359]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2023.05.08-02.11.21:772][359]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2023.05.08-02.11.21:772][359]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2023.05.08-02.11.21:772][359]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2023.05.08-02.11.21:772][359]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2023.05.08-02.11.21:772][359]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2023.05.08-02.11.21:772][359]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2023.05.08-02.11.21:772][359]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2023.05.08-02.11.21:998][359]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.220 s
+[2023.05.08-02.11.21:998][359]LogOutputDevice: Error: === Handled ensure: ===
+[2023.05.08-02.11.21:998][359]LogOutputDevice: Error: 
+[2023.05.08-02.11.21:998][359]LogOutputDevice: Error: Ensure condition failed: PinHelpers::NumPinsInMemory == 0 || PinHelpers::NumPinsInMemory == 1 [File:D:\Build\++UE4+Release-4.17+Compile\Sync\Engine\Source\Runtime\Engine\Private\EdGraph\EdGraphPin.cpp] [Line: 1164]
+[2023.05.08-02.11.21:998][359]LogOutputDevice: Error: 
+[2023.05.08-02.11.21:998][359]LogOutputDevice: Error: Stack: 
+[2023.05.08-02.11.21:998][359]LogOutputDevice: Error: UE4Editor-Core.dll!0x000000000A0C3E36
+[2023.05.08-02.11.21:998][359]LogOutputDevice: Error: UE4Editor-Core.dll!0x0000000009E4C2D2
+[2023.05.08-02.11.21:998][359]LogOutputDevice: Error: UE4Editor-Core.dll!0x0000000009E64746
+[2023.05.08-02.11.21:998][359]LogOutputDevice: Error: UE4Editor-Engine.dll!0x0000000004FB8243
+[2023.05.08-02.11.21:998][359]LogOutputDevice: Error: UE4Editor-Core.dll!0x0000000009F5B787
+[2023.05.08-02.11.21:998][359]LogOutputDevice: Error: UE4Editor.exe!0x00000000419C2E26
+[2023.05.08-02.11.21:998][359]LogOutputDevice: Error: UE4Editor.exe!0x00000000419C39A5
+[2023.05.08-02.11.21:998][359]LogOutputDevice: Error: UE4Editor.exe!0x00000000419C39EA
+[2023.05.08-02.11.21:998][359]LogOutputDevice: Error: UE4Editor.exe!0x00000000419D02D9
+[2023.05.08-02.11.21:998][359]LogOutputDevice: Error: UE4Editor.exe!0x00000000419D1C47
+[2023.05.08-02.11.21:998][359]LogOutputDevice: Error: KERNEL32.DLL!0x0000000093C27604
+[2023.05.08-02.11.21:998][359]LogOutputDevice: Error: ntdll.dll!0x0000000095BA26A1
+[2023.05.08-02.11.21:998][359]LogOutputDevice: Error: 
+[2023.05.08-02.11.21:999][359]LogStats:                SubmitErrorReport -  0.000 s
+[2023.05.08-02.11.22:275][359]LogStats:                    SendNewReport -  0.277 s
+[2023.05.08-02.11.22:275][359]LogStats:             FDebug::EnsureFailed -  0.498 s
+[2023.05.08-02.11.22:275][359]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2023.05.08-02.11.22:276][359]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2023.05.08-02.11.22:277][359]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2023.05.08-02.11.22:277][359]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2023.05.08-02.11.22:277][359]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2023.05.08-02.11.22:277][359]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2023.05.08-02.11.22:277][359]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2023.05.08-02.11.22:277][359]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2023.05.08-02.11.22:277][359]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2023.05.08-02.11.22:277][359]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2023.05.08-02.11.22:277][359]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2023.05.08-02.11.22:277][359]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2023.05.08-02.11.22:277][359]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2023.05.08-02.11.22:277][359]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2023.05.08-02.11.22:277][359]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2023.05.08-02.11.22:277][359]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2023.05.08-02.11.22:278][359]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2023.05.08-02.11.22:278][359]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2023.05.08-02.11.22:278][359]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2023.05.08-02.11.22:278][359]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2023.05.08-02.11.22:278][359]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2023.05.08-02.11.22:503][359]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2023.05.08-02.11.22:503][359]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2023.05.08-02.11.22:503][359]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2023.05.08-02.11.22:503][359]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2023.05.08-02.11.22:503][359]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2023.05.08-02.11.22:503][359]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2023.05.08-02.11.22:503][359]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2023.05.08-02.11.22:503][359]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2023.05.08-02.11.22:503][359]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2023.05.08-02.11.22:503][359]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2023.05.08-02.11.22:503][359]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2023.05.08-02.11.22:504][359]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2023.05.08-02.11.22:504][359]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2023.05.08-02.11.22:504][359]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2023.05.08-02.11.22:504][359]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2023.05.08-02.11.22:504][359]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2023.05.08-02.11.22:504][359]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2023.05.08-02.11.22:504][359]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2023.05.08-02.11.22:504][359]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2023.05.08-02.11.22:504][359]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2023.05.08-02.11.22:504][359]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2023.05.08-02.11.22:504][359]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2023.05.08-02.11.22:504][359]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2023.05.08-02.11.22:504][359]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2023.05.08-02.11.22:504][359]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2023.05.08-02.11.22:504][359]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2023.05.08-02.11.22:504][359]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2023.05.08-02.11.22:504][359]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2023.05.08-02.11.22:504][359]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2023.05.08-02.11.22:504][359]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2023.05.08-02.11.22:504][359]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2023.05.08-02.11.22:504][359]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2023.05.08-02.11.22:505][359]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2023.05.08-02.11.22:505][359]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2023.05.08-02.11.22:505][359]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2023.05.08-02.11.22:505][359]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2023.05.08-02.11.22:505][359]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2023.05.08-02.11.22:505][359]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2023.05.08-02.11.22:505][359]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2023.05.08-02.11.22:505][359]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2023.05.08-02.11.22:505][359]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2023.05.08-02.11.22:505][359]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2023.05.08-02.11.22:505][359]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2023.05.08-02.11.22:606][359]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2023.05.08-02.11.22:707][359]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2023.05.08-02.11.22:707][359]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2023.05.08-02.11.22:707][359]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2023.05.08-02.11.22:707][359]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2023.05.08-02.11.22:707][359]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2023.05.08-02.11.22:707][359]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2023.05.08-02.11.22:708][359]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2023.05.08-02.11.22:708][359]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2023.05.08-02.11.22:708][359]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2023.05.08-02.11.22:708][359]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2023.05.08-02.11.22:711][359]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2023.05.08-02.11.22:711][359]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2023.05.08-02.11.22:711][359]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2023.05.08-02.11.22:711][359]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2023.05.08-02.11.22:711][359]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2023.05.08-02.11.22:711][359]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2023.05.08-02.11.22:712][359]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2023.05.08-02.11.22:712][359]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2023.05.08-02.11.22:712][359]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2023.05.08-02.11.22:712][359]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2023.05.08-02.11.22:712][359]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2023.05.08-02.11.22:712][359]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2023.05.08-02.11.22:712][359]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2023.05.08-02.11.22:712][359]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2023.05.08-02.11.22:712][359]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2023.05.08-02.11.22:712][359]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2023.05.08-02.11.22:712][359]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2023.05.08-02.11.22:712][359]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2023.05.08-02.11.22:712][359]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2023.05.08-02.11.22:712][359]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2023.05.08-02.11.22:714][359]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2023.05.08-02.11.22:714][359]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2023.05.08-02.11.22:714][359]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2023.05.08-02.11.22:714][359]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2023.05.08-02.11.22:715][359]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2023.05.08-02.11.22:715][359]LogModuleManager: Shutting down and abandoning module Core (168)
+[2023.05.08-02.11.22:715][359]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2023.05.08-02.11.22:715][359]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2023.05.08-02.11.22:715][359]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2023.05.08-02.11.22:715][359]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2023.05.08-02.11.22:715][359]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2023.05.08-02.11.22:715][359]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2023.05.08-02.11.22:715][359]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2023.05.08-02.11.22:715][359]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2023.05.08-02.11.22:715][359]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2023.05.08-02.11.22:715][359]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2023.05.08-02.11.22:715][359]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2023.05.08-02.11.22:751][359]LogDerivedDataCache: Shutdown
+[2023.05.08-02.11.22:751][359]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2023.05.08-02.11.22:751][359]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2023.05.08-02.11.22:751][359]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2023.05.08-02.11.22:751][359]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2023.05.08-02.11.22:751][359]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2023.05.08-02.11.22:751][359]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2023.05.08-02.11.22:751][359]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2023.05.08-02.11.22:751][359]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2023.05.08-02.11.22:751][359]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2023.05.08-02.11.22:751][359]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2023.05.08-02.11.22:751][359]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2023.05.08-02.11.22:751][359]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2023.05.08-02.11.22:751][359]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2023.05.08-02.11.22:751][359]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2023.05.08-02.11.22:751][359]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2023.05.08-02.11.22:751][359]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2023.05.08-02.11.22:751][359]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2023.05.08-02.11.22:751][359]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2023.05.08-02.11.22:751][359]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2023.05.08-02.11.22:751][359]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2023.05.08-02.11.22:751][359]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2023.05.08-02.11.22:751][359]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2023.05.08-02.11.22:751][359]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2023.05.08-02.11.22:751][359]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2023.05.08-02.11.22:751][359]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2023.05.08-02.11.22:752][359]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2023.05.08-02.11.22:752][359]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2023.05.08-02.11.22:752][359]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2023.05.08-02.11.22:752][359]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2023.05.08-02.11.22:752][359]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2023.05.08-02.11.22:752][359]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2023.05.08-02.11.22:752][359]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2023.05.08-02.11.22:752][359]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2023.05.08-02.11.22:752][359]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2023.05.08-02.11.22:752][359]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2023.05.08-02.11.22:752][359]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2023.05.08-02.11.22:752][359]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2023.05.08-02.11.22:752][359]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2023.05.08-02.11.22:752][359]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2023.05.08-02.11.22:752][359]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2023.05.08-02.11.22:752][359]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2023.05.08-02.11.22:752][359]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2023.05.08-02.11.22:752][359]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2023.05.08-02.11.22:752][359]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2023.05.08-02.11.22:752][359]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2023.05.08-02.11.22:752][359]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2023.05.08-02.11.22:752][359]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2023.05.08-02.11.22:752][359]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2023.05.08-02.11.22:752][359]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2023.05.08-02.11.22:752][359]LogOnline: Display: Unloading online subsystem: NULL
+[2023.05.08-02.11.22:752][359]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2023.05.08-02.11.22:752][359]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2023.05.08-02.11.22:752][359]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2023.05.08-02.11.22:752][359]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBF64B344-423D-6B37-C07D-98A9727F5685%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=b6570c5e438d4fb6a2e65a812a875c71%7Cd72d33c051974a0fad240c181fec4aeb%7C893d782e-80dc-4de3-9a84-1c2b7ea5ccde&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2023.05.08-02.11.22:755][359]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2023.05.08-02.11.22:757][359]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2023.05.08-02.11.22:757][359]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2023.05.08-02.11.22:757][359]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2023.05.08-02.11.22:757][359]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2023.05.08-02.11.22:757][359]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2023.05.08-02.11.22:757][359]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2023.05.08-02.11.22:757][359]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2023.05.08-02.11.22:759][359]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2023.05.08-02.11.22:759][359]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2023.05.08-02.11.22:759][359]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2023.05.08-02.11.22:759][359]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2023.05.08-02.11.22:759][359]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2023.05.08-02.11.22:759][359]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2023.05.08-02.11.22:759][359]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2023.05.08-02.11.22:759][359]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2023.05.08-02.11.22:759][359]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2023.05.08-02.11.22:759][359]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2023.05.08-02.11.22:759][359]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2023.05.08-02.11.22:767][359]LogExit: Exiting.
+[2023.05.08-02.11.22:775][359]Log file closed, 05/08/23 11:11:22
