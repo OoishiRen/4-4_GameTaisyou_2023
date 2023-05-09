@@ -1,4 +1,4 @@
-﻿Log file open, 05/09/23 09:24:45
+﻿Log file open, 05/09/23 09:09:31
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,9 +9,9 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: GameTaisyou_2023
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(456585261) SRandInit(456585261).
-LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.400244
+LogInit: Display: RandInit(-819682881) SRandInit(-819682881).
+LogTaskGraph: Started task graph with 5 named threads and 26 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.419147
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -109,971 +109,606 @@ LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.17
 LogInit: Command line:  
-LogInit: Base directory: C:/UE_4.17/Engine/Binaries/Win64/
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2023.05.09-00.24.46:135][  0]LogInit: Selected Device Profile: [Windows]
-[2023.05.09-00.24.46:135][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2023.05.09-00.24.46:152][  0]LogInit: Computer: KBC12006081
-[2023.05.09-00.24.46:152][  0]LogInit: User: Owner
-[2023.05.09-00.24.46:152][  0]LogInit: CPU Page size=4096, Cores=6
-[2023.05.09-00.24.46:152][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2023.05.09-00.24.46:153][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
-[2023.05.09-00.24.46:153][  0]LogMemory: Platform Memory Stats for Windows
-[2023.05.09-00.24.46:153][  0]LogMemory: Process Physical Memory: 279.92 MB used, 279.92 MB peak
-[2023.05.09-00.24.46:153][  0]LogMemory: Process Virtual Memory: 280.77 MB used, 280.77 MB peak
-[2023.05.09-00.24.46:153][  0]LogMemory: Physical Memory: 6535.05 MB used,  9694.87 MB free, 16229.91 MB total
-[2023.05.09-00.24.46:153][  0]LogMemory: Virtual Memory: 4799.79 MB used,  9694.87 MB free, 134217728.00 MB total
-[2023.05.09-00.24.46:602][  0]LogInit: Using OS detected language (ja-JP).
-[2023.05.09-00.24.46:602][  0]LogInit: Using OS detected locale (ja-JP).
-[2023.05.09-00.24.46:715][  0]LogTextLocalizationManager: No specific localization for 'ja-JP' exists, so the 'ja' localization will be used.
-[2023.05.09-00.24.48:314][  0]LogD3D11RHI: D3D11 adapters:
-[2023.05.09-00.24.48:430][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1650 with Max-Q Design' (Feature Level 11_0)
-[2023.05.09-00.24.48:430][  0]LogD3D11RHI:       3962/0/8114 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2023.05.09-00.24.48:491][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
-[2023.05.09-00.24.48:491][  0]LogD3D11RHI:       128/0/8114 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2023.05.09-00.24.48:494][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2023.05.09-00.24.48:494][  0]LogD3D11RHI:       0/0/8114 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2023.05.09-00.24.48:494][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2023.05.09-00.24.48:501][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2023.05.09-00.24.48:501][  0]LogD3D11RHI:     GPU DeviceId: 0x1f91 (for the marketing name, search the web for "GPU Device Id")
-[2023.05.09-00.24.48:501][  0]LogWindows: EnumDisplayDevices:
-[2023.05.09-00.24.48:502][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
-[2023.05.09-00.24.48:502][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2023.05.09-00.24.48:502][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2023.05.09-00.24.48:502][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2023.05.09-00.24.48:502][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1650 with Max-Q Design
-[2023.05.09-00.24.48:502][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2023.05.09-00.24.48:502][  0]LogD3D11RHI:      Driver Date: Unknown
-[2023.05.09-00.24.48:502][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2023.05.09-00.24.48:582][  0]LogD3D11RHI: Async texture creation enabled
-[2023.05.09-00.24.48:622][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2023.05.09-00.24.48:630][  0]LogShaderCompilers: Guid format shader working directory is -25 characters bigger than the processId version (../../../../Users/Owner/Documents/4-4_GameTaisyou_2023/GameTaisyou_2023/Intermediate/Shaders/WorkingDirectory/1400/).
-[2023.05.09-00.24.48:630][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Owner/AppData/Local/Temp/UnrealShaderWorkingDir/BD61D2F1467927D1E463D1B68268A0D6/'.
-[2023.05.09-00.24.48:631][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2023.05.09-00.24.49:801][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2023.05.09-00.24.49:892][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2023.05.09-00.24.49:982][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2023.05.09-00.24.50:065][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2023.05.09-00.24.50:167][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2023.05.09-00.24.50:257][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2023.05.09-00.24.50:345][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2023.05.09-00.24.50:438][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2023.05.09-00.24.50:527][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2023.05.09-00.24.50:621][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.05.09-00.24.50:702][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2023.05.09-00.24.50:782][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2023.05.09-00.24.50:861][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2023.05.09-00.24.50:942][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2023.05.09-00.24.51:024][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2023.05.09-00.24.51:190][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2023.05.09-00.24.51:190][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2023.05.09-00.24.51:273][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2023.05.09-00.24.51:428][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2023.05.09-00.24.51:478][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2023.05.09-00.24.51:560][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2023.05.09-00.24.51:644][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2023.05.09-00.24.51:745][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2023.05.09-00.24.51:837][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2023.05.09-00.24.51:837][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2023.05.09-00.24.52:833][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2023.05.09-00.24.53:033][  0]LogDerivedDataCache: Loaded boot cache 0.20s 93MB C:/Users/Owner/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2023.05.09-00.24.53:033][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Owner/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
-[2023.05.09-00.24.53:033][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Users/Owner/Documents/4-4_GameTaisyou_2023/GameTaisyou_2023/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2023.05.09-00.24.53:033][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2023.05.09-00.24.53:033][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Users/Owner/Documents/4-4_GameTaisyou_2023/GameTaisyou_2023/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2023.05.09-00.24.53:033][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2023.05.09-00.24.53:049][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2023.05.09-00.24.53:063][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2023.05.09-00.24.53:074][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2023.05.09-00.24.53:080][  0]LogSlate: Using Freetype 2.6.0
-[2023.05.09-00.24.53:090][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2023.05.09-00.24.53:091][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2023.05.09-00.24.53:875][  0]LogAssetRegistry: FAssetRegistry took 0.0288 seconds to start up
-[2023.05.09-00.24.54:051][  0]LogInit: Selected Device Profile: [Windows]
-[2023.05.09-00.24.54:275][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2023.05.09-00.24.54:827][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2023.05.09-00.24.54:907][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2023.05.09-00.24.54:908][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2023.05.09-00.24.54:908][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2023.05.09-00.24.54:908][  0]LogMeshReduction: No automatic mesh merging module available
-[2023.05.09-00.24.54:908][  0]LogMeshMerging: No automatic mesh merging module available
-[2023.05.09-00.24.55:394][  0]LogNetVersion: GameTaisyou_2023 , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2042799889)
-[2023.05.09-00.24.55:740][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.061142 seconds
-[2023.05.09-00.24.55:745][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
-[2023.05.09-00.24.55:745][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
-[2023.05.09-00.24.55:745][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2023.05.09-00.24.55:887][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2023.05.09-00.25.00:464][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2023.05.09-00.25.00:531][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2023.05.09-00.25.01:613][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2023.05.09-00.25.02:261][  0]SourceControl: ソースコントロールは無効です
-[2023.05.09-00.25.02:261][  0]SourceControl: ソースコントロールは無効です
-[2023.05.09-00.25.02:353][  0]SourceControl: ソースコントロールは無効です
-[2023.05.09-00.25.02:437][  0]SourceControl: ソースコントロールは無効です
-[2023.05.09-00.25.03:517][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2023.05.09-00.25.03:963][  0]LogOcInput: OculusInput pre-init called
-[2023.05.09-00.25.04:414][  0]LogEngine: Initializing Engine...
-[2023.05.09-00.25.04:419][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2023.05.09-00.25.04:615][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2023.05.09-00.25.04:615][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2023.05.09-00.25.04:869][  0]LogAIModule: Creating AISystem for world Untitled
-[2023.05.09-00.25.04:945][  0]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2023.05.09-00.25.05:026][  0]LogInit: FAudioDevice initialized.
-[2023.05.09-00.25.05:135][  0]LogDerivedDataCache: Saved boot cache 0.11s 93MB C:/Users/Owner/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2023.05.09-00.25.05:142][  0]LogInit: Texture streaming: Enabled
-[2023.05.09-00.25.05:400][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2023.05.09-00.25.05:844][  0]LogInit: Transaction tracking system initialized
-[2023.05.09-00.25.06:449][  0]BlueprintLog: New page: エディタの読み込み
-[2023.05.09-00.25.08:591][  0]LocalizationService: ローカライズのサービスが無効になりました
-[2023.05.09-00.25.10:058][  0]LogConsoleResponse: Display: 
-[2023.05.09-00.25.10:310][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Owner/Documents/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/' took 0.01s
-[2023.05.09-00.25.10:310][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2023.05.09-00.25.10:310][  0]LogCook: Display: Mobile HDR setting 1
-[2023.05.09-00.25.10:311][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2023.05.09-00.25.12:428][  0]SourceControl: ソースコントロールは無効です
-[2023.05.09-00.25.12:431][  0]Cmd: MAP LOAD FILE="../../../../Users/Owner/Documents/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/Map/LastBattleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2023.05.09-00.25.12:432][  0]LightingResults: New page: ライティングのビルド
-[2023.05.09-00.25.12:525][  0]MapCheck: New page: マップをチェック
-[2023.05.09-00.25.12:525][  0]LightingResults: New page: <何も選択されていません>
-[2023.05.09-00.25.12:744][  0]LogBlueprint: Warning: [LastBattleMap] 'Spe_UI' variable not found. Base class was probably changed.
-[2023.05.09-00.25.12:744][  0]LogBlueprint: Warning: [LastBattleMap] 'SpecialButton1' variable not found. Base class was probably changed.
-[2023.05.09-00.25.12:744][  0]LogBlueprint: Warning: [LastBattleMap] 'SpecialButton2' variable not found. Base class was probably changed.
-[2023.05.09-00.25.12:744][  0]LogBlueprint: Warning: [LastBattleMap] 'SpecialButton3' variable not found. Base class was probably changed.
-[2023.05.09-00.25.12:744][  0]LogBlueprint: Warning: [LastBattleMap] 'SpecialButton4' variable not found. Base class was probably changed.
-[2023.05.09-00.25.12:744][  0]LogBlueprint: Warning: [LastBattleMap] 'SpecialButton5' variable not found. Base class was probably changed.
-[2023.05.09-00.25.12:744][  0]LogBlueprint: Warning: [LastBattleMap] 'Spe_UI' variable not found. Base class was probably changed.
-[2023.05.09-00.25.12:744][  0]LogBlueprint: Warning: [LastBattleMap] 'SpecialButton1' variable not found. Base class was probably changed.
-[2023.05.09-00.25.12:744][  0]LogBlueprint: Warning: [LastBattleMap] 'SpecialButton2' variable not found. Base class was probably changed.
-[2023.05.09-00.25.12:744][  0]LogBlueprint: Warning: [LastBattleMap] 'SpecialButton3' variable not found. Base class was probably changed.
-[2023.05.09-00.25.12:744][  0]LogBlueprint: Warning: [LastBattleMap] 'SpecialButton4' variable not found. Base class was probably changed.
-[2023.05.09-00.25.12:744][  0]LogBlueprint: Warning: [LastBattleMap] 'SpecialButton5' variable not found. Base class was probably changed.
-[2023.05.09-00.25.12:744][  0]LogBlueprint: Warning: [LastBattleMap] 'Item_UI' variable not found. Base class was probably changed.
-[2023.05.09-00.25.12:744][  0]LogBlueprint: Warning: [LastBattleMap] 'ItemButton1' variable not found. Base class was probably changed.
-[2023.05.09-00.25.12:744][  0]LogBlueprint: Warning: [LastBattleMap] 'ItemButton2' variable not found. Base class was probably changed.
-[2023.05.09-00.25.12:744][  0]LogBlueprint: Warning: [LastBattleMap] 'ItemButton3' variable not found. Base class was probably changed.
-[2023.05.09-00.25.12:744][  0]LogBlueprint: Warning: [LastBattleMap] 'ItemButton4' variable not found. Base class was probably changed.
-[2023.05.09-00.25.12:744][  0]LogBlueprint: Warning: [LastBattleMap] 'ItemButton5' variable not found. Base class was probably changed.
-[2023.05.09-00.25.12:744][  0]LogBlueprint: Warning: [LastBattleMap] 'Item_UI' variable not found. Base class was probably changed.
-[2023.05.09-00.25.12:744][  0]LogBlueprint: Warning: [LastBattleMap] 'ItemButton1' variable not found. Base class was probably changed.
-[2023.05.09-00.25.12:744][  0]LogBlueprint: Warning: [LastBattleMap] 'ItemButton2' variable not found. Base class was probably changed.
-[2023.05.09-00.25.12:744][  0]LogBlueprint: Warning: [LastBattleMap] 'ItemButton3' variable not found. Base class was probably changed.
-[2023.05.09-00.25.12:744][  0]LogBlueprint: Warning: [LastBattleMap] 'ItemButton4' variable not found. Base class was probably changed.
-[2023.05.09-00.25.12:744][  0]LogBlueprint: Warning: [LastBattleMap] 'ItemButton5' variable not found. Base class was probably changed.
-[2023.05.09-00.25.12:744][  0]LogBlueprint: Warning: [LastBattleMap] 'AttackButton' variable not found. Base class was probably changed.
-[2023.05.09-00.25.12:744][  0]LogBlueprint: Warning: [LastBattleMap] 'DefenseButton' variable not found. Base class was probably changed.
-[2023.05.09-00.25.12:744][  0]LogBlueprint: Warning: [LastBattleMap] 'ItemButton' variable not found. Base class was probably changed.
-[2023.05.09-00.25.12:744][  0]LogBlueprint: Warning: [LastBattleMap] 'SpacialAttackButton' variable not found. Base class was probably changed.
-[2023.05.09-00.25.12:758][  0]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "Spe_UI"という名前の変数は 'LastBattleMap_C'にありません。
+[2023.05.09-00.09.32:221][  0]LogInit: Selected Device Profile: [Windows]
+[2023.05.09-00.09.32:221][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2023.05.09-00.09.32:229][  0]LogInit: Computer: KBC12006017
+[2023.05.09-00.09.32:229][  0]LogInit: User: 小浜大和
+[2023.05.09-00.09.32:229][  0]LogInit: CPU Page size=4096, Cores=8
+[2023.05.09-00.09.32:229][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2023.05.09-00.09.32:229][  0]LogMemory: Memory total: Physical=63.9GB (64GB approx)
+[2023.05.09-00.09.32:229][  0]LogMemory: Platform Memory Stats for Windows
+[2023.05.09-00.09.32:229][  0]LogMemory: Process Physical Memory: 281.65 MB used, 281.65 MB peak
+[2023.05.09-00.09.32:229][  0]LogMemory: Process Virtual Memory: 277.19 MB used, 277.19 MB peak
+[2023.05.09-00.09.32:229][  0]LogMemory: Physical Memory: 7873.35 MB used,  57554.80 MB free, 65428.15 MB total
+[2023.05.09-00.09.32:229][  0]LogMemory: Virtual Memory: 4800.66 MB used,  57554.80 MB free, 134217728.00 MB total
+[2023.05.09-00.09.32:484][  0]LogInit: Using OS detected language (ja-JP).
+[2023.05.09-00.09.32:484][  0]LogInit: Using OS detected locale (ja-JP).
+[2023.05.09-00.09.32:487][  0]LogTextLocalizationManager: No specific localization for 'ja-JP' exists, so the 'ja' localization will be used.
+[2023.05.09-00.09.33:000][  0]LogD3D11RHI: D3D11 adapters:
+[2023.05.09-00.09.33:054][  0]LogD3D11RHI:    0. 'AMD Radeon Pro 5500M' (Feature Level 11_0)
+[2023.05.09-00.09.33:054][  0]LogD3D11RHI:       8151/0/32714 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2023.05.09-00.09.33:056][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2023.05.09-00.09.33:056][  0]LogD3D11RHI:       0/0/32714 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2023.05.09-00.09.33:056][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2023.05.09-00.09.33:061][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2023.05.09-00.09.33:061][  0]LogD3D11RHI:     GPU DeviceId: 0x7340 (for the marketing name, search the web for "GPU Device Id")
+[2023.05.09-00.09.33:061][  0]LogWindows: EnumDisplayDevices:
+[2023.05.09-00.09.33:061][  0]LogWindows:    0. 'AMD Radeon Pro 5500M' (P:1 D:1)
+[2023.05.09-00.09.33:061][  0]LogWindows:    1. 'AMD Radeon Pro 5500M' (P:0 D:0)
+[2023.05.09-00.09.33:061][  0]LogWindows:    2. 'AMD Radeon Pro 5500M' (P:0 D:0)
+[2023.05.09-00.09.33:062][  0]LogWindows:    3. 'AMD Radeon Pro 5500M' (P:0 D:0)
+[2023.05.09-00.09.33:062][  0]LogWindows:    4. 'AMD Radeon Pro 5500M' (P:0 D:0)
+[2023.05.09-00.09.33:062][  0]LogWindows:    5. 'AMD Radeon Pro 5500M' (P:0 D:0)
+[2023.05.09-00.09.33:062][  0]LogWindows:    6. 'AMD Radeon Pro 5500M' (P:0 D:0)
+[2023.05.09-00.09.33:062][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2023.05.09-00.09.33:062][  0]LogD3D11RHI:     Adapter Name: AMD Radeon Pro 5500M
+[2023.05.09-00.09.33:062][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2023.05.09-00.09.33:062][  0]LogD3D11RHI:      Driver Date: Unknown
+[2023.05.09-00.09.33:062][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2023.05.09-00.09.33:113][  0]LogD3D11RHI: Async texture creation enabled
+[2023.05.09-00.09.33:137][  0]LogD3D11RHI: GPU Timing Frequency: 100.000000 (Debug: 2 1)
+[2023.05.09-00.09.33:139][  0]LogShaderCompilers: Guid format shader working directory is -37 characters bigger than the processId version (../../../../../../Users/81806/OneDrive/ドキュメント/4-4_GameTaisyou_2023/GameTaisyou_2023/Intermediate/Shaders/WorkingDirectory/2468/).
+[2023.05.09-00.09.33:139][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/81806/AppData/Local/Temp/UnrealShaderWorkingDir/A936F74444C381D1347E1CBE2AF78410/'.
+[2023.05.09-00.09.33:139][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2023.05.09-00.09.34:011][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2023.05.09-00.09.34:078][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2023.05.09-00.09.34:145][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2023.05.09-00.09.34:207][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2023.05.09-00.09.34:270][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2023.05.09-00.09.34:333][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2023.05.09-00.09.34:393][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2023.05.09-00.09.34:455][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2023.05.09-00.09.34:512][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2023.05.09-00.09.34:574][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.05.09-00.09.34:633][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2023.05.09-00.09.34:698][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2023.05.09-00.09.34:761][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2023.05.09-00.09.34:821][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2023.05.09-00.09.34:880][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2023.05.09-00.09.35:007][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2023.05.09-00.09.35:007][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2023.05.09-00.09.35:065][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2023.05.09-00.09.35:180][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2023.05.09-00.09.35:219][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2023.05.09-00.09.35:283][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2023.05.09-00.09.35:343][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2023.05.09-00.09.35:405][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2023.05.09-00.09.35:467][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2023.05.09-00.09.35:467][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2023.05.09-00.09.36:163][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2023.05.09-00.09.36:227][  0]LogDerivedDataCache: Loaded boot cache 0.06s 93MB C:/Users/81806/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2023.05.09-00.09.36:227][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/81806/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2023.05.09-00.09.36:227][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/81806/OneDrive/ドキュメント/4-4_GameTaisyou_2023/GameTaisyou_2023/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2023.05.09-00.09.36:227][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2023.05.09-00.09.36:227][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/81806/OneDrive/ドキュメント/4-4_GameTaisyou_2023/GameTaisyou_2023/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2023.05.09-00.09.36:227][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2023.05.09-00.09.36:238][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2023.05.09-00.09.36:251][  0]LogDerivedDataCache: Using Local data cache path C:/Users/81806/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2023.05.09-00.09.36:260][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2023.05.09-00.09.36:260][  0]LogSlate: Using Freetype 2.6.0
+[2023.05.09-00.09.36:261][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2023.05.09-00.09.36:261][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2023.05.09-00.09.36:497][  0]LogAssetRegistry: FAssetRegistry took 0.0250 seconds to start up
+[2023.05.09-00.09.36:630][  0]LogInit: Selected Device Profile: [Windows]
+[2023.05.09-00.09.37:125][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2023.05.09-00.09.37:181][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2023.05.09-00.09.37:181][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2023.05.09-00.09.37:181][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2023.05.09-00.09.37:181][  0]LogMeshReduction: No automatic mesh merging module available
+[2023.05.09-00.09.37:181][  0]LogMeshMerging: No automatic mesh merging module available
+[2023.05.09-00.09.37:209][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2023.05.09-00.09.37:623][  0]LogNetVersion: GameTaisyou_2023 , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2042799889)
+[2023.05.09-00.09.37:864][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.044302 seconds
+[2023.05.09-00.09.37:870][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2023.05.09-00.09.37:870][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2023.05.09-00.09.37:870][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2023.05.09-00.09.37:979][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2023.05.09-00.09.41:304][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2023.05.09-00.09.41:357][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2023.05.09-00.09.42:200][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2023.05.09-00.09.42:731][  0]SourceControl: ソースコントロールは無効です
+[2023.05.09-00.09.42:731][  0]SourceControl: ソースコントロールは無効です
+[2023.05.09-00.09.42:800][  0]SourceControl: ソースコントロールは無効です
+[2023.05.09-00.09.42:860][  0]SourceControl: ソースコントロールは無効です
+[2023.05.09-00.09.43:593][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2023.05.09-00.09.43:886][  0]LogOcInput: OculusInput pre-init called
+[2023.05.09-00.09.44:193][  0]LogEngine: Initializing Engine...
+[2023.05.09-00.09.44:195][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2023.05.09-00.09.44:376][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2023.05.09-00.09.44:376][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2023.05.09-00.09.44:547][  0]LogAIModule: Creating AISystem for world Untitled
+[2023.05.09-00.09.44:575][  0]LogInit: XAudio2 using 'ヘッドホン (Apple Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2023.05.09-00.09.44:670][  0]LogInit: FAudioDevice initialized.
+[2023.05.09-00.09.44:724][  0]LogDerivedDataCache: Saved boot cache 0.05s 93MB C:/Users/81806/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2023.05.09-00.09.44:730][  0]LogInit: Texture streaming: Enabled
+[2023.05.09-00.09.44:909][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2023.05.09-00.09.45:208][  0]LogInit: Transaction tracking system initialized
+[2023.05.09-00.09.45:681][  0]BlueprintLog: New page: エディタの読み込み
+[2023.05.09-00.09.46:971][  0]LocalizationService: ローカライズのサービスが無効になりました
+[2023.05.09-00.09.47:714][  0]LogLinker: Warning: ファイル '/Game/ThirdPersonBP/ThirdPersonOverview' が見つかりません
+[2023.05.09-00.09.47:714][  0]LogLinker: Warning: ファイル '/Game/ThirdPersonBP/ThirdPersonOverview' が見つかりません
+[2023.05.09-00.09.47:714][  0]LogUObjectGlobals: Warning: オブジェクト 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C' が見つかりませんでした
+[2023.05.09-00.09.47:954][  0]LogConsoleResponse: Display: 
+[2023.05.09-00.09.48:149][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2023.05.09-00.09.48:149][  0]LogCook: Display: Mobile HDR setting 1
+[2023.05.09-00.09.48:149][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2023.05.09-00.09.48:866][  0]LogFileCache: Scanning file cache for directory 'C:/Users/81806/OneDrive/ドキュメント/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/' took 0.02s
+[2023.05.09-00.09.49:606][  0]SourceControl: ソースコントロールは無効です
+[2023.05.09-00.09.49:606][  0]Cmd: MAP LOAD FILE="../../../../../../Users/81806/OneDrive/ドキュメント/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/Map/LastBattleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.05.09-00.09.49:606][  0]LightingResults: New page: ライティングのビルド
+[2023.05.09-00.09.49:665][  0]MapCheck: New page: マップをチェック
+[2023.05.09-00.09.49:665][  0]LightingResults: New page: <何も選択されていません>
+[2023.05.09-00.09.49:829][  0]LogBlueprint: Warning: [LastBattleMap] 'Spe_UI' variable not found. Base class was probably changed.
+[2023.05.09-00.09.49:829][  0]LogBlueprint: Warning: [LastBattleMap] 'SpecialButton1' variable not found. Base class was probably changed.
+[2023.05.09-00.09.49:829][  0]LogBlueprint: Warning: [LastBattleMap] 'SpecialButton2' variable not found. Base class was probably changed.
+[2023.05.09-00.09.49:829][  0]LogBlueprint: Warning: [LastBattleMap] 'SpecialButton3' variable not found. Base class was probably changed.
+[2023.05.09-00.09.49:829][  0]LogBlueprint: Warning: [LastBattleMap] 'SpecialButton4' variable not found. Base class was probably changed.
+[2023.05.09-00.09.49:829][  0]LogBlueprint: Warning: [LastBattleMap] 'SpecialButton5' variable not found. Base class was probably changed.
+[2023.05.09-00.09.49:829][  0]LogBlueprint: Warning: [LastBattleMap] 'Spe_UI' variable not found. Base class was probably changed.
+[2023.05.09-00.09.49:829][  0]LogBlueprint: Warning: [LastBattleMap] 'SpecialButton1' variable not found. Base class was probably changed.
+[2023.05.09-00.09.49:829][  0]LogBlueprint: Warning: [LastBattleMap] 'SpecialButton2' variable not found. Base class was probably changed.
+[2023.05.09-00.09.49:829][  0]LogBlueprint: Warning: [LastBattleMap] 'SpecialButton3' variable not found. Base class was probably changed.
+[2023.05.09-00.09.49:829][  0]LogBlueprint: Warning: [LastBattleMap] 'SpecialButton4' variable not found. Base class was probably changed.
+[2023.05.09-00.09.49:829][  0]LogBlueprint: Warning: [LastBattleMap] 'SpecialButton5' variable not found. Base class was probably changed.
+[2023.05.09-00.09.49:829][  0]LogBlueprint: Warning: [LastBattleMap] 'Item_UI' variable not found. Base class was probably changed.
+[2023.05.09-00.09.49:829][  0]LogBlueprint: Warning: [LastBattleMap] 'ItemButton1' variable not found. Base class was probably changed.
+[2023.05.09-00.09.49:829][  0]LogBlueprint: Warning: [LastBattleMap] 'ItemButton2' variable not found. Base class was probably changed.
+[2023.05.09-00.09.49:829][  0]LogBlueprint: Warning: [LastBattleMap] 'ItemButton3' variable not found. Base class was probably changed.
+[2023.05.09-00.09.49:829][  0]LogBlueprint: Warning: [LastBattleMap] 'ItemButton4' variable not found. Base class was probably changed.
+[2023.05.09-00.09.49:829][  0]LogBlueprint: Warning: [LastBattleMap] 'ItemButton5' variable not found. Base class was probably changed.
+[2023.05.09-00.09.49:829][  0]LogBlueprint: Warning: [LastBattleMap] 'Item_UI' variable not found. Base class was probably changed.
+[2023.05.09-00.09.49:829][  0]LogBlueprint: Warning: [LastBattleMap] 'ItemButton1' variable not found. Base class was probably changed.
+[2023.05.09-00.09.49:829][  0]LogBlueprint: Warning: [LastBattleMap] 'ItemButton2' variable not found. Base class was probably changed.
+[2023.05.09-00.09.49:829][  0]LogBlueprint: Warning: [LastBattleMap] 'ItemButton3' variable not found. Base class was probably changed.
+[2023.05.09-00.09.49:829][  0]LogBlueprint: Warning: [LastBattleMap] 'ItemButton4' variable not found. Base class was probably changed.
+[2023.05.09-00.09.49:829][  0]LogBlueprint: Warning: [LastBattleMap] 'ItemButton5' variable not found. Base class was probably changed.
+[2023.05.09-00.09.49:829][  0]LogBlueprint: Warning: [LastBattleMap] 'AttackButton' variable not found. Base class was probably changed.
+[2023.05.09-00.09.49:829][  0]LogBlueprint: Warning: [LastBattleMap] 'DefenseButton' variable not found. Base class was probably changed.
+[2023.05.09-00.09.49:829][  0]LogBlueprint: Warning: [LastBattleMap] 'ItemButton' variable not found. Base class was probably changed.
+[2023.05.09-00.09.49:830][  0]LogBlueprint: Warning: [LastBattleMap] 'SpacialAttackButton' variable not found. Base class was probably changed.
+[2023.05.09-00.09.49:839][  0]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "Spe_UI"という名前の変数は 'LastBattleMap_C'にありません。
 'LastBattleMap_C' が  Get Spe_UI  用にコンパイルされていることを確認してください。
-[2023.05.09-00.25.12:758][  0]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton1"という名前の変数は 'LastBattleMap'にありません。
+[2023.05.09-00.09.49:839][  0]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton1"という名前の変数は 'LastBattleMap'にありません。
 'LastBattleMap' が  Get SpecialButton1  用にコンパイルされていることを確認してください。
-[2023.05.09-00.25.12:758][  0]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton2"という名前の変数は 'LastBattleMap'にありません。
+[2023.05.09-00.09.49:839][  0]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton2"という名前の変数は 'LastBattleMap'にありません。
 'LastBattleMap' が  Get SpecialButton2  用にコンパイルされていることを確認してください。
-[2023.05.09-00.25.12:758][  0]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton3"という名前の変数は 'LastBattleMap'にありません。
+[2023.05.09-00.09.49:839][  0]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton3"という名前の変数は 'LastBattleMap'にありません。
 'LastBattleMap' が  Get SpecialButton3  用にコンパイルされていることを確認してください。
-[2023.05.09-00.25.12:758][  0]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton4"という名前の変数は 'LastBattleMap'にありません。
+[2023.05.09-00.09.49:839][  0]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton4"という名前の変数は 'LastBattleMap'にありません。
 'LastBattleMap' が  Get SpecialButton4  用にコンパイルされていることを確認してください。
-[2023.05.09-00.25.12:758][  0]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton5"という名前の変数は 'LastBattleMap'にありません。
+[2023.05.09-00.09.49:839][  0]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton5"という名前の変数は 'LastBattleMap'にありません。
 'LastBattleMap' が  Get SpecialButton5  用にコンパイルされていることを確認してください。
-[2023.05.09-00.25.12:758][  0]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "Spe_UI"という名前の変数は 'LastBattleMap_C'にありません。
+[2023.05.09-00.09.49:839][  0]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "Spe_UI"という名前の変数は 'LastBattleMap_C'にありません。
 'LastBattleMap_C' が  Get Spe_UI  用にコンパイルされていることを確認してください。
-[2023.05.09-00.25.12:758][  0]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton1"という名前の変数は 'LastBattleMap'にありません。
+[2023.05.09-00.09.49:839][  0]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton1"という名前の変数は 'LastBattleMap'にありません。
 'LastBattleMap' が  Get SpecialButton1  用にコンパイルされていることを確認してください。
-[2023.05.09-00.25.12:758][  0]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton2"という名前の変数は 'LastBattleMap'にありません。
+[2023.05.09-00.09.49:839][  0]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton2"という名前の変数は 'LastBattleMap'にありません。
 'LastBattleMap' が  Get SpecialButton2  用にコンパイルされていることを確認してください。
-[2023.05.09-00.25.12:758][  0]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton3"という名前の変数は 'LastBattleMap'にありません。
+[2023.05.09-00.09.49:839][  0]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton3"という名前の変数は 'LastBattleMap'にありません。
 'LastBattleMap' が  Get SpecialButton3  用にコンパイルされていることを確認してください。
-[2023.05.09-00.25.12:758][  0]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton4"という名前の変数は 'LastBattleMap'にありません。
+[2023.05.09-00.09.49:839][  0]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton4"という名前の変数は 'LastBattleMap'にありません。
 'LastBattleMap' が  Get SpecialButton4  用にコンパイルされていることを確認してください。
-[2023.05.09-00.25.12:758][  0]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton5"という名前の変数は 'LastBattleMap'にありません。
+[2023.05.09-00.09.49:839][  0]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton5"という名前の変数は 'LastBattleMap'にありません。
 'LastBattleMap' が  Get SpecialButton5  用にコンパイルされていることを確認してください。
-[2023.05.09-00.25.12:758][  0]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "Item_UI"という名前の変数は 'LastBattleMap_C'にありません。
+[2023.05.09-00.09.49:839][  0]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "Item_UI"という名前の変数は 'LastBattleMap_C'にありません。
 'LastBattleMap_C' が  Get Item_UI  用にコンパイルされていることを確認してください。
-[2023.05.09-00.25.12:758][  0]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton1"という名前の変数は 'LastBattleMap'にありません。
+[2023.05.09-00.09.49:839][  0]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton1"という名前の変数は 'LastBattleMap'にありません。
 'LastBattleMap' が  Get ItemButton1  用にコンパイルされていることを確認してください。
-[2023.05.09-00.25.12:758][  0]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton2"という名前の変数は 'LastBattleMap'にありません。
+[2023.05.09-00.09.49:840][  0]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton2"という名前の変数は 'LastBattleMap'にありません。
 'LastBattleMap' が  Get ItemButton2  用にコンパイルされていることを確認してください。
-[2023.05.09-00.25.12:758][  0]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton3"という名前の変数は 'LastBattleMap'にありません。
+[2023.05.09-00.09.49:840][  0]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton3"という名前の変数は 'LastBattleMap'にありません。
 'LastBattleMap' が  Get ItemButton3  用にコンパイルされていることを確認してください。
-[2023.05.09-00.25.12:759][  0]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton4"という名前の変数は 'LastBattleMap'にありません。
+[2023.05.09-00.09.49:840][  0]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton4"という名前の変数は 'LastBattleMap'にありません。
 'LastBattleMap' が  Get ItemButton4  用にコンパイルされていることを確認してください。
-[2023.05.09-00.25.12:759][  0]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton5"という名前の変数は 'LastBattleMap'にありません。
+[2023.05.09-00.09.49:840][  0]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton5"という名前の変数は 'LastBattleMap'にありません。
 'LastBattleMap' が  Get ItemButton5  用にコンパイルされていることを確認してください。
-[2023.05.09-00.25.12:759][  0]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "Item_UI"という名前の変数は 'LastBattleMap_C'にありません。
+[2023.05.09-00.09.49:840][  0]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "Item_UI"という名前の変数は 'LastBattleMap_C'にありません。
 'LastBattleMap_C' が  Get Item_UI  用にコンパイルされていることを確認してください。
-[2023.05.09-00.25.12:759][  0]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton1"という名前の変数は 'LastBattleMap'にありません。
+[2023.05.09-00.09.49:840][  0]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton1"という名前の変数は 'LastBattleMap'にありません。
 'LastBattleMap' が  Get ItemButton1  用にコンパイルされていることを確認してください。
-[2023.05.09-00.25.12:759][  0]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton2"という名前の変数は 'LastBattleMap'にありません。
+[2023.05.09-00.09.49:840][  0]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton2"という名前の変数は 'LastBattleMap'にありません。
 'LastBattleMap' が  Get ItemButton2  用にコンパイルされていることを確認してください。
-[2023.05.09-00.25.12:759][  0]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton3"という名前の変数は 'LastBattleMap'にありません。
+[2023.05.09-00.09.49:840][  0]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton3"という名前の変数は 'LastBattleMap'にありません。
 'LastBattleMap' が  Get ItemButton3  用にコンパイルされていることを確認してください。
-[2023.05.09-00.25.12:759][  0]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton4"という名前の変数は 'LastBattleMap'にありません。
+[2023.05.09-00.09.49:840][  0]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton4"という名前の変数は 'LastBattleMap'にありません。
 'LastBattleMap' が  Get ItemButton4  用にコンパイルされていることを確認してください。
-[2023.05.09-00.25.12:759][  0]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton5"という名前の変数は 'LastBattleMap'にありません。
+[2023.05.09-00.09.49:840][  0]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton5"という名前の変数は 'LastBattleMap'にありません。
 'LastBattleMap' が  Get ItemButton5  用にコンパイルされていることを確認してください。
-[2023.05.09-00.25.12:759][  0]LogBlueprint: Error: [Compiler PersistentLevel.LastBattleMap] In use pin  Cummand UI  no longer exists on this node. Please refresh node or break links to remove pin.
-[2023.05.09-00.25.12:759][  0]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "AttackButton"という名前の変数は 'LastBattleMap'にありません。
+[2023.05.09-00.09.49:840][  0]LogBlueprint: Error: [Compiler PersistentLevel.LastBattleMap] In use pin  Cummand UI  no longer exists on this node. Please refresh node or break links to remove pin.
+[2023.05.09-00.09.49:840][  0]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "AttackButton"という名前の変数は 'LastBattleMap'にありません。
 'LastBattleMap' が  Get AttackButton  用にコンパイルされていることを確認してください。
-[2023.05.09-00.25.12:759][  0]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "DefenseButton"という名前の変数は 'LastBattleMap'にありません。
+[2023.05.09-00.09.49:840][  0]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "DefenseButton"という名前の変数は 'LastBattleMap'にありません。
 'LastBattleMap' が  Get DefenseButton  用にコンパイルされていることを確認してください。
-[2023.05.09-00.25.12:759][  0]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton"という名前の変数は 'LastBattleMap'にありません。
+[2023.05.09-00.09.49:840][  0]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton"という名前の変数は 'LastBattleMap'にありません。
 'LastBattleMap' が  Get ItemButton  用にコンパイルされていることを確認してください。
-[2023.05.09-00.25.12:759][  0]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpacialAttackButton"という名前の変数は 'LastBattleMap'にありません。
+[2023.05.09-00.09.49:840][  0]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpacialAttackButton"という名前の変数は 'LastBattleMap'にありません。
 'LastBattleMap' が  Get SpacialAttackButton  用にコンパイルされていることを確認してください。
-[2023.05.09-00.25.12:761][  0]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] [0029.32] Compile of PersistentLevel.LastBattleMap failed. 1 Fatal Issue(s) 28 Warning(s) [in 18 ms] (/Game/Map/LastBattleMap.LastBattleMap:PersistentLevel.LastBattleMap)
-[2023.05.09-00.25.12:883][  0]LogAIModule: Creating AISystem for world LastBattleMap
-[2023.05.09-00.25.12:897][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2023.05.09-00.25.12:916][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2023.05.09-00.25.12:981][  0]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 65.612ミリ秒かかりました。
-[2023.05.09-00.25.12:981][  0]LogFileHelpers: Loading map 'LastBattleMap' took 0.551
-[2023.05.09-00.25.13:074][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft IME).
-[2023.05.09-00.25.13:241][  0]LogCollectionManager: Loaded 0 collections in 0.002668 seconds
-[2023.05.09-00.25.13:391][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Owner/Documents/4-4_GameTaisyou_2023/GameTaisyou_2023/Saved/Collections/' took 0.01s
-[2023.05.09-00.25.13:391][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Owner/Documents/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/Developers/Owner/Collections/' took 0.01s
-[2023.05.09-00.25.13:391][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Owner/Documents/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/Collections/' took 0.01s
-[2023.05.09-00.25.13:391][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2023.05.09-00.25.13:404][  0]LogContentBrowser: Native class hierarchy populated in 0.0121 seconds. Added 2386 classes and 500 folders.
-[2023.05.09-00.25.13:543][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
-[2023.05.09-00.25.13:729][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2023.05.09-00.25.13:828][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
-[2023.05.09-00.25.15:054][  0]LogSlate: Took 0.009713 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2023.05.09-00.25.15:064][  0]LogSlate: Took 0.009260 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
-[2023.05.09-00.25.15:067][  0]LogSlate: Took 0.001259 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2023.05.09-00.25.15:071][  0]LogSlate: Took 0.000936 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2023.05.09-00.25.15:178][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.GameTaisyou2023
-[2023.05.09-00.25.15:178][  0]LogTemp: CWD: C:\UE_4.17\Engine\Binaries\DotNET\IOS
-[2023.05.09-00.25.15:178][  0]LogTemp: Initial Dir: C:\UE_4.17
-[2023.05.09-00.25.15:178][  0]LogTemp: Env CWD: C:\UE_4.17\Engine\Binaries\DotNET\IOS
-[2023.05.09-00.25.15:178][  0]LogTemp: BranchPath = KBC12006081/C/UE_4.17/Engine/Binaries --- GameBranchPath = KBC12006081/C/UE_4.17/Engine/Binaries
-[2023.05.09-00.25.15:178][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Owner\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2023.05.09-00.25.15:178][  0]LogRenderer: Reallocating scene render targets to support 1208x568 Format 10 NumSamples 1 (Frame:1).
-[2023.05.09-00.25.15:429][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2023.05.09-00.25.15:429][  0]LogLoad: (Engine Initialization) Total time: 31.98 seconds
-[2023.05.09-00.25.15:430][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2023.05.09-00.25.15:430][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2023.05.09-00.25.15:480][  0]LogAssetRegistry: Asset discovery search completed in 21.6291 seconds
-[2023.05.09-00.25.15:482][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2023.05.09-00.25.15:482][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000056 seconds (updated 0 objects)
-[2023.05.09-00.25.15:486][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2023.05.09-00.25.15:529][  0]LogSlate: Took 0.000983 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2023.05.09-00.25.15:559][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Owner/Documents/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/' took 0.10s
-[2023.05.09-00.25.16:453][ 52]LogSlate: Took 0.000201 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2023.05.09-00.25.20:076][269]LogBlueprint: Warning: [BP_Battle] 'EnemyA' variable not found. Base class was probably changed.
-[2023.05.09-00.25.20:077][269]LogBlueprint: Warning: [BP_Battle] 'PlayerDelayCheck' variable not found. Base class was probably changed.
-[2023.05.09-00.25.20:077][269]LogBlueprint: Warning: [BP_Battle] 'PlayerDelayTurn' variable not found. Base class was probably changed.
-[2023.05.09-00.25.20:077][269]LogBlueprint: Warning: [BP_Battle] 'PlayerDelayCheck' variable not found. Base class was probably changed.
-[2023.05.09-00.25.20:077][269]LogBlueprint: Warning: [BP_Battle] 'PlayerDelayCheck' variable not found. Base class was probably changed.
-[2023.05.09-00.25.20:079][269]LogBlueprint: Warning: [Compiler BP_Battle] "PlayerDelayCheck"という名前の変数は 'BP_One_v_One_GameInstance_C'にありません。
-'BP_One_v_One_GameInstance_C' が  Set PlayerDelayCheck  用にコンパイルされていることを確認してください。
-[2023.05.09-00.25.20:079][269]LogBlueprint: Warning: [Compiler BP_Battle] "PlayerDelayTurn"という名前の変数は 'BP_One_v_One_GameInstance_C'にありません。
-'BP_One_v_One_GameInstance_C' が  Get PlayerDelayTurn  用にコンパイルされていることを確認してください。
-[2023.05.09-00.25.20:079][269]LogBlueprint: Warning: [Compiler BP_Battle] "PlayerDelayCheck"という名前の変数は 'BP_One_v_One_GameInstance_C'にありません。
-'BP_One_v_One_GameInstance_C' が  Get PlayerDelayCheck  用にコンパイルされていることを確認してください。
-[2023.05.09-00.25.20:079][269]LogBlueprint: Warning: [Compiler BP_Battle] "EnemyA"という名前の変数は 'BP_One_v_One_GameInstance_C'にありません。
-'BP_One_v_One_GameInstance_C' が  Get EnemyA  用にコンパイルされていることを確認してください。
-[2023.05.09-00.25.20:079][269]LogBlueprint: Error: [Compiler BP_Battle] Player Delay Turn  に関連付けられたプロパティが見つかりませんでした
-[2023.05.09-00.25.20:079][269]LogBlueprint: Error: [Compiler BP_Battle] Player Delay Check  に関連付けられたプロパティが見つかりませんでした
-[2023.05.09-00.25.20:079][269]LogBlueprint: Error: [Compiler BP_Battle] Enemy A  に関連付けられたプロパティが見つかりませんでした
-[2023.05.09-00.25.20:079][269]LogBlueprint: Error: [Compiler BP_Battle] Player Delay Check  に関連付けられたプロパティが見つかりませんでした
-[2023.05.09-00.25.20:081][269]LogBlueprint: Warning: [Compiler BP_Battle] [0036.63] Compile of BP_Battle failed. 4 Fatal Issue(s) 4 Warning(s) [in 5 ms] (/Game/BP/BP_Battle.BP_Battle)
-[2023.05.09-00.25.20:091][269]LogSlate: Took 0.000140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2023.05.09-00.25.20:507][269]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 113 classes and 0 folders.
-[2023.05.09-00.25.21:040][269]LogSlate: Took 0.000148 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2023.05.09-00.25.21:105][269]LogSlate: Took 0.001182 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2023.05.09-00.25.21:216][270]LogSlate: Took 0.001193 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2023.05.09-00.26.08:779][ 99]BlueprintLog: New page: BP_One_v_One_GameInstance をコンパイル
-[2023.05.09-00.26.08:798][ 99]LogBlueprint: Warning: [BP_Battle] 'PlayerDelayTurn' variable not found. Base class was probably changed.
-[2023.05.09-00.26.08:842][ 99]LogBlueprint: Warning: [Compiler BP_Battle] "PlayerDelayTurn"という名前の変数は 'BP_One_v_One_GameInstance_C'にありません。
-'BP_One_v_One_GameInstance_C' が  Get PlayerDelayTurn  用にコンパイルされていることを確認してください。
-[2023.05.09-00.26.08:850][ 99]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "Spe_UI"という名前の変数は 'LastBattleMap_C'にありません。
-'LastBattleMap_C' が  Get Spe_UI  用にコンパイルされていることを確認してください。
-[2023.05.09-00.26.08:851][ 99]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton1"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get SpecialButton1  用にコンパイルされていることを確認してください。
-[2023.05.09-00.26.08:851][ 99]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton2"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get SpecialButton2  用にコンパイルされていることを確認してください。
-[2023.05.09-00.26.08:851][ 99]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton3"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get SpecialButton3  用にコンパイルされていることを確認してください。
-[2023.05.09-00.26.08:851][ 99]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton4"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get SpecialButton4  用にコンパイルされていることを確認してください。
-[2023.05.09-00.26.08:851][ 99]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton5"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get SpecialButton5  用にコンパイルされていることを確認してください。
-[2023.05.09-00.26.08:851][ 99]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "Spe_UI"という名前の変数は 'LastBattleMap_C'にありません。
-'LastBattleMap_C' が  Get Spe_UI  用にコンパイルされていることを確認してください。
-[2023.05.09-00.26.08:851][ 99]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton1"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get SpecialButton1  用にコンパイルされていることを確認してください。
-[2023.05.09-00.26.08:851][ 99]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton2"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get SpecialButton2  用にコンパイルされていることを確認してください。
-[2023.05.09-00.26.08:851][ 99]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton3"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get SpecialButton3  用にコンパイルされていることを確認してください。
-[2023.05.09-00.26.08:851][ 99]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton4"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get SpecialButton4  用にコンパイルされていることを確認してください。
-[2023.05.09-00.26.08:852][ 99]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton5"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get SpecialButton5  用にコンパイルされていることを確認してください。
-[2023.05.09-00.26.08:852][ 99]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "Item_UI"という名前の変数は 'LastBattleMap_C'にありません。
-'LastBattleMap_C' が  Get Item_UI  用にコンパイルされていることを確認してください。
-[2023.05.09-00.26.08:852][ 99]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton1"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get ItemButton1  用にコンパイルされていることを確認してください。
-[2023.05.09-00.26.08:852][ 99]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton2"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get ItemButton2  用にコンパイルされていることを確認してください。
-[2023.05.09-00.26.08:852][ 99]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton3"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get ItemButton3  用にコンパイルされていることを確認してください。
-[2023.05.09-00.26.08:852][ 99]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton4"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get ItemButton4  用にコンパイルされていることを確認してください。
-[2023.05.09-00.26.08:852][ 99]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton5"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get ItemButton5  用にコンパイルされていることを確認してください。
-[2023.05.09-00.26.08:852][ 99]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "Item_UI"という名前の変数は 'LastBattleMap_C'にありません。
-'LastBattleMap_C' が  Get Item_UI  用にコンパイルされていることを確認してください。
-[2023.05.09-00.26.08:852][ 99]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton1"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get ItemButton1  用にコンパイルされていることを確認してください。
-[2023.05.09-00.26.08:852][ 99]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton2"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get ItemButton2  用にコンパイルされていることを確認してください。
-[2023.05.09-00.26.08:853][ 99]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton3"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get ItemButton3  用にコンパイルされていることを確認してください。
-[2023.05.09-00.26.08:853][ 99]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton4"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get ItemButton4  用にコンパイルされていることを確認してください。
-[2023.05.09-00.26.08:853][ 99]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton5"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get ItemButton5  用にコンパイルされていることを確認してください。
-[2023.05.09-00.26.08:853][ 99]LogBlueprint: Error: [Compiler PersistentLevel.LastBattleMap] In use pin  Cummand UI  no longer exists on this node. Please refresh node or break links to remove pin.
-[2023.05.09-00.26.08:853][ 99]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "AttackButton"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get AttackButton  用にコンパイルされていることを確認してください。
-[2023.05.09-00.26.08:853][ 99]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "DefenseButton"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get DefenseButton  用にコンパイルされていることを確認してください。
-[2023.05.09-00.26.08:853][ 99]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get ItemButton  用にコンパイルされていることを確認してください。
-[2023.05.09-00.26.08:853][ 99]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpacialAttackButton"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get SpacialAttackButton  用にコンパイルされていることを確認してください。
-[2023.05.09-00.26.08:854][ 99]LogBlueprint: Error: [Compiler BP_Battle] Player Delay Turn  に関連付けられたプロパティが見つかりませんでした
-[2023.05.09-00.26.08:864][ 99]LogBlueprint: Warning: [Compiler BP_Battle] [0085.42] Compile of BP_Battle failed. 1 Fatal Issue(s) 1 Warning(s) [in 76 ms] (/Game/BP/BP_Battle.BP_Battle)
-[2023.05.09-00.26.08:864][ 99]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] [0085.42] Compile of PersistentLevel.LastBattleMap failed. 1 Fatal Issue(s) 28 Warning(s) [in 76 ms] (/Game/Map/LastBattleMap.LastBattleMap:PersistentLevel.LastBattleMap)
-[2023.05.09-00.26.18:760][682]LogSlate: Took 0.001566 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
-[2023.05.09-00.26.29:119][302]BlueprintLog: New page: BP_One_v_One_GameInstance をコンパイル
-[2023.05.09-00.26.29:186][302]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "Spe_UI"という名前の変数は 'LastBattleMap_C'にありません。
-'LastBattleMap_C' が  Get Spe_UI  用にコンパイルされていることを確認してください。
-[2023.05.09-00.26.29:187][302]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton1"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get SpecialButton1  用にコンパイルされていることを確認してください。
-[2023.05.09-00.26.29:187][302]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton2"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get SpecialButton2  用にコンパイルされていることを確認してください。
-[2023.05.09-00.26.29:187][302]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton3"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get SpecialButton3  用にコンパイルされていることを確認してください。
-[2023.05.09-00.26.29:187][302]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton4"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get SpecialButton4  用にコンパイルされていることを確認してください。
-[2023.05.09-00.26.29:187][302]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton5"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get SpecialButton5  用にコンパイルされていることを確認してください。
-[2023.05.09-00.26.29:187][302]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "Spe_UI"という名前の変数は 'LastBattleMap_C'にありません。
-'LastBattleMap_C' が  Get Spe_UI  用にコンパイルされていることを確認してください。
-[2023.05.09-00.26.29:187][302]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton1"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get SpecialButton1  用にコンパイルされていることを確認してください。
-[2023.05.09-00.26.29:187][302]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton2"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get SpecialButton2  用にコンパイルされていることを確認してください。
-[2023.05.09-00.26.29:187][302]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton3"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get SpecialButton3  用にコンパイルされていることを確認してください。
-[2023.05.09-00.26.29:187][302]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton4"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get SpecialButton4  用にコンパイルされていることを確認してください。
-[2023.05.09-00.26.29:187][302]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton5"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get SpecialButton5  用にコンパイルされていることを確認してください。
-[2023.05.09-00.26.29:188][302]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "Item_UI"という名前の変数は 'LastBattleMap_C'にありません。
-'LastBattleMap_C' が  Get Item_UI  用にコンパイルされていることを確認してください。
-[2023.05.09-00.26.29:188][302]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton1"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get ItemButton1  用にコンパイルされていることを確認してください。
-[2023.05.09-00.26.29:188][302]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton2"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get ItemButton2  用にコンパイルされていることを確認してください。
-[2023.05.09-00.26.29:188][302]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton3"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get ItemButton3  用にコンパイルされていることを確認してください。
-[2023.05.09-00.26.29:188][302]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton4"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get ItemButton4  用にコンパイルされていることを確認してください。
-[2023.05.09-00.26.29:188][302]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton5"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get ItemButton5  用にコンパイルされていることを確認してください。
-[2023.05.09-00.26.29:188][302]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "Item_UI"という名前の変数は 'LastBattleMap_C'にありません。
-'LastBattleMap_C' が  Get Item_UI  用にコンパイルされていることを確認してください。
-[2023.05.09-00.26.29:188][302]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton1"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get ItemButton1  用にコンパイルされていることを確認してください。
-[2023.05.09-00.26.29:188][302]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton2"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get ItemButton2  用にコンパイルされていることを確認してください。
-[2023.05.09-00.26.29:188][302]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton3"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get ItemButton3  用にコンパイルされていることを確認してください。
-[2023.05.09-00.26.29:188][302]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton4"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get ItemButton4  用にコンパイルされていることを確認してください。
-[2023.05.09-00.26.29:188][302]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton5"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get ItemButton5  用にコンパイルされていることを確認してください。
-[2023.05.09-00.26.29:188][302]LogBlueprint: Error: [Compiler PersistentLevel.LastBattleMap] In use pin  Cummand UI  no longer exists on this node. Please refresh node or break links to remove pin.
-[2023.05.09-00.26.29:189][302]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "AttackButton"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get AttackButton  用にコンパイルされていることを確認してください。
-[2023.05.09-00.26.29:189][302]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "DefenseButton"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get DefenseButton  用にコンパイルされていることを確認してください。
-[2023.05.09-00.26.29:189][302]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get ItemButton  用にコンパイルされていることを確認してください。
-[2023.05.09-00.26.29:189][302]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpacialAttackButton"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get SpacialAttackButton  用にコンパイルされていることを確認してください。
-[2023.05.09-00.26.29:200][302]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] [0105.75] Compile of PersistentLevel.LastBattleMap failed. 1 Fatal Issue(s) 28 Warning(s) [in 72 ms] (/Game/Map/LastBattleMap.LastBattleMap:PersistentLevel.LastBattleMap)
-[2023.05.09-00.26.30:085][349]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_One_v_One_GameInstance" FILE="../../../../Users/Owner/Documents/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/BP/BP_One_v_One_GameInstance.uasset" SILENT=true
-[2023.05.09-00.26.30:171][349]LogSavePackage: Save=79.22ms
-[2023.05.09-00.26.30:171][349]LogSavePackage: Moving '../../../../Users/Owner/Documents/4-4_GameTaisyou_2023/GameTaisyou_2023/Saved/BP_One_v_One_GameInstance78A770BB4CFCC888EC7FDE89277E711C.tmp' to '../../../../Users/Owner/Documents/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/BP/BP_One_v_One_GameInstance.uasset'
-[2023.05.09-00.26.30:177][349]LogSavePackage: Display: Finished SavePackage ../../../../Users/Owner/Documents/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/BP/BP_One_v_One_GameInstance.uasset
-[2023.05.09-00.26.32:194][469]BlueprintLog: New page: BP_Battle をコンパイル
-[2023.05.09-00.26.33:829][558]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_Battle" FILE="../../../../Users/Owner/Documents/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/BP/BP_Battle.uasset" SILENT=true
-[2023.05.09-00.26.33:872][558]LogSavePackage: Save=36.82ms
-[2023.05.09-00.26.33:872][558]LogSavePackage: Moving '../../../../Users/Owner/Documents/4-4_GameTaisyou_2023/GameTaisyou_2023/Saved/BP_Battle49E063CC4BF397263D6D22849651091B.tmp' to '../../../../Users/Owner/Documents/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/BP/BP_Battle.uasset'
-[2023.05.09-00.26.33:877][558]LogSavePackage: Display: Finished SavePackage ../../../../Users/Owner/Documents/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/BP/BP_Battle.uasset
-[2023.05.09-00.28.08:251][280]BlueprintLog: New page: BP_Battle をコンパイル
-[2023.05.09-00.28.08:764][301]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_Battle" FILE="../../../../Users/Owner/Documents/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/BP/BP_Battle.uasset" SILENT=true
-[2023.05.09-00.28.08:813][301]LogSavePackage: Save=42.67ms
-[2023.05.09-00.28.08:813][301]LogSavePackage: Moving '../../../../Users/Owner/Documents/4-4_GameTaisyou_2023/GameTaisyou_2023/Saved/BP_Battle68C6972E430ABC5D58B0A5B79BADD809.tmp' to '../../../../Users/Owner/Documents/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/BP/BP_Battle.uasset'
-[2023.05.09-00.28.08:819][301]LogSavePackage: Display: Finished SavePackage ../../../../Users/Owner/Documents/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/BP/BP_Battle.uasset
-[2023.05.09-00.28.36:491][907]LogTemp: Repeating last play command: 選択ビューポート
-[2023.05.09-00.28.36:521][907]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/LastBattleMap.LastBattleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Map/LastBattleMap.LastBattleMap:PersistentLevel.LastBattleMap' with GeneratedClass '/Game/Map/LastBattleMap.LastBattleMap_C' with ClassGeneratedBy '/Game/Map/LastBattleMap.LastBattleMap:PersistentLevel.LastBattleMap'
-[2023.05.09-00.28.36:521][907]BlueprintLog: New page: プレイ前に自動再コンパイル
-[2023.05.09-00.28.36:551][907]LogPlayLevel: [PlayLevel] Compiling LastBattleMap before play...
-[2023.05.09-00.28.36:598][907]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "Spe_UI"という名前の変数は 'LastBattleMap_C'にありません。
-'LastBattleMap_C' が  Get Spe_UI  用にコンパイルされていることを確認してください。
-[2023.05.09-00.28.36:598][907]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton1"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get SpecialButton1  用にコンパイルされていることを確認してください。
-[2023.05.09-00.28.36:598][907]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton2"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get SpecialButton2  用にコンパイルされていることを確認してください。
-[2023.05.09-00.28.36:598][907]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton3"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get SpecialButton3  用にコンパイルされていることを確認してください。
-[2023.05.09-00.28.36:598][907]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton4"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get SpecialButton4  用にコンパイルされていることを確認してください。
-[2023.05.09-00.28.36:598][907]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton5"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get SpecialButton5  用にコンパイルされていることを確認してください。
-[2023.05.09-00.28.36:599][907]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "Spe_UI"という名前の変数は 'LastBattleMap_C'にありません。
-'LastBattleMap_C' が  Get Spe_UI  用にコンパイルされていることを確認してください。
-[2023.05.09-00.28.36:599][907]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton1"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get SpecialButton1  用にコンパイルされていることを確認してください。
-[2023.05.09-00.28.36:599][907]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton2"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get SpecialButton2  用にコンパイルされていることを確認してください。
-[2023.05.09-00.28.36:599][907]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton3"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get SpecialButton3  用にコンパイルされていることを確認してください。
-[2023.05.09-00.28.36:599][907]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton4"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get SpecialButton4  用にコンパイルされていることを確認してください。
-[2023.05.09-00.28.36:599][907]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton5"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get SpecialButton5  用にコンパイルされていることを確認してください。
-[2023.05.09-00.28.36:599][907]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "Item_UI"という名前の変数は 'LastBattleMap_C'にありません。
-'LastBattleMap_C' が  Get Item_UI  用にコンパイルされていることを確認してください。
-[2023.05.09-00.28.36:599][907]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton1"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get ItemButton1  用にコンパイルされていることを確認してください。
-[2023.05.09-00.28.36:599][907]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton2"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get ItemButton2  用にコンパイルされていることを確認してください。
-[2023.05.09-00.28.36:599][907]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton3"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get ItemButton3  用にコンパイルされていることを確認してください。
-[2023.05.09-00.28.36:599][907]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton4"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get ItemButton4  用にコンパイルされていることを確認してください。
-[2023.05.09-00.28.36:599][907]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton5"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get ItemButton5  用にコンパイルされていることを確認してください。
-[2023.05.09-00.28.36:600][907]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "Item_UI"という名前の変数は 'LastBattleMap_C'にありません。
-'LastBattleMap_C' が  Get Item_UI  用にコンパイルされていることを確認してください。
-[2023.05.09-00.28.36:600][907]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton1"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get ItemButton1  用にコンパイルされていることを確認してください。
-[2023.05.09-00.28.36:600][907]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton2"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get ItemButton2  用にコンパイルされていることを確認してください。
-[2023.05.09-00.28.36:600][907]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton3"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get ItemButton3  用にコンパイルされていることを確認してください。
-[2023.05.09-00.28.36:600][907]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton4"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get ItemButton4  用にコンパイルされていることを確認してください。
-[2023.05.09-00.28.36:600][907]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton5"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get ItemButton5  用にコンパイルされていることを確認してください。
-[2023.05.09-00.28.36:600][907]LogBlueprint: Error: [Compiler PersistentLevel.LastBattleMap] In use pin  Cummand UI  no longer exists on this node. Please refresh node or break links to remove pin.
-[2023.05.09-00.28.36:600][907]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "AttackButton"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get AttackButton  用にコンパイルされていることを確認してください。
-[2023.05.09-00.28.36:600][907]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "DefenseButton"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get DefenseButton  用にコンパイルされていることを確認してください。
-[2023.05.09-00.28.36:600][907]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get ItemButton  用にコンパイルされていることを確認してください。
-[2023.05.09-00.28.36:600][907]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpacialAttackButton"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get SpacialAttackButton  用にコンパイルされていることを確認してください。
-[2023.05.09-00.28.36:606][907]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] [0233.16] Compile of PersistentLevel.LastBattleMap failed. 1 Fatal Issue(s) 28 Warning(s) [in 55 ms] (/Game/Map/LastBattleMap.LastBattleMap:PersistentLevel.LastBattleMap)
-[2023.05.09-00.28.36:632][907]LogPlayLevel: PlayLevel: Blueprint regeneration took 110 ms (1 blueprints)
-[2023.05.09-00.28.36:632][907]BlueprintLog: ブループリント LastBattleMap のコンパイルに失敗しました
-[2023.05.09-00.28.49:402][413]BlueprintLog: New page: LastBattleMap をコンパイル
-[2023.05.09-00.28.49:477][413]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "Spe_UI"という名前の変数は 'LastBattleMap_C'にありません。
-'LastBattleMap_C' が  Get Spe_UI  用にコンパイルされていることを確認してください。
-[2023.05.09-00.28.49:478][413]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton1"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get SpecialButton1  用にコンパイルされていることを確認してください。
-[2023.05.09-00.28.49:478][413]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton2"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get SpecialButton2  用にコンパイルされていることを確認してください。
-[2023.05.09-00.28.49:478][413]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton3"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get SpecialButton3  用にコンパイルされていることを確認してください。
-[2023.05.09-00.28.49:478][413]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton4"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get SpecialButton4  用にコンパイルされていることを確認してください。
-[2023.05.09-00.28.49:478][413]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton5"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get SpecialButton5  用にコンパイルされていることを確認してください。
-[2023.05.09-00.28.49:478][413]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "Spe_UI"という名前の変数は 'LastBattleMap_C'にありません。
-'LastBattleMap_C' が  Get Spe_UI  用にコンパイルされていることを確認してください。
-[2023.05.09-00.28.49:478][413]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton1"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get SpecialButton1  用にコンパイルされていることを確認してください。
-[2023.05.09-00.28.49:478][413]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton2"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get SpecialButton2  用にコンパイルされていることを確認してください。
-[2023.05.09-00.28.49:478][413]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton3"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get SpecialButton3  用にコンパイルされていることを確認してください。
-[2023.05.09-00.28.49:478][413]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton4"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get SpecialButton4  用にコンパイルされていることを確認してください。
-[2023.05.09-00.28.49:478][413]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton5"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get SpecialButton5  用にコンパイルされていることを確認してください。
-[2023.05.09-00.28.49:478][413]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "Item_UI"という名前の変数は 'LastBattleMap_C'にありません。
-'LastBattleMap_C' が  Get Item_UI  用にコンパイルされていることを確認してください。
-[2023.05.09-00.28.49:478][413]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton1"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get ItemButton1  用にコンパイルされていることを確認してください。
-[2023.05.09-00.28.49:479][413]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton2"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get ItemButton2  用にコンパイルされていることを確認してください。
-[2023.05.09-00.28.49:479][413]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton3"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get ItemButton3  用にコンパイルされていることを確認してください。
-[2023.05.09-00.28.49:479][413]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton4"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get ItemButton4  用にコンパイルされていることを確認してください。
-[2023.05.09-00.28.49:479][413]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton5"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get ItemButton5  用にコンパイルされていることを確認してください。
-[2023.05.09-00.28.49:479][413]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "Item_UI"という名前の変数は 'LastBattleMap_C'にありません。
-'LastBattleMap_C' が  Get Item_UI  用にコンパイルされていることを確認してください。
-[2023.05.09-00.28.49:479][413]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton1"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get ItemButton1  用にコンパイルされていることを確認してください。
-[2023.05.09-00.28.49:479][413]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton2"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get ItemButton2  用にコンパイルされていることを確認してください。
-[2023.05.09-00.28.49:479][413]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton3"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get ItemButton3  用にコンパイルされていることを確認してください。
-[2023.05.09-00.28.49:479][413]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton4"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get ItemButton4  用にコンパイルされていることを確認してください。
-[2023.05.09-00.28.49:479][413]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton5"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get ItemButton5  用にコンパイルされていることを確認してください。
-[2023.05.09-00.28.49:479][413]LogBlueprint: Error: [Compiler PersistentLevel.LastBattleMap] In use pin  Cummand UI  no longer exists on this node. Please refresh node or break links to remove pin.
-[2023.05.09-00.28.49:479][413]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "AttackButton"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get AttackButton  用にコンパイルされていることを確認してください。
-[2023.05.09-00.28.49:479][413]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "DefenseButton"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get DefenseButton  用にコンパイルされていることを確認してください。
-[2023.05.09-00.28.49:479][413]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get ItemButton  用にコンパイルされていることを確認してください。
-[2023.05.09-00.28.49:480][413]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpacialAttackButton"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get SpacialAttackButton  用にコンパイルされていることを確認してください。
-[2023.05.09-00.28.49:508][413]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] [0246.06] Compile of PersistentLevel.LastBattleMap failed. 1 Fatal Issue(s) 28 Warning(s) [in 105 ms] (/Game/Map/LastBattleMap.LastBattleMap:PersistentLevel.LastBattleMap)
-[2023.05.09-00.29.48:787][938]BlueprintLog: New page: BP_One_v_One_GameInstance をコンパイル
-[2023.05.09-00.29.48:861][938]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "Spe_UI"という名前の変数は 'LastBattleMap_C'にありません。
-'LastBattleMap_C' が  Get Spe_UI  用にコンパイルされていることを確認してください。
-[2023.05.09-00.29.48:861][938]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton1"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get SpecialButton1  用にコンパイルされていることを確認してください。
-[2023.05.09-00.29.48:861][938]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton2"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get SpecialButton2  用にコンパイルされていることを確認してください。
-[2023.05.09-00.29.48:861][938]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton3"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get SpecialButton3  用にコンパイルされていることを確認してください。
-[2023.05.09-00.29.48:861][938]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton4"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get SpecialButton4  用にコンパイルされていることを確認してください。
-[2023.05.09-00.29.48:861][938]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton5"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get SpecialButton5  用にコンパイルされていることを確認してください。
-[2023.05.09-00.29.48:861][938]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "Spe_UI"という名前の変数は 'LastBattleMap_C'にありません。
-'LastBattleMap_C' が  Get Spe_UI  用にコンパイルされていることを確認してください。
-[2023.05.09-00.29.48:861][938]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton1"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get SpecialButton1  用にコンパイルされていることを確認してください。
-[2023.05.09-00.29.48:861][938]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton2"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get SpecialButton2  用にコンパイルされていることを確認してください。
-[2023.05.09-00.29.48:861][938]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton3"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get SpecialButton3  用にコンパイルされていることを確認してください。
-[2023.05.09-00.29.48:861][938]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton4"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get SpecialButton4  用にコンパイルされていることを確認してください。
-[2023.05.09-00.29.48:861][938]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton5"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get SpecialButton5  用にコンパイルされていることを確認してください。
-[2023.05.09-00.29.48:861][938]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "Item_UI"という名前の変数は 'LastBattleMap_C'にありません。
-'LastBattleMap_C' が  Get Item_UI  用にコンパイルされていることを確認してください。
-[2023.05.09-00.29.48:861][938]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton1"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get ItemButton1  用にコンパイルされていることを確認してください。
-[2023.05.09-00.29.48:861][938]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton2"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get ItemButton2  用にコンパイルされていることを確認してください。
-[2023.05.09-00.29.48:861][938]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton3"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get ItemButton3  用にコンパイルされていることを確認してください。
-[2023.05.09-00.29.48:861][938]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton4"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get ItemButton4  用にコンパイルされていることを確認してください。
-[2023.05.09-00.29.48:861][938]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton5"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get ItemButton5  用にコンパイルされていることを確認してください。
-[2023.05.09-00.29.48:861][938]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "Item_UI"という名前の変数は 'LastBattleMap_C'にありません。
-'LastBattleMap_C' が  Get Item_UI  用にコンパイルされていることを確認してください。
-[2023.05.09-00.29.48:861][938]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton1"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get ItemButton1  用にコンパイルされていることを確認してください。
-[2023.05.09-00.29.48:861][938]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton2"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get ItemButton2  用にコンパイルされていることを確認してください。
-[2023.05.09-00.29.48:861][938]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton3"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get ItemButton3  用にコンパイルされていることを確認してください。
-[2023.05.09-00.29.48:861][938]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton4"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get ItemButton4  用にコンパイルされていることを確認してください。
-[2023.05.09-00.29.48:861][938]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton5"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get ItemButton5  用にコンパイルされていることを確認してください。
-[2023.05.09-00.29.48:862][938]LogBlueprint: Error: [Compiler PersistentLevel.LastBattleMap] In use pin  Cummand UI  no longer exists on this node. Please refresh node or break links to remove pin.
-[2023.05.09-00.29.48:862][938]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "AttackButton"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get AttackButton  用にコンパイルされていることを確認してください。
-[2023.05.09-00.29.48:862][938]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "DefenseButton"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get DefenseButton  用にコンパイルされていることを確認してください。
-[2023.05.09-00.29.48:862][938]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get ItemButton  用にコンパイルされていることを確認してください。
-[2023.05.09-00.29.48:862][938]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpacialAttackButton"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get SpacialAttackButton  用にコンパイルされていることを確認してください。
-[2023.05.09-00.29.48:880][938]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] [0305.43] Compile of PersistentLevel.LastBattleMap failed. 1 Fatal Issue(s) 28 Warning(s) [in 84 ms] (/Game/Map/LastBattleMap.LastBattleMap:PersistentLevel.LastBattleMap)
-[2023.05.09-00.29.49:323][955]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_One_v_One_GameInstance" FILE="../../../../Users/Owner/Documents/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/BP/BP_One_v_One_GameInstance.uasset" SILENT=true
-[2023.05.09-00.29.49:403][955]LogSavePackage: Save=72.61ms
-[2023.05.09-00.29.49:403][955]LogSavePackage: Moving '../../../../Users/Owner/Documents/4-4_GameTaisyou_2023/GameTaisyou_2023/Saved/BP_One_v_One_GameInstance361088514D87B98E1A2B1F9138A6B05A.tmp' to '../../../../Users/Owner/Documents/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/BP/BP_One_v_One_GameInstance.uasset'
-[2023.05.09-00.29.49:409][955]LogSavePackage: Display: Finished SavePackage ../../../../Users/Owner/Documents/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/BP/BP_One_v_One_GameInstance.uasset
-[2023.05.09-00.35.59:745][ 58]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/LastBattleMap' took 0.024
-[2023.05.09-00.35.59:748][ 58]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP/BP_Battle] ([1] browsable assets)...
-[2023.05.09-00.35.59:748][ 58]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/BP_Battle]
-[2023.05.09-00.35.59:748][ 58]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_Battle" FILE="../../../../Users/Owner/Documents/4-4_GameTaisyou_2023/GameTaisyou_2023/Saved/Autosaves/Game/BP/BP_Battle_Auto1.uasset" SILENT=false AUTOSAVING=true
-[2023.05.09-00.35.59:793][ 58]LogSavePackage: Save=38.23ms
-[2023.05.09-00.35.59:793][ 58]LogSavePackage: Moving '../../../../Users/Owner/Documents/4-4_GameTaisyou_2023/GameTaisyou_2023/Saved/BP_Battle_Auto183D661AA4F2B427B84C7F4BBC7199894.tmp' to '../../../../Users/Owner/Documents/4-4_GameTaisyou_2023/GameTaisyou_2023/Saved/Autosaves/Game/BP/BP_Battle_Auto1.uasset'
-[2023.05.09-00.35.59:796][ 58]LogSavePackage: Display: Finished SavePackage ../../../../Users/Owner/Documents/4-4_GameTaisyou_2023/GameTaisyou_2023/Saved/Autosaves/Game/BP/BP_Battle_Auto1.uasset
-[2023.05.09-00.35.59:796][ 58]LogFileHelpers: Auto-saving content packages took 0.050
-[2023.05.09-00.36.30:639][517]ImportText (TagQueryExportText_Helper): Missing opening parenthesis: 
-[2023.05.09-00.36.32:657][639]LogEditorTransaction: Undo ノードを移動
-[2023.05.09-00.36.32:718][639]ImportText (TagQueryExportText_Helper): Missing opening parenthesis: 
-[2023.05.09-00.36.33:420][682]LogEditorTransaction: Undo ノードを追加
-[2023.05.09-00.37.11:457][ 42]LogEditorTransaction: Undo ノードを追加
-[2023.05.09-00.43.27:251][145]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "Spe_UI"という名前の変数は 'LastBattleMap_C'にありません。
-'LastBattleMap_C' が  Get Spe_UI  用にコンパイルされていることを確認してください。
-[2023.05.09-00.43.27:251][145]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton1"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get SpecialButton1  用にコンパイルされていることを確認してください。
-[2023.05.09-00.43.27:251][145]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton2"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get SpecialButton2  用にコンパイルされていることを確認してください。
-[2023.05.09-00.43.27:251][145]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton3"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get SpecialButton3  用にコンパイルされていることを確認してください。
-[2023.05.09-00.43.27:251][145]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton4"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get SpecialButton4  用にコンパイルされていることを確認してください。
-[2023.05.09-00.43.27:251][145]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton5"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get SpecialButton5  用にコンパイルされていることを確認してください。
-[2023.05.09-00.43.27:251][145]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "Spe_UI"という名前の変数は 'LastBattleMap_C'にありません。
-'LastBattleMap_C' が  Get Spe_UI  用にコンパイルされていることを確認してください。
-[2023.05.09-00.43.27:252][145]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton1"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get SpecialButton1  用にコンパイルされていることを確認してください。
-[2023.05.09-00.43.27:252][145]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton2"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get SpecialButton2  用にコンパイルされていることを確認してください。
-[2023.05.09-00.43.27:252][145]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton3"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get SpecialButton3  用にコンパイルされていることを確認してください。
-[2023.05.09-00.43.27:252][145]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton4"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get SpecialButton4  用にコンパイルされていることを確認してください。
-[2023.05.09-00.43.27:252][145]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpecialButton5"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get SpecialButton5  用にコンパイルされていることを確認してください。
-[2023.05.09-00.43.27:252][145]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "Item_UI"という名前の変数は 'LastBattleMap_C'にありません。
-'LastBattleMap_C' が  Get Item_UI  用にコンパイルされていることを確認してください。
-[2023.05.09-00.43.27:253][145]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton1"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get ItemButton1  用にコンパイルされていることを確認してください。
-[2023.05.09-00.43.27:253][145]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton2"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get ItemButton2  用にコンパイルされていることを確認してください。
-[2023.05.09-00.43.27:253][145]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton3"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get ItemButton3  用にコンパイルされていることを確認してください。
-[2023.05.09-00.43.27:253][145]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton4"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get ItemButton4  用にコンパイルされていることを確認してください。
-[2023.05.09-00.43.27:253][145]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton5"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get ItemButton5  用にコンパイルされていることを確認してください。
-[2023.05.09-00.43.27:253][145]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "Item_UI"という名前の変数は 'LastBattleMap_C'にありません。
-'LastBattleMap_C' が  Get Item_UI  用にコンパイルされていることを確認してください。
-[2023.05.09-00.43.27:253][145]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton1"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get ItemButton1  用にコンパイルされていることを確認してください。
-[2023.05.09-00.43.27:253][145]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton2"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get ItemButton2  用にコンパイルされていることを確認してください。
-[2023.05.09-00.43.27:253][145]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton3"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get ItemButton3  用にコンパイルされていることを確認してください。
-[2023.05.09-00.43.27:253][145]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton4"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get ItemButton4  用にコンパイルされていることを確認してください。
-[2023.05.09-00.43.27:254][145]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton5"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get ItemButton5  用にコンパイルされていることを確認してください。
-[2023.05.09-00.43.27:254][145]LogBlueprint: Error: [Compiler PersistentLevel.LastBattleMap] In use pin  Cummand UI  no longer exists on this node. Please refresh node or break links to remove pin.
-[2023.05.09-00.43.27:254][145]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "AttackButton"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get AttackButton  用にコンパイルされていることを確認してください。
-[2023.05.09-00.43.27:254][145]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "DefenseButton"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get DefenseButton  用にコンパイルされていることを確認してください。
-[2023.05.09-00.43.27:254][145]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "ItemButton"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get ItemButton  用にコンパイルされていることを確認してください。
-[2023.05.09-00.43.27:254][145]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] "SpacialAttackButton"という名前の変数は 'LastBattleMap'にありません。
-'LastBattleMap' が  Get SpacialAttackButton  用にコンパイルされていることを確認してください。
-[2023.05.09-00.43.27:256][145]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] [1123.81] Compile of PersistentLevel.LastBattleMap failed. 1 Fatal Issue(s) 28 Warning(s) [in 41 ms] (/Game/Map/LastBattleMap.LastBattleMap:PersistentLevel.LastBattleMap)
-[2023.05.09-00.43.27:494][145]LogSavePackage: Save=316.65ms
-[2023.05.09-00.43.27:494][145]LogSavePackage: Moving '../../../../Users/Owner/Documents/4-4_GameTaisyou_2023/GameTaisyou_2023/Saved/LastBattleMap380076294022F909AA166A9775BDE9D5.tmp' to '../../../../Users/Owner/Documents/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/Map/LastBattleMap.umap'
-[2023.05.09-00.43.27:499][145]LogSavePackage: Display: Finished SavePackage ../../../../Users/Owner/Documents/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/Map/LastBattleMap.umap
-[2023.05.09-00.43.27:516][145]LogFileHelpers: Saving map 'LastBattleMap' took 0.440
-[2023.05.09-00.43.27:518][145]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_Battle" FILE="../../../../Users/Owner/Documents/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/BP/BP_Battle.uasset" SILENT=true
-[2023.05.09-00.43.27:579][145]LogSavePackage: Save=53.12ms
-[2023.05.09-00.43.27:579][145]LogSavePackage: Moving '../../../../Users/Owner/Documents/4-4_GameTaisyou_2023/GameTaisyou_2023/Saved/BP_Battle13979A1C4582B0A883700288AD99E60D.tmp' to '../../../../Users/Owner/Documents/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/BP/BP_Battle.uasset'
-[2023.05.09-00.43.27:585][145]LogSavePackage: Display: Finished SavePackage ../../../../Users/Owner/Documents/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/BP/BP_Battle.uasset
-[2023.05.09-00.43.28:614][198]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2023.05.09-00.43.28:719][198]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2023.05.09-00.43.28:962][199]Cmd: QUIT_EDITOR
-[2023.05.09-00.43.28:998][199]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft IME).
-[2023.05.09-00.43.29:012][199]LogExit: Preparing to exit.
-[2023.05.09-00.43.29:225][199]LogDirectoryWatcher: A directory notification for 'C:/Users/Owner/Documents/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/' was aborted.
-[2023.05.09-00.43.29:256][199]LogExit: Editor shut down
-[2023.05.09-00.43.29:259][199]LogExit: Transaction tracking system shut down
-[2023.05.09-00.43.29:355][199]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2023.05.09-00.43.29:355][199]LogDirectoryWatcher: A directory notification for '../../../../Users/Owner/Documents/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/' was aborted.
-[2023.05.09-00.43.29:356][199]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2023.05.09-00.43.29:356][199]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2023.05.09-00.43.29:356][199]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2023.05.09-00.43.29:463][199]LogExit: Object subsystem successfully closed.
-[2023.05.09-00.43.29:496][199]LogD3D11RHI: Shutdown
-[2023.05.09-00.43.29:497][199]LogD3D11RHI: CleanupD3DDevice
-[2023.05.09-00.43.29:601][199]LogD3D11RHI: ~FD3D11DynamicRHI
-[2023.05.09-00.43.29:647][199]LogModuleManager: Shutting down and abandoning module SequencerWidgets (538)
-[2023.05.09-00.43.29:647][199]LogModuleManager: Shutting down and abandoning module BlueprintGraph (536)
-[2023.05.09-00.43.29:647][199]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (534)
-[2023.05.09-00.43.29:649][199]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (532)
-[2023.05.09-00.43.29:649][199]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (530)
-[2023.05.09-00.43.29:649][199]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
-[2023.05.09-00.43.29:649][199]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
-[2023.05.09-00.43.29:649][199]LogDirectoryWatcher: A directory notification for 'C:/UE_4.17/FeaturePacks/' was aborted.
-[2023.05.09-00.43.29:651][199]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
-[2023.05.09-00.43.29:651][199]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
-[2023.05.09-00.43.29:651][199]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
-[2023.05.09-00.43.29:651][199]LogDirectoryWatcher: A directory notification for 'C:/Users/Owner/Documents/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/Collections/' was aborted.
-[2023.05.09-00.43.29:651][199]LogDirectoryWatcher: A directory notification for 'C:/Users/Owner/Documents/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/Developers/Owner/Collections/' was aborted.
-[2023.05.09-00.43.29:651][199]LogDirectoryWatcher: A directory notification for 'C:/Users/Owner/Documents/4-4_GameTaisyou_2023/GameTaisyou_2023/Saved/Collections/' was aborted.
-[2023.05.09-00.43.29:651][199]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
-[2023.05.09-00.43.29:652][199]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
-[2023.05.09-00.43.29:652][199]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
-[2023.05.09-00.43.29:652][199]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
-[2023.05.09-00.43.29:652][199]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
-[2023.05.09-00.43.29:653][199]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
-[2023.05.09-00.43.29:653][199]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
-[2023.05.09-00.43.29:653][199]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
-[2023.05.09-00.43.29:653][199]LogModuleManager: Shutting down and abandoning module BspMode (502)
-[2023.05.09-00.43.29:653][199]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
-[2023.05.09-00.43.29:653][199]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
-[2023.05.09-00.43.29:653][199]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
-[2023.05.09-00.43.29:653][199]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
-[2023.05.09-00.43.29:653][199]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
-[2023.05.09-00.43.29:654][199]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
-[2023.05.09-00.43.29:655][199]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
-[2023.05.09-00.43.29:655][199]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
-[2023.05.09-00.43.29:655][199]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
-[2023.05.09-00.43.29:655][199]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
-[2023.05.09-00.43.29:655][199]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
-[2023.05.09-00.43.29:655][199]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
-[2023.05.09-00.43.29:655][199]LogModuleManager: Shutting down and abandoning module Media (477)
-[2023.05.09-00.43.29:655][199]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
-[2023.05.09-00.43.29:655][199]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
-[2023.05.09-00.43.29:655][199]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
-[2023.05.09-00.43.29:655][199]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
-[2023.05.09-00.43.29:656][199]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
-[2023.05.09-00.43.29:656][199]LogModuleManager: Shutting down and abandoning module SessionServices (464)
-[2023.05.09-00.43.29:656][199]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
-[2023.05.09-00.43.29:656][199]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
-[2023.05.09-00.43.29:656][199]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
-[2023.05.09-00.43.29:657][199]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
-[2023.05.09-00.43.29:658][199]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
-[2023.05.09-00.43.29:659][199]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
-[2023.05.09-00.43.29:660][199]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
-[2023.05.09-00.43.29:660][199]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
-[2023.05.09-00.43.29:660][199]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
-[2023.05.09-00.43.29:660][199]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
-[2023.05.09-00.43.30:047][199]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
-[2023.05.09-00.43.30:047][199]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
-[2023.05.09-00.43.30:047][199]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
-[2023.05.09-00.43.30:047][199]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
-[2023.05.09-00.43.30:047][199]LogModuleManager: Shutting down and abandoning module MergeActors (434)
-[2023.05.09-00.43.30:047][199]LogModuleManager: Shutting down and abandoning module SizeMap (432)
-[2023.05.09-00.43.30:047][199]LogModuleManager: Shutting down and abandoning module TreeMap (430)
-[2023.05.09-00.43.30:048][199]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
-[2023.05.09-00.43.30:048][199]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
-[2023.05.09-00.43.30:050][199]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
-[2023.05.09-00.43.30:050][199]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
-[2023.05.09-00.43.30:050][199]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
-[2023.05.09-00.43.30:050][199]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
-[2023.05.09-00.43.30:050][199]LogModuleManager: Shutting down and abandoning module XmlParser (416)
-[2023.05.09-00.43.30:051][199]LogModuleManager: Shutting down and abandoning module Blutility (414)
-[2023.05.09-00.43.30:051][199]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
-[2023.05.09-00.43.30:051][199]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
-[2023.05.09-00.43.30:051][199]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
-[2023.05.09-00.43.30:051][199]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
-[2023.05.09-00.43.30:051][199]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
-[2023.05.09-00.43.30:051][199]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
-[2023.05.09-00.43.30:051][199]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
-[2023.05.09-00.43.30:051][199]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
-[2023.05.09-00.43.30:052][199]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
-[2023.05.09-00.43.30:107][199]LogModuleManager: Shutting down and abandoning module AutomationController (394)
-[2023.05.09-00.43.30:108][199]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
-[2023.05.09-00.43.30:109][199]LogModuleManager: Shutting down and abandoning module Layers (390)
-[2023.05.09-00.43.30:111][199]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
-[2023.05.09-00.43.30:111][199]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
-[2023.05.09-00.43.30:111][199]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
-[2023.05.09-00.43.30:111][199]LogModuleManager: Shutting down and abandoning module Persona (382)
-[2023.05.09-00.43.30:112][199]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
-[2023.05.09-00.43.30:112][199]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
-[2023.05.09-00.43.30:112][199]LogModuleManager: Shutting down and abandoning module Kismet (376)
-[2023.05.09-00.43.30:117][199]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
-[2023.05.09-00.43.30:118][199]LogModuleManager: Shutting down and abandoning module Toolbox (372)
-[2023.05.09-00.43.30:118][199]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
-[2023.05.09-00.43.30:118][199]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
-[2023.05.09-00.43.30:119][199]LogModuleManager: Shutting down and abandoning module OutputLog (366)
-[2023.05.09-00.43.30:119][199]LogModuleManager: Shutting down and abandoning module GammaUI (364)
-[2023.05.09-00.43.30:120][199]LogModuleManager: Shutting down and abandoning module Documentation (362)
-[2023.05.09-00.43.30:120][199]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
-[2023.05.09-00.43.30:120][199]LogModuleManager: Shutting down and abandoning module MovieScene (358)
-[2023.05.09-00.43.30:120][199]LogModuleManager: Shutting down and abandoning module Niagara (356)
-[2023.05.09-00.43.30:120][199]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
-[2023.05.09-00.43.30:121][199]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
-[2023.05.09-00.43.30:121][199]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
-[2023.05.09-00.43.30:121][199]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
-[2023.05.09-00.43.30:121][199]LogModuleManager: Shutting down and abandoning module PortalServices (346)
-[2023.05.09-00.43.30:121][199]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
-[2023.05.09-00.43.30:121][199]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
-[2023.05.09-00.43.30:121][199]LogModuleManager: Shutting down and abandoning module AIModule (340)
-[2023.05.09-00.43.30:121][199]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
-[2023.05.09-00.43.30:122][199]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
-[2023.05.09-00.43.30:122][199]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
-[2023.05.09-00.43.30:336][199]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
-[2023.05.09-00.43.30:337][199]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
-[2023.05.09-00.43.30:337][199]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
-[2023.05.09-00.43.30:337][199]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
-[2023.05.09-00.43.30:337][199]LogModuleManager: Shutting down and abandoning module OculusInput (324)
-[2023.05.09-00.43.30:337][199]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
-[2023.05.09-00.43.30:337][199]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
-[2023.05.09-00.43.30:337][199]LogModuleManager: Shutting down and abandoning module CableComponent (318)
-[2023.05.09-00.43.30:338][199]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
-[2023.05.09-00.43.30:338][199]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
-[2023.05.09-00.43.30:338][199]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
-[2023.05.09-00.43.30:339][199]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
-[2023.05.09-00.43.30:339][199]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
-[2023.05.09-00.43.30:339][199]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
-[2023.05.09-00.43.30:339][199]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
-[2023.05.09-00.43.30:339][199]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
-[2023.05.09-00.43.30:339][199]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
-[2023.05.09-00.43.30:339][199]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
-[2023.05.09-00.43.30:341][199]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
-[2023.05.09-00.43.30:341][199]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
-[2023.05.09-00.43.30:342][199]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
-[2023.05.09-00.43.30:342][199]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
-[2023.05.09-00.43.30:342][199]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
-[2023.05.09-00.43.30:342][199]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
-[2023.05.09-00.43.30:343][199]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
-[2023.05.09-00.43.30:344][199]LogModuleManager: Shutting down and abandoning module SourceControl (281)
-[2023.05.09-00.43.30:345][199]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
-[2023.05.09-00.43.30:345][199]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
-[2023.05.09-00.43.30:345][199]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
-[2023.05.09-00.43.30:345][199]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
-[2023.05.09-00.43.30:346][199]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
-[2023.05.09-00.43.30:346][199]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
-[2023.05.09-00.43.30:347][199]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
-[2023.05.09-00.43.30:347][199]LogModuleManager: Shutting down and abandoning module MainFrame (266)
-[2023.05.09-00.43.30:347][199]LogModuleManager: Shutting down and abandoning module HotReload (265)
-[2023.05.09-00.43.30:348][199]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
-[2023.05.09-00.43.30:348][199]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
-[2023.05.09-00.43.30:348][199]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
-[2023.05.09-00.43.30:348][199]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
-[2023.05.09-00.43.30:348][199]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
-[2023.05.09-00.43.30:348][199]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
-[2023.05.09-00.43.30:348][199]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
-[2023.05.09-00.43.30:348][199]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
-[2023.05.09-00.43.30:449][199]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
-[2023.05.09-00.43.30:550][199]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
-[2023.05.09-00.43.30:550][199]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
-[2023.05.09-00.43.30:550][199]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
-[2023.05.09-00.43.30:550][199]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
-[2023.05.09-00.43.30:551][199]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
-[2023.05.09-00.43.30:551][199]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
-[2023.05.09-00.43.30:551][199]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
-[2023.05.09-00.43.30:552][199]LogModuleManager: Shutting down and abandoning module Paper2D (228)
-[2023.05.09-00.43.30:552][199]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
-[2023.05.09-00.43.30:552][199]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
-[2023.05.09-00.43.30:553][199]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
-[2023.05.09-00.43.30:553][199]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
-[2023.05.09-00.43.30:554][199]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
-[2023.05.09-00.43.30:555][199]LogModuleManager: Shutting down and abandoning module Overlay (216)
-[2023.05.09-00.43.30:555][199]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
-[2023.05.09-00.43.30:555][199]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
-[2023.05.09-00.43.30:555][199]LogModuleManager: Shutting down and abandoning module VREditor (210)
-[2023.05.09-00.43.30:555][199]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
-[2023.05.09-00.43.30:556][199]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
-[2023.05.09-00.43.30:556][199]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
-[2023.05.09-00.43.30:557][199]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
-[2023.05.09-00.43.30:557][199]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
-[2023.05.09-00.43.30:558][199]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
-[2023.05.09-00.43.30:558][199]LogModuleManager: Shutting down and abandoning module UMG (196)
-[2023.05.09-00.43.30:559][199]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
-[2023.05.09-00.43.30:559][199]LogModuleManager: Shutting down and abandoning module Sequencer (194)
-[2023.05.09-00.43.30:559][199]LogModuleManager: Shutting down and abandoning module MessageLog (191)
-[2023.05.09-00.43.30:559][199]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
-[2023.05.09-00.43.30:561][199]LogModuleManager: Shutting down and abandoning module Slate (184)
-[2023.05.09-00.43.30:561][199]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
-[2023.05.09-00.43.30:563][199]LogModuleManager: Shutting down and abandoning module MRMesh (180)
-[2023.05.09-00.43.30:563][199]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
-[2023.05.09-00.43.30:563][199]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
-[2023.05.09-00.43.30:563][199]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
-[2023.05.09-00.43.30:563][199]LogModuleManager: Shutting down and abandoning module Networking (172)
-[2023.05.09-00.43.30:563][199]LogModuleManager: Shutting down and abandoning module Core (168)
-[2023.05.09-00.43.30:563][199]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
-[2023.05.09-00.43.30:563][199]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
-[2023.05.09-00.43.30:563][199]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
-[2023.05.09-00.43.30:564][199]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
-[2023.05.09-00.43.30:565][199]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
-[2023.05.09-00.43.30:565][199]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
-[2023.05.09-00.43.30:565][199]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
-[2023.05.09-00.43.30:565][199]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
-[2023.05.09-00.43.30:566][199]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
-[2023.05.09-00.43.30:566][199]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
-[2023.05.09-00.43.30:566][199]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
-[2023.05.09-00.43.30:607][199]LogDerivedDataCache: Shutdown
-[2023.05.09-00.43.30:607][199]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
-[2023.05.09-00.43.30:607][199]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
-[2023.05.09-00.43.30:609][199]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
-[2023.05.09-00.43.30:609][199]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
-[2023.05.09-00.43.30:609][199]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
-[2023.05.09-00.43.30:610][199]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
-[2023.05.09-00.43.30:610][199]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
-[2023.05.09-00.43.30:610][199]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
-[2023.05.09-00.43.30:610][199]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
-[2023.05.09-00.43.30:610][199]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
-[2023.05.09-00.43.30:611][199]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
-[2023.05.09-00.43.30:611][199]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
-[2023.05.09-00.43.30:611][199]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
-[2023.05.09-00.43.30:611][199]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
-[2023.05.09-00.43.30:611][199]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
-[2023.05.09-00.43.30:611][199]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
-[2023.05.09-00.43.30:611][199]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
-[2023.05.09-00.43.30:611][199]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
-[2023.05.09-00.43.30:611][199]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
-[2023.05.09-00.43.30:611][199]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
-[2023.05.09-00.43.30:611][199]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
-[2023.05.09-00.43.30:611][199]LogModuleManager: Shutting down and abandoning module Messaging (101)
-[2023.05.09-00.43.30:611][199]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
-[2023.05.09-00.43.30:611][199]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
-[2023.05.09-00.43.30:611][199]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
-[2023.05.09-00.43.30:611][199]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
-[2023.05.09-00.43.30:611][199]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
-[2023.05.09-00.43.30:611][199]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
-[2023.05.09-00.43.30:611][199]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
-[2023.05.09-00.43.30:611][199]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
-[2023.05.09-00.43.30:611][199]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
-[2023.05.09-00.43.30:611][199]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
-[2023.05.09-00.43.30:611][199]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
-[2023.05.09-00.43.30:611][199]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
-[2023.05.09-00.43.30:611][199]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
-[2023.05.09-00.43.30:611][199]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
-[2023.05.09-00.43.30:611][199]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
-[2023.05.09-00.43.30:611][199]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
-[2023.05.09-00.43.30:611][199]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
-[2023.05.09-00.43.30:611][199]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
-[2023.05.09-00.43.30:611][199]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
-[2023.05.09-00.43.30:611][199]LogModuleManager: Shutting down and abandoning module InputCore (60)
-[2023.05.09-00.43.30:611][199]LogModuleManager: Shutting down and abandoning module Settings (58)
-[2023.05.09-00.43.30:612][199]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
-[2023.05.09-00.43.30:612][199]LogModuleManager: Shutting down and abandoning module SteamVR (54)
-[2023.05.09-00.43.30:612][199]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
-[2023.05.09-00.43.30:612][199]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
-[2023.05.09-00.43.30:612][199]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2023.05.09-00.43.30:612][199]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2023.05.09-00.43.30:612][199]LogOnline: Display: Unloading online subsystem: NULL
-[2023.05.09-00.43.30:612][199]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2023.05.09-00.43.30:613][199]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2023.05.09-00.43.30:613][199]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2023.05.09-00.43.30:613][199]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B60F4F5CC-48D2-703B-2BDB-A9835C16646B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=ae805a914356b2aa000f63a0edcc236c%7Cd81addf00e464976a83f59091fc25d80%7C79aa7d22-b9f4-4679-ac0a-24b08774ed4c&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2023.05.09-00.43.30:626][199]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2023.05.09-00.43.30:627][199]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2023.05.09-00.43.30:628][199]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2023.05.09-00.43.30:628][199]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2023.05.09-00.43.30:629][199]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2023.05.09-00.43.30:630][199]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2023.05.09-00.43.30:630][199]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2023.05.09-00.43.30:630][199]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2023.05.09-00.43.30:634][199]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2023.05.09-00.43.30:634][199]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2023.05.09-00.43.30:634][199]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2023.05.09-00.43.30:634][199]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2023.05.09-00.43.30:634][199]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2023.05.09-00.43.30:634][199]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2023.05.09-00.43.30:634][199]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2023.05.09-00.43.30:635][199]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2023.05.09-00.43.30:635][199]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2023.05.09-00.43.30:635][199]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2023.05.09-00.43.30:635][199]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2023.05.09-00.43.30:639][199]LogExit: Exiting.
-[2023.05.09-00.43.30:647][199]Log file closed, 05/09/23 09:43:30
+[2023.05.09-00.09.49:842][  0]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] [0019.78] Compile of PersistentLevel.LastBattleMap failed. 1 Fatal Issue(s) 28 Warning(s) [in 14 ms] (/Game/Map/LastBattleMap.LastBattleMap:PersistentLevel.LastBattleMap)
+[2023.05.09-00.09.49:955][  0]LogAIModule: Creating AISystem for world LastBattleMap
+[2023.05.09-00.09.49:958][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.05.09-00.09.49:976][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.05.09-00.09.50:036][  0]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 59.227ミリ秒かかりました。
+[2023.05.09-00.09.50:036][  0]LogFileHelpers: Loading map 'LastBattleMap' took 0.430
+[2023.05.09-00.09.50:145][  0]LogCollectionManager: Loaded 0 collections in 0.001622 seconds
+[2023.05.09-00.09.50:242][  0]LogFileCache: Scanning file cache for directory 'C:/Users/81806/OneDrive/ドキュメント/4-4_GameTaisyou_2023/GameTaisyou_2023/Saved/Collections/' took 0.01s
+[2023.05.09-00.09.50:242][  0]LogFileCache: Scanning file cache for directory 'C:/Users/81806/OneDrive/ドキュメント/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/Developers/小浜大和/Collections/' took 0.01s
+[2023.05.09-00.09.50:242][  0]LogFileCache: Scanning file cache for directory 'C:/Users/81806/OneDrive/ドキュメント/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/Collections/' took 0.01s
+[2023.05.09-00.09.50:242][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2023.05.09-00.09.50:249][  0]LogContentBrowser: Native class hierarchy populated in 0.0074 seconds. Added 2386 classes and 500 folders.
+[2023.05.09-00.09.50:344][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2023.05.09-00.09.50:384][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2023.05.09-00.09.50:498][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2023.05.09-00.09.50:564][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0006 seconds. Added 2 classes and 3 folders.
+[2023.05.09-00.09.51:623][  0]LogSlate: Took 0.000161 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.05.09-00.09.51:628][  0]LogSlate: Took 0.004893 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2023.05.09-00.09.51:630][  0]LogSlate: Took 0.000322 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2023.05.09-00.09.51:634][  0]LogSlate: Took 0.000217 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2023.05.09-00.09.51:733][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.GameTaisyou2023
+[2023.05.09-00.09.51:733][  0]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2023.05.09-00.09.51:733][  0]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
+[2023.05.09-00.09.51:733][  0]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2023.05.09-00.09.51:733][  0]LogTemp: BranchPath = KBC12006017/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = KBC12006017/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
+[2023.05.09-00.09.51:733][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\81806\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2023.05.09-00.09.51:733][  0]LogRenderer: Reallocating scene render targets to support 924x476 Format 10 NumSamples 1 (Frame:1).
+[2023.05.09-00.09.52:066][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2023.05.09-00.09.52:066][  0]LogLoad: (Engine Initialization) Total time: 22.00 seconds
+[2023.05.09-00.09.52:066][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2023.05.09-00.09.52:066][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2023.05.09-00.09.52:104][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2023.05.09-00.09.52:169][  0]LogSlate: Took 0.000133 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2023.05.09-00.09.52:208][  1]LogAssetRegistry: Asset discovery search completed in 15.7332 seconds
+[2023.05.09-00.09.52:210][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2023.05.09-00.09.52:210][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000036 seconds (updated 0 objects)
+[2023.05.09-00.09.53:087][ 89]LogSlate: Took 0.000140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2023.05.09-00.21.51:149][269]LogSlate: Took 0.000529 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2023.05.09-00.21.51:905][269]LogSlate: Took 0.000555 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.05.09-00.21.52:394][269]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0028 seconds. Added 113 classes and 0 folders.
+[2023.05.09-00.21.54:238][269]LogSlate: Took 0.000795 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.05.09-00.21.57:331][276]LogSlate: Took 0.000769 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2023.05.09-00.24.39:275][ 62]LogLinker: ファイル '/Game/Maps/One_v_one' が見つかりません
+[2023.05.09-00.24.39:277][ 62]LogLinker: ファイル '/Game/Maps/One_v_one' が見つかりません
+[2023.05.09-00.24.39:302][ 62]LogLinker: ファイル '/Game/One_v_One/UI/W_OnevOne_Spe' が見つかりません
+[2023.05.09-00.24.39:303][ 62]LogLinker: ファイル '/Game/One_v_One/UI/W_OnevOne_Spe' が見つかりません
+[2023.05.09-00.24.39:311][ 62]LogLinker: ファイル '/Game/One_v_One/UI/W_OnevOne_Item' が見つかりません
+[2023.05.09-00.24.39:312][ 62]LogLinker: ファイル '/Game/One_v_One/UI/W_OnevOne_Item' が見つかりません
+[2023.05.09-00.24.39:328][ 62]LogLinker: ファイル '/Game/One_v_One/UI/W_Test' が見つかりません
+[2023.05.09-00.24.39:329][ 62]LogLinker: ファイル '/Game/One_v_One/UI/W_Test' が見つかりません
+[2023.05.09-00.24.39:332][ 62]LogBlueprint: Warning: [LastBattleMap] 'Select_Player' variable not found. Base class was probably changed.
+[2023.05.09-00.24.39:332][ 62]LogBlueprint: Warning: [LastBattleMap] 'Select_Player' variable not found. Base class was probably changed.
+[2023.05.09-00.24.39:333][ 62]LogBlueprint: Warning: [LastBattleMap] 'Select_Player' variable not found. Base class was probably changed.
+[2023.05.09-00.24.39:333][ 62]LogBlueprint: Warning: [LastBattleMap] 'Select_Player' variable not found. Base class was probably changed.
+[2023.05.09-00.24.39:335][ 62]LogBlueprint: Warning: [LastBattleMap] 'Select_Player' variable not found. Base class was probably changed.
+[2023.05.09-00.24.39:335][ 62]LogBlueprint: Warning: [LastBattleMap] 'Select_Player' variable not found. Base class was probably changed.
+[2023.05.09-00.24.39:335][ 62]LogBlueprint: Warning: [LastBattleMap] 'Select_Player' variable not found. Base class was probably changed.
+[2023.05.09-00.24.39:335][ 62]LogBlueprint: Warning: [LastBattleMap] 'Select_Player' variable not found. Base class was probably changed.
+[2023.05.09-00.24.39:336][ 62]LogBlueprint: Warning: [LastBattleMap] 'Select_Player' variable not found. Base class was probably changed.
+[2023.05.09-00.24.39:336][ 62]LogBlueprint: Warning: [LastBattleMap] 'Select_Player' variable not found. Base class was probably changed.
+[2023.05.09-00.24.39:336][ 62]LogBlueprint: Warning: [LastBattleMap] 'Select_Player' variable not found. Base class was probably changed.
+[2023.05.09-00.24.39:336][ 62]LogBlueprint: Warning: [LastBattleMap] 'Select_Player' variable not found. Base class was probably changed.
+[2023.05.09-00.24.39:337][ 62]LogBlueprint: Warning: [LastBattleMap] 'Spe_UI' variable not found. Base class was probably changed.
+[2023.05.09-00.24.39:337][ 62]LogBlueprint: Warning: [LastBattleMap] 'Spe_UI' variable not found. Base class was probably changed.
+[2023.05.09-00.24.39:338][ 62]LogBlueprint: Warning: [LastBattleMap] 'Item_UI' variable not found. Base class was probably changed.
+[2023.05.09-00.24.39:338][ 62]LogBlueprint: Warning: [LastBattleMap] 'Item_UI' variable not found. Base class was probably changed.
+[2023.05.09-00.25.09:356][727]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2023.05.09-00.25.11:159][753]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2023.05.09-00.25.13:091][869]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2023.05.09-00.32.47:587][926]LogEditorTransaction: Undo 選択対象を削除
+[2023.05.09-00.33.08:956][976]BlueprintLog: New page: LastBattleMap をコンパイル
+[2023.05.09-00.33.09:247][976]LogBlueprint: Error: [Compiler PersistentLevel.LastBattleMap] このブループリントは UserWidget ではありません。 ' Target ' に接続が必要です。
+[2023.05.09-00.33.09:247][976]LogBlueprint: Error: [Compiler PersistentLevel.LastBattleMap] このブループリントは UserWidget ではありません。 ' Target ' に接続が必要です。
+[2023.05.09-00.33.09:363][976]LogBlueprint: Warning: [Compiler PersistentLevel.LastBattleMap] [1419.30] Compile of PersistentLevel.LastBattleMap failed. 2 Fatal Issue(s) 0 Warning(s) [in 407 ms] (/Game/Map/LastBattleMap.LastBattleMap:PersistentLevel.LastBattleMap)
+[2023.05.09-00.33.27:062][487]BlueprintLog: New page: LastBattleMap をコンパイル
+[2023.05.09-00.33.48:078][513]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2023.05.09-00.34.18:274][151]BlueprintLog: New page: LastBattleMap をコンパイル
+[2023.05.09-00.35.00:483][738]Cmd: EDIT PASTE
+[2023.05.09-00.35.04:224][888]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2023.05.09-00.35.05:494][927]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2023.05.09-00.35.09:936][977]LogSavePackage: Save=1613.32ms
+[2023.05.09-00.35.09:936][977]LogSavePackage: Moving '../../../../../../Users/81806/OneDrive/ドキュメント/4-4_GameTaisyou_2023/GameTaisyou_2023/Saved/LastBattleMap_Auto1E3B580644C70FCBF998A91BD0BA37E36.tmp' to '../../../../../../Users/81806/OneDrive/ドキュメント/4-4_GameTaisyou_2023/GameTaisyou_2023/Saved/Autosaves/Game/Map/LastBattleMap_Auto1.umap'
+[2023.05.09-00.35.09:941][977]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/81806/OneDrive/ドキュメント/4-4_GameTaisyou_2023/GameTaisyou_2023/Saved/Autosaves/Game/Map/LastBattleMap_Auto1.umap
+[2023.05.09-00.35.09:949][977]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/LastBattleMap' took 1.744
+[2023.05.09-00.35.09:949][977]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.744
+[2023.05.09-00.35.22:107][ 23]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2023.05.09-00.35.22:855][ 61]Cmd: EDIT PASTE
+[2023.05.09-00.35.27:856][267]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2023.05.09-00.38.45:458][674]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2023.05.09-00.38.47:636][733]LogEditorViewport: Clicking on Actor (LMB): BP_GameCamera_C (BP_GameCamera)
+[2023.05.09-00.42.44:411][847]BlueprintLog: New page: LastBattleMap をコンパイル
+[2023.05.09-00.42.59:657][107]LogSavePackage: Save=1556.12ms
+[2023.05.09-00.42.59:658][107]LogSavePackage: Moving '../../../../../../Users/81806/OneDrive/ドキュメント/4-4_GameTaisyou_2023/GameTaisyou_2023/Saved/LastBattleMap369160664F24071989F85BB450874508.tmp' to '../../../../../../Users/81806/OneDrive/ドキュメント/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/Map/LastBattleMap.umap'
+[2023.05.09-00.42.59:665][107]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/81806/OneDrive/ドキュメント/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/Map/LastBattleMap.umap
+[2023.05.09-00.42.59:753][107]LogFileHelpers: Saving map 'LastBattleMap' took 6.189
+[2023.05.09-00.43.01:294][108]Cmd: QUIT_EDITOR
+[2023.05.09-00.43.01:941][108]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft IME).
+[2023.05.09-00.43.01:977][108]LogExit: Preparing to exit.
+[2023.05.09-00.43.02:572][108]LogDirectoryWatcher: A directory notification for 'C:/Users/81806/OneDrive/ドキュメント/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/' was aborted.
+[2023.05.09-00.43.02:654][108]LogExit: Editor shut down
+[2023.05.09-00.43.02:667][108]LogExit: Transaction tracking system shut down
+[2023.05.09-00.43.02:911][108]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2023.05.09-00.43.02:911][108]LogDirectoryWatcher: A directory notification for '../../../../../../Users/81806/OneDrive/ドキュメント/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/' was aborted.
+[2023.05.09-00.43.02:911][108]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2023.05.09-00.43.02:911][108]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2023.05.09-00.43.02:912][108]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2023.05.09-00.43.03:112][108]LogExit: Object subsystem successfully closed.
+[2023.05.09-00.43.03:163][108]LogD3D11RHI: Shutdown
+[2023.05.09-00.43.03:163][108]LogD3D11RHI: CleanupD3DDevice
+[2023.05.09-00.43.03:478][108]LogD3D11RHI: ~FD3D11DynamicRHI
+[2023.05.09-00.43.03:544][108]LogModuleManager: Shutting down and abandoning module BlueprintGraph (538)
+[2023.05.09-00.43.03:544][108]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (536)
+[2023.05.09-00.43.03:544][108]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (534)
+[2023.05.09-00.43.03:544][108]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (532)
+[2023.05.09-00.43.03:544][108]LogModuleManager: Shutting down and abandoning module WorldBrowser (530)
+[2023.05.09-00.43.03:545][108]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2023.05.09-00.43.03:545][108]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2023.05.09-00.43.03:545][108]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2023.05.09-00.43.03:547][108]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2023.05.09-00.43.03:547][108]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2023.05.09-00.43.03:547][108]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2023.05.09-00.43.03:548][108]LogDirectoryWatcher: A directory notification for 'C:/Users/81806/OneDrive/ドキュメント/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/Collections/' was aborted.
+[2023.05.09-00.43.03:548][108]LogDirectoryWatcher: A directory notification for 'C:/Users/81806/OneDrive/ドキュメント/4-4_GameTaisyou_2023/GameTaisyou_2023/Content/Developers/小浜大和/Collections/' was aborted.
+[2023.05.09-00.43.03:548][108]LogDirectoryWatcher: A directory notification for 'C:/Users/81806/OneDrive/ドキュメント/4-4_GameTaisyou_2023/GameTaisyou_2023/Saved/Collections/' was aborted.
+[2023.05.09-00.43.03:548][108]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2023.05.09-00.43.03:548][108]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2023.05.09-00.43.03:548][108]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2023.05.09-00.43.03:549][108]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2023.05.09-00.43.03:549][108]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2023.05.09-00.43.03:549][108]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2023.05.09-00.43.03:549][108]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2023.05.09-00.43.03:549][108]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2023.05.09-00.43.03:549][108]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2023.05.09-00.43.03:549][108]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2023.05.09-00.43.03:549][108]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2023.05.09-00.43.03:549][108]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2023.05.09-00.43.03:549][108]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2023.05.09-00.43.03:549][108]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2023.05.09-00.43.03:549][108]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2023.05.09-00.43.03:549][108]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2023.05.09-00.43.03:550][108]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2023.05.09-00.43.03:550][108]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2023.05.09-00.43.03:550][108]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2023.05.09-00.43.03:550][108]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2023.05.09-00.43.03:550][108]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2023.05.09-00.43.03:550][108]LogModuleManager: Shutting down and abandoning module Media (477)
+[2023.05.09-00.43.03:550][108]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2023.05.09-00.43.03:550][108]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2023.05.09-00.43.03:550][108]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2023.05.09-00.43.03:550][108]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2023.05.09-00.43.03:550][108]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2023.05.09-00.43.03:550][108]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2023.05.09-00.43.03:550][108]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2023.05.09-00.43.03:550][108]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2023.05.09-00.43.03:550][108]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2023.05.09-00.43.03:550][108]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2023.05.09-00.43.03:550][108]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2023.05.09-00.43.03:551][108]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2023.05.09-00.43.03:551][108]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2023.05.09-00.43.03:551][108]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2023.05.09-00.43.03:551][108]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2023.05.09-00.43.03:551][108]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2023.05.09-00.43.03:604][108]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2023.05.09-00.43.03:604][108]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2023.05.09-00.43.03:604][108]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2023.05.09-00.43.03:604][108]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2023.05.09-00.43.03:604][108]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2023.05.09-00.43.03:604][108]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2023.05.09-00.43.03:604][108]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2023.05.09-00.43.03:604][108]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2023.05.09-00.43.03:604][108]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2023.05.09-00.43.03:604][108]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2023.05.09-00.43.03:605][108]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2023.05.09-00.43.03:605][108]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2023.05.09-00.43.03:605][108]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2023.05.09-00.43.03:605][108]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2023.05.09-00.43.03:605][108]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2023.05.09-00.43.03:605][108]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2023.05.09-00.43.03:605][108]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2023.05.09-00.43.03:605][108]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2023.05.09-00.43.03:606][108]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2023.05.09-00.43.03:606][108]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2023.05.09-00.43.03:606][108]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2023.05.09-00.43.03:606][108]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2023.05.09-00.43.03:606][108]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2023.05.09-00.43.03:606][108]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2023.05.09-00.43.03:661][108]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2023.05.09-00.43.03:661][108]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2023.05.09-00.43.03:661][108]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2023.05.09-00.43.03:661][108]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2023.05.09-00.43.03:661][108]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2023.05.09-00.43.03:661][108]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2023.05.09-00.43.03:662][108]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2023.05.09-00.43.03:662][108]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2023.05.09-00.43.03:662][108]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2023.05.09-00.43.03:662][108]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2023.05.09-00.43.03:684][108]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2023.05.09-00.43.03:687][108]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2023.05.09-00.43.03:687][108]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2023.05.09-00.43.03:687][108]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2023.05.09-00.43.03:688][108]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2023.05.09-00.43.03:688][108]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2023.05.09-00.43.03:688][108]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2023.05.09-00.43.03:688][108]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2023.05.09-00.43.03:688][108]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2023.05.09-00.43.03:688][108]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2023.05.09-00.43.03:688][108]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2023.05.09-00.43.03:688][108]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2023.05.09-00.43.03:688][108]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2023.05.09-00.43.03:688][108]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2023.05.09-00.43.03:688][108]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2023.05.09-00.43.03:689][108]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2023.05.09-00.43.03:689][108]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2023.05.09-00.43.03:689][108]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2023.05.09-00.43.03:689][108]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2023.05.09-00.43.03:689][108]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2023.05.09-00.43.03:689][108]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2023.05.09-00.43.03:763][108]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2023.05.09-00.43.03:763][108]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2023.05.09-00.43.03:763][108]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2023.05.09-00.43.03:763][108]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2023.05.09-00.43.03:763][108]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2023.05.09-00.43.03:763][108]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2023.05.09-00.43.03:763][108]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2023.05.09-00.43.03:763][108]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2023.05.09-00.43.03:763][108]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2023.05.09-00.43.03:763][108]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2023.05.09-00.43.03:763][108]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2023.05.09-00.43.03:764][108]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2023.05.09-00.43.03:764][108]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2023.05.09-00.43.03:764][108]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2023.05.09-00.43.03:764][108]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2023.05.09-00.43.03:764][108]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2023.05.09-00.43.03:764][108]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2023.05.09-00.43.03:764][108]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2023.05.09-00.43.03:764][108]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2023.05.09-00.43.03:764][108]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2023.05.09-00.43.03:764][108]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2023.05.09-00.43.03:764][108]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2023.05.09-00.43.03:764][108]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2023.05.09-00.43.03:765][108]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2023.05.09-00.43.03:765][108]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2023.05.09-00.43.03:765][108]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2023.05.09-00.43.03:765][108]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2023.05.09-00.43.03:765][108]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2023.05.09-00.43.03:765][108]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2023.05.09-00.43.03:765][108]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2023.05.09-00.43.03:765][108]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2023.05.09-00.43.03:765][108]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2023.05.09-00.43.03:767][108]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2023.05.09-00.43.03:767][108]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2023.05.09-00.43.03:767][108]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2023.05.09-00.43.03:768][108]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2023.05.09-00.43.03:768][108]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2023.05.09-00.43.03:768][108]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2023.05.09-00.43.03:768][108]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2023.05.09-00.43.03:768][108]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2023.05.09-00.43.03:768][108]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2023.05.09-00.43.03:769][108]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2023.05.09-00.43.03:769][108]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2023.05.09-00.43.03:870][108]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2023.05.09-00.43.03:971][108]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2023.05.09-00.43.03:971][108]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2023.05.09-00.43.03:971][108]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2023.05.09-00.43.03:971][108]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2023.05.09-00.43.03:971][108]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2023.05.09-00.43.03:971][108]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2023.05.09-00.43.03:973][108]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2023.05.09-00.43.03:973][108]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2023.05.09-00.43.03:973][108]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2023.05.09-00.43.03:974][108]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2023.05.09-00.43.03:977][108]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2023.05.09-00.43.03:977][108]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2023.05.09-00.43.03:977][108]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2023.05.09-00.43.03:977][108]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2023.05.09-00.43.03:977][108]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2023.05.09-00.43.03:977][108]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2023.05.09-00.43.03:977][108]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2023.05.09-00.43.03:977][108]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2023.05.09-00.43.03:978][108]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2023.05.09-00.43.03:978][108]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2023.05.09-00.43.03:978][108]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2023.05.09-00.43.03:978][108]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2023.05.09-00.43.03:978][108]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2023.05.09-00.43.03:978][108]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2023.05.09-00.43.03:978][108]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2023.05.09-00.43.03:978][108]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2023.05.09-00.43.03:978][108]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2023.05.09-00.43.03:978][108]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2023.05.09-00.43.03:978][108]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2023.05.09-00.43.03:978][108]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2023.05.09-00.43.03:985][108]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2023.05.09-00.43.03:985][108]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2023.05.09-00.43.03:985][108]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2023.05.09-00.43.03:985][108]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2023.05.09-00.43.03:985][108]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2023.05.09-00.43.03:985][108]LogModuleManager: Shutting down and abandoning module Core (168)
+[2023.05.09-00.43.03:986][108]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2023.05.09-00.43.03:986][108]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2023.05.09-00.43.03:986][108]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2023.05.09-00.43.03:986][108]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2023.05.09-00.43.03:986][108]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2023.05.09-00.43.03:986][108]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2023.05.09-00.43.03:986][108]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2023.05.09-00.43.03:986][108]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2023.05.09-00.43.03:986][108]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2023.05.09-00.43.03:986][108]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2023.05.09-00.43.03:988][108]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2023.05.09-00.43.03:996][108]LogDerivedDataCache: Shutdown
+[2023.05.09-00.43.03:996][108]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2023.05.09-00.43.03:996][108]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2023.05.09-00.43.03:996][108]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2023.05.09-00.43.03:996][108]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2023.05.09-00.43.03:996][108]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2023.05.09-00.43.03:996][108]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2023.05.09-00.43.03:996][108]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2023.05.09-00.43.03:996][108]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2023.05.09-00.43.03:996][108]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2023.05.09-00.43.03:996][108]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2023.05.09-00.43.03:996][108]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2023.05.09-00.43.03:996][108]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2023.05.09-00.43.03:996][108]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2023.05.09-00.43.03:997][108]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2023.05.09-00.43.03:997][108]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2023.05.09-00.43.03:997][108]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2023.05.09-00.43.03:997][108]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2023.05.09-00.43.03:997][108]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2023.05.09-00.43.03:997][108]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2023.05.09-00.43.03:997][108]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2023.05.09-00.43.03:997][108]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2023.05.09-00.43.03:997][108]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2023.05.09-00.43.03:997][108]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2023.05.09-00.43.03:997][108]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2023.05.09-00.43.03:997][108]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2023.05.09-00.43.03:997][108]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2023.05.09-00.43.03:997][108]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2023.05.09-00.43.03:997][108]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2023.05.09-00.43.03:997][108]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2023.05.09-00.43.03:998][108]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2023.05.09-00.43.03:998][108]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2023.05.09-00.43.03:998][108]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2023.05.09-00.43.03:998][108]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2023.05.09-00.43.03:998][108]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2023.05.09-00.43.03:998][108]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2023.05.09-00.43.03:998][108]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2023.05.09-00.43.03:998][108]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2023.05.09-00.43.03:998][108]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2023.05.09-00.43.03:998][108]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2023.05.09-00.43.03:998][108]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2023.05.09-00.43.03:998][108]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2023.05.09-00.43.03:998][108]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2023.05.09-00.43.03:999][108]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2023.05.09-00.43.03:999][108]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2023.05.09-00.43.03:999][108]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2023.05.09-00.43.03:999][108]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2023.05.09-00.43.03:999][108]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2023.05.09-00.43.03:999][108]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2023.05.09-00.43.03:999][108]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2023.05.09-00.43.03:999][108]LogOnline: Display: Unloading online subsystem: NULL
+[2023.05.09-00.43.03:999][108]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2023.05.09-00.43.03:999][108]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2023.05.09-00.43.03:999][108]LogHttp: Display: Http module shutting down, but needs to wait on 2 outstanding Http requests:
+[2023.05.09-00.43.03:999][108]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBCEC4CC2-4CCA-5A05-D357-7DA67E023C23%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=b6570c5e438d4fb6a2e65a812a875c71%7Cd72d33c051974a0fad240c181fec4aeb%7C893d782e-80dc-4de3-9a84-1c2b7ea5ccde&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2023.05.09-00.43.03:999][108]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBCEC4CC2-4CCA-5A05-D357-7DA67E023C23%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=b6570c5e438d4fb6a2e65a812a875c71%7Cd72d33c051974a0fad240c181fec4aeb%7C893d782e-80dc-4de3-9a84-1c2b7ea5ccde&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2023.05.09-00.43.04:003][108]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2023.05.09-00.43.04:007][108]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2023.05.09-00.43.04:007][108]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2023.05.09-00.43.04:007][108]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2023.05.09-00.43.04:007][108]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2023.05.09-00.43.04:007][108]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2023.05.09-00.43.04:007][108]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2023.05.09-00.43.04:007][108]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2023.05.09-00.43.04:012][108]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2023.05.09-00.43.04:012][108]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2023.05.09-00.43.04:012][108]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2023.05.09-00.43.04:012][108]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2023.05.09-00.43.04:013][108]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2023.05.09-00.43.04:013][108]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2023.05.09-00.43.04:013][108]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2023.05.09-00.43.04:013][108]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2023.05.09-00.43.04:013][108]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2023.05.09-00.43.04:013][108]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2023.05.09-00.43.04:013][108]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2023.05.09-00.43.04:029][108]LogExit: Exiting.
+[2023.05.09-00.43.04:053][108]Log file closed, 05/09/23 09:43:04
