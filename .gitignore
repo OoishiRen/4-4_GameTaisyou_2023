@@ -72,3 +72,6 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+*/slab_tiles_diff_4k.uasset
+*/slab_tiles_disp_4k.uasset
+
