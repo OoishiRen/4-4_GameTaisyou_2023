@@ -74,4 +74,5 @@ Plugins/*/Intermediate/*
 DerivedDataCache/*
 
 GameTaisyou_2023/Build/*
-GameTaisyou_2023/Intermediate
+GameTaisyou_2023/Intermediate/*
+GameTaisyou_2023/Saved/*
